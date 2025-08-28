@@ -16,6 +16,35 @@
           {
             "group": "Getting started",
             "pages": ["en/index", "en/quickstart", "en/development"]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "en/essentials/markdown",
+              "en/essentials/code",
+              "en/essentials/images",
+              "en/essentials/reusable-snippets",
+              "en/essentials/settings",
+              "en/essentials/navigation"
+            ]
+          },
+          {
+            "group": "AI tools",
+            "pages": [
+              "en/ai-tools/cursor",
+              "en/ai-tools/claude-code",
+              "en/ai-tools/windsurf"
+            ]
+          },
+          {
+            "group": "API reference",
+            "pages": [
+              "en/api-reference/introduction",
+              "en/api-reference/endpoint/get",
+              "en/api-reference/endpoint/create",
+              "en/api-reference/endpoint/delete",
+              "en/api-reference/endpoint/webhook"
+            ]
           }
         ]
       },
@@ -25,6 +54,35 @@
           {
             "group": "快速开始",
             "pages": ["zh/index", "zh/quickstart", "zh/development"]
+          },
+          {
+            "group": "基础",
+            "pages": [
+              "zh/essentials/markdown",
+              "zh/essentials/code",
+              "zh/essentials/images",
+              "zh/essentials/reusable-snippets",
+              "zh/essentials/settings",
+              "zh/essentials/navigation"
+            ]
+          },
+          {
+            "group": "AI 工具",
+            "pages": [
+              "zh/ai-tools/cursor",
+              "zh/ai-tools/claude-code",
+              "zh/ai-tools/windsurf"
+            ]
+          },
+          {
+            "group": "API 参考",
+            "pages": [
+              "zh/api-reference/introduction",
+              "zh/api-reference/endpoint/get",
+              "zh/api-reference/endpoint/create",
+              "zh/api-reference/endpoint/delete",
+              "zh/api-reference/endpoint/webhook"
+            ]
           }
         ]
       }
