@@ -9,87 +9,22 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "English",
+        "language": "en",
         "groups": [
           {
             "group": "Getting started",
-            "pages": [
-              "en/index",
-              "en/quickstart",
-              "en/development"
-            ]
+            "pages": ["en/index", "en/quickstart", "en/development"]
           }
         ]
       },
       {
-        "tab": "中文",
+        "language": "zh",
         "groups": [
           {
             "group": "快速开始",
-            "pages": [
-              "zh/index",
-              "zh/quickstart",
-              "zh/development"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "pages": ["zh/index", "zh/quickstart", "zh/development"]
           }
         ]
       }

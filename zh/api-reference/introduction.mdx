@@ -1,0 +1,29 @@
+---
+title: "介绍"
+description: "用于演示 API 端点的示例部分"
+---
+
+<Note>
+  如果你不打算构建 API 参考文档，可以删除 `api-reference` 文件夹以移除此部分。
+</Note>
+
+## 欢迎
+
+构建 API 文档有两种方式：[OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) 与 [MDX 组件](https://mintlify.com/docs/api-playground/mdx/configuration)。在此 Starter Kit 中，我们使用如下 OpenAPI 规范文件。
+
+<Card title="Plant Store Endpoints" icon="leaf" href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json">
+  查看 OpenAPI 规范文件
+</Card>
+
+## 鉴权
+
+所有 API 端点均使用 Bearer token 进行鉴权，并从规范文件中读取配置。
+
+```json
+"security": [
+  {
+    "bearerAuth": []
+  }
+]
+```
+
