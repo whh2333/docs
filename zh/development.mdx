@@ -1,0 +1,95 @@
+---
+title: '本地开发'
+description: '在本地预览与更新你的文档'
+---
+
+<Info>
+  **先决条件**：
+  - Node.js 版本 19 或更高
+  - 含有 `docs.json` 的文档仓库
+</Info>
+
+按照以下步骤在你的操作系统上安装并运行 Mintlify。
+
+<Steps>
+<Step title="安装 Mintlify CLI">
+
+```bash
+npm i -g mint
+```
+</Step>
+
+<Step title="本地预览">
+
+进入含有 `docs.json` 的文档目录，运行命令：
+
+```bash
+mint dev
+```
+
+随后在 `http://localhost:3000` 访问本地预览站点。
+
+</Step>
+</Steps>
+
+## 自定义端口
+
+Mintlify 默认使用 3000 端口。你可以使用 `--port` 指定端口，例如：
+
+```bash
+mint dev --port 3333
+```
+
+如果指定端口已被占用，CLI 会使用下一个可用端口：
+
+```md
+Port 3000 is already in use. Trying 3001 instead.
+```
+
+## Mintlify 版本
+
+每个 CLI 版本对应特定的 Mintlify 版本。如果本地预览与线上不一致，请更新 CLI：
+
+```bash
+npm mint update
+```
+
+## 校验链接
+
+CLI 能帮助校验文档内的链接。使用以下命令识别断链：
+
+```bash
+mint broken-links
+```
+
+## 部署
+
+部署成功后，你会看到如下提示：
+
+<Frame>
+  <img src="/images/checks-passed.png" alt="部署完成的确认信息截图：All checks have passed." style={{ borderRadius: '0.5rem' }} />
+</Frame>
+
+## 代码格式化
+
+建议在 IDE 中安装 MDX 识别与格式化扩展。如果使用 VSCode，可安装 [MDX VSCode 扩展](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) 与 [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)。
+
+## 故障排查
+
+<AccordionGroup>
+  <Accordion title='错误：无法使用 darwin-arm64 运行时加载 "sharp" 模块'>
+
+    可能是 Node 版本过旧。尝试如下方案：
+    1. 移除已安装的 CLI：`npm remove -g mint`
+    2. 升级至 Node v19 或更高
+    3. 重新安装 CLI：`npm i -g mint`
+  </Accordion>
+
+  <Accordion title="问题：遇到未知错误">
+  
+    解决方案：前往设备根目录删除 `~/.mintlify` 文件夹，然后再次运行 `mint dev`。
+  </Accordion>
+</AccordionGroup>
+
+想了解最新 CLI 版本的变更？请查看 [CLI changelog](https://www.npmjs.com/package/mintlify?activeTab=versions)。
+
