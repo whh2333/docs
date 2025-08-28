@@ -170,6 +170,262 @@
               "en/article/528-analyzing-your-instagram-stories",
               "en/article/520-facebook-metric-descriptions"
             ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "en/4-getting-started/features-available-on-each-buffer-plan",
+              "en/4-getting-started/what-are-the-benefits-of-buffer-s-new-plans-",
+              "en/4-getting-started/getting-started-with-buffer-s-publishing-features",
+              "en/4-getting-started/what-is-buffer-and-where-can-i-watch-a-demo-",
+              "en/4-getting-started/what-happens-when-you-downgrade-to-the-free-plan",
+              "en/4-getting-started/getting-started-with-buffer-s-mobile-app",
+              "en/4-getting-started/getting-started-with-buffer-s-analytics-features",
+              "en/4-getting-started/getting-started-with-buffer-s-engagement-features",
+              "en/4-getting-started/moving-to-buffer-from-another-tool-",
+              "en/4-getting-started/work-smarter-with-quick-navigator"
+            ]
+          },
+          {
+            "group": "Buffer Social Network Guides",
+            "pages": [
+              "en/500-buffer-social-network-guides/using-instagram-with-buffer",
+              "en/500-buffer-social-network-guides/using-facebook-with-buffer",
+              "en/500-buffer-social-network-guides/using-linkedin-with-buffer",
+              "en/500-buffer-social-network-guides/using-tiktok-with-buffer",
+              "en/500-buffer-social-network-guides/using-x/twitter-with-buffer",
+              "en/500-buffer-social-network-guides/using-youtube-shorts-with-buffer",
+              "en/500-buffer-social-network-guides/using-bluesky-with-buffer",
+              "en/500-buffer-social-network-guides/using-google-business-profiles-with-buffer",
+              "en/500-buffer-social-network-guides/using-threads-with-buffer",
+              "en/500-buffer-social-network-guides/using-pinterest-with-buffer",
+              "en/500-buffer-social-network-guides/using-mastodon-with-buffer"
+            ]
+          },
+          {
+            "group": "Channel Management",
+            "pages": [
+              "en/12-channel-management/getting-instagram-analytics-engagement-and-locations-facebook-authorization-required-",
+              "en/12-channel-management/connecting-your-instagram-account-to-buffer",
+              "en/12-channel-management/connecting-your-channels-to-buffer",
+              "en/12-channel-management/connecting-your-facebook-page-to-buffer",
+              "en/12-channel-management/-unavailable-channels-are-likely-connected-to-another-buffer-organization",
+              "en/12-channel-management/refreshing-a-channel-in-buffer",
+              "en/12-channel-management/supported-channels",
+              "en/12-channel-management/connecting-and-publishing-to-your-facebook-group-with-buffer",
+              "en/12-channel-management/setting-up-facebook-domain-verification",
+              "en/12-channel-management/instagram-error-library",
+              "en/12-channel-management/facebook-error-library",
+              "en/12-channel-management/working-with-multiple-instagram-accounts",
+              "en/12-channel-management/troubleshooting-facebook-connections",
+              "en/12-channel-management/differences-between-facebook-pages-and-profiles",
+              "en/12-channel-management/disconnecting-a-channel-from-buffer",
+              "en/12-channel-management/x/twitter-error-library",
+              "en/12-channel-management/connecting-or-refreshing-channels-as-a-user-of-an-organization",
+              "en/12-channel-management/unlocking-a-locked-channel-in-buffer",
+              "en/12-channel-management/using-channel-groups-in-buffer",
+              "en/12-channel-management/why-isn-t-my-social-channel-name-or-profile-image-updating-"
+            ]
+          },
+          {
+            "group": "Creating Posts",
+            "pages": [
+              "en/495-creating-posts/adding-mentions-tags-in-posts",
+              "en/495-creating-posts/using-buffer-s-ai-assistant",
+              "en/495-creating-posts/instagram-shop-grid-and-grid-preview",
+              "en/495-creating-posts/creating-and-managing-tags",
+              "en/495-creating-posts/character-limits-for-each-social-network",
+              "en/495-creating-posts/creating-ideas-in-buffer",
+              "en/495-creating-posts/how-hashtags-work-in-buffer",
+              "en/495-creating-posts/how-to-upload-posts-in-bulk-to-buffer",
+              "en/495-creating-posts/how-locations-work-when-scheduling-instagram-posts-through-buffer",
+              "en/495-creating-posts/using-content-feeds-in-buffer",
+              "en/495-creating-posts/creating-ideas-in-the-buffer-mobile-app",
+              "en/495-creating-posts/using-buffer-s-template-library"
+            ]
+          },
+          {
+            "group": "Managing Media",
+            "pages": [
+              "en/496-managing-media/instagram-s-accepted-aspect-ratio-ranges",
+              "en/496-managing-media/shortening-and-unshortening-links",
+              "en/496-managing-media/attaching-images-videos-and-other-media-to-your-posts",
+              "en/496-managing-media/sharing-videos-through-buffer",
+              "en/496-managing-media/ideal-image-sizes-and-formats-for-your-buffer-posts",
+              "en/496-managing-media/sharing-facebook-and-instagram-links-through-buffer",
+              "en/496-managing-media/editing-your-images-in-buffer",
+              "en/496-managing-media/troubleshooting-issues-with-suggested-media-and-link-details",
+              "en/496-managing-media/adding-alt-text-to-your-images"
+            ]
+          },
+          {
+            "group": "Scheduling Posts",
+            "pages": [
+              "en/13-scheduling-and-publishing/buffer-browser-extension",
+              "en/13-scheduling-and-publishing/scheduling-posts",
+              "en/13-scheduling-and-publishing/daily-posting-limits",
+              "en/13-scheduling-and-publishing/using-notification-publishing",
+              "en/13-scheduling-and-publishing/scheduling-instagram-posts-reels-stories-and-notifications",
+              "en/13-scheduling-and-publishing/how-many-posts-can-i-schedule-in-advance-",
+              "en/13-scheduling-and-publishing/how-to-avoid-being-logged-out-when-using-the-buffer-browser-extension-in-safari",
+              "en/13-scheduling-and-publishing/saving-and-scheduling-draft-posts",
+              "en/13-scheduling-and-publishing/why-aren-t-my-instagram-posts-sending-automatically-",
+              "en/13-scheduling-and-publishing/scheduling-reposts/retweets",
+              "en/13-scheduling-and-publishing/how-do-i-schedule-posts-for-multiple-social-channels-at-the-same-time-",
+              "en/13-scheduling-and-publishing/how-to-use-buffer-s-calendar-feature",
+              "en/13-scheduling-and-publishing/is-it-possible-to-schedule-one-post-to-repeat-multiple-times-",
+              "en/13-scheduling-and-publishing/how-to-duplicate-posts-in-buffer",
+              "en/13-scheduling-and-publishing/troubleshooting-whoops-buffer-s-servers-couldn-t-be-reached-error",
+              "en/13-scheduling-and-publishing/re-ordering-posts-in-your-queue",
+              "en/13-scheduling-and-publishing/how-to-delete-posts-in-bulk",
+              "en/13-scheduling-and-publishing/is-it-possible-to-remove-the-buffer-stamp-from-posts-published-to-social-networks-",
+              "en/13-scheduling-and-publishing/how-to-use-the-all-channels-view-in-buffer",
+              "en/13-scheduling-and-publishing/setting-posting-goals-in-buffer"
+            ]
+          },
+          {
+            "group": "Team Collaboration",
+            "pages": [
+              "en/499-team-collaboration/managing-and-approving-draft-posts",
+              "en/499-team-collaboration/getting-started-as-a-user-in-an-organization",
+              "en/499-team-collaboration/adding-users-and-setting-up-permissions",
+              "en/499-team-collaboration/collaborating-on-content-with-notes",
+              "en/499-team-collaboration/using-buffer-as-an-agency",
+              "en/499-team-collaboration/changing-user-permissions-in-your-organization",
+              "en/499-team-collaboration/consolidating-multiple-buffer-accounts",
+              "en/499-team-collaboration/changing-your-buffer-account-name-and-avatar-picture",
+              "en/499-team-collaboration/removing-a-user-from-your-organization",
+              "en/499-team-collaboration/adding-buffer-tools-to-your-organization",
+              "en/499-team-collaboration/renaming-your-buffer-organization",
+              "en/499-team-collaboration/switching-organizations-on-the-web"
+            ]
+          },
+          {
+            "group": "Analyzing Your Data",
+            "pages": [
+              "en/6-analytics/creating-custom-analytics-reports-in-buffer-analyze",
+              "en/6-analytics/linkedin-page-metric-descriptions",
+              "en/6-analytics/home-screen-in-buffer-analyze",
+              "en/6-analytics/posts-tab-in-buffer-analyze",
+              "en/6-analytics/analyzing-your-instagram-stories",
+              "en/6-analytics/facebook-metric-descriptions",
+              "en/6-analytics/understanding-sent-post-metrics-within-buffer-s-publish-dashboard",
+              "en/6-analytics/why-your-data-in-analyze-might-differ-from-your-native-analytics",
+              "en/6-analytics/understanding-utm-parameters-and-google-analytics",
+              "en/6-analytics/tracking-the-performance-of-your-tags-in-buffer",
+              "en/6-analytics/overview-tab-in-buffer-analyze",
+              "en/6-analytics/instagram-metric-descriptions",
+              "en/6-analytics/is-it-possible-to-export-sent-posts-in-buffer-",
+              "en/6-analytics/analyzing-ad-data-in-boosted-posts",
+              "en/6-analytics/answers-tab-in-buffer-analyze",
+              "en/6-analytics/x/twitter-metric-descriptions",
+              "en/6-analytics/audience-tab-in-buffer-analyze",
+              "en/6-analytics/why-are-my-stats-different-between-the-posts-tab-and-the-overview-tab-"
+            ]
+          },
+          {
+            "group": "Engaging with Comments",
+            "pages": [
+              "en/501-engaging-with-comments/engaging-with-facebook-and-instagram-comments",
+              "en/501-engaging-with-comments/understanding-labels-and-sentiments-in-buffer-s-engagement-tool",
+              "en/501-engaging-with-comments/engaging-with-community-comments-in-buffer"
+            ]
+          },
+          {
+            "group": "Account Settings",
+            "pages": [
+              "en/11-account-and-billing/i-can-t-log-in-to-my-buffer-account",
+              "en/11-account-and-billing/changing-your-email-address-or-password-in-buffer",
+              "en/11-account-and-billing/using-two-factor-authentication-in-buffer",
+              "en/11-account-and-billing/verifying-your-buffer-email-address-and-logins",
+              "en/11-account-and-billing/changing-the-owner-of-your-buffer-account",
+              "en/11-account-and-billing/enabling-email-notifications-in-buffer",
+              "en/11-account-and-billing/opening-buffer-in-an-incognito-or-private-window-how-to-safelist-buffer-and-using-a-vpn",
+              "en/11-account-and-billing/how-to-fix-login-issues-in-buffer-s-mobile-app",
+              "en/11-account-and-billing/how-to-adjust-your-browser-s-zoom-or-font-size",
+              "en/11-account-and-billing/tips-on-taking-screenshots-and-screen-recordings",
+              "en/11-account-and-billing/setting-up-your-timezones-and-posting-schedules",
+              "en/11-account-and-billing/pausing-your-queue",
+              "en/11-account-and-billing/can-i-use-buffer-in-another-language-"
+            ]
+          },
+          {
+            "group": "Billing",
+            "pages": [
+              "en/15-billing/buffer-s-nonprofit-discount",
+              "en/15-billing/how-to-cancel-your-subscription-or-delete-your-account",
+              "en/15-billing/buffer-s-accepted-payment-methods",
+              "en/15-billing/managing-subscriptions-from-the-app-or-google-play-store",
+              "en/15-billing/does-buffer-have-a-referral-program-",
+              "en/15-billing/adding-or-removing-a-channel-slot-from-buffer",
+              "en/15-billing/why-was-i-charged-that-your-bill-taxes-and-vat-explained",
+              "en/15-billing/do-i-keep-3-channels-from-the-free-plan-when-i-upgrade-",
+              "en/15-billing/changing-your-subscription-or-billing-details",
+              "en/15-billing/refund-policy",
+              "en/15-billing/where-to-find-your-buffer-receipts-and-invoices",
+              "en/15-billing/buffer-s-w9",
+              "en/15-billing/why-was-my-credit-card-declined-"
+            ]
+          },
+          {
+            "group": "Start Page Landing Page",
+            "pages": [
+              "en/14-start-page/using-start-page-with-buffer",
+              "en/14-start-page/how-to-set-up-an-email-signup-form-on-your-start-page",
+              "en/14-start-page/report-start-page-or-content-published-via-buffer"
+            ]
+          },
+          {
+            "group": "Mobile App",
+            "pages": [
+              "en/16-mobile-app/adjusting-allow-paste-permissions-in-ios",
+              "en/16-mobile-app/setting-up-your-timezones-and-posting-schedules-on-the-buffer-mobile-app",
+              "en/16-mobile-app/scheduling-instagram-posts-reels-stories-and-notifications-on-the-buffer-mobile-app",
+              "en/16-mobile-app/creating-and-managing-tags-on-the-buffer-mobile-app",
+              "en/16-mobile-app/managing-subscriptions-from-the-app-or-google-play-store",
+              "en/16-mobile-app/creating-managing-and-approving-draft-posts-on-the-buffer-mobile-app",
+              "en/16-mobile-app/using-the-buffer-mobile-app-in-another-language",
+              "en/16-mobile-app/how-to-delete-posts-in-bulk-on-the-buffer-mobile-app",
+              "en/16-mobile-app/instagram-shop-grid-on-the-buffer-mobile-app",
+              "en/16-mobile-app/connecting-and-managing-channels-on-the-buffer-mobile-app",
+              "en/16-mobile-app/scheduling-posts-on-the-buffer-mobile-app",
+              "en/16-mobile-app/saving-ideas-and-sharing-content-using-the-buffer-mobile-extension",
+              "en/16-mobile-app/adding-alt-text-to-your-images-on-the-buffer-mobile-app",
+              "en/16-mobile-app/how-to-switch-the-buffer-mobile-app-to-light/dark-mode",
+              "en/16-mobile-app/shortening-and-unshortening-links-on-the-buffer-mobile-app",
+              "en/16-mobile-app/pausing-your-queue-on-the-buffer-mobile-app",
+              "en/16-mobile-app/duplicating-posts-on-the-buffer-mobile-app",
+              "en/16-mobile-app/using-the-all-channels-view-on-the-buffer-mobile-app",
+              "en/16-mobile-app/using-the-calendar-feature-on-the-buffer-mobile-app",
+              "en/16-mobile-app/switching-organizations-on-the-buffer-mobile-app"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "en/497-integrations/using-canva-with-buffer",
+              "en/497-integrations/adding-posts-to-your-queue-from-wordpress",
+              "en/497-integrations/automating-rss-feeds-using-zapier",
+              "en/497-integrations/does-buffer-have-an-api-",
+              "en/497-integrations/using-zapier-with-buffer",
+              "en/497-integrations/attaching-media-from-dropbox-google-drive-google-photos-and-onedrive",
+              "en/497-integrations/using-grammarly-with-buffer",
+              "en/497-integrations/integrating-and-automating-with-third-party-apps",
+              "en/497-integrations/why-are-my-ifttt-applets-only-adding-posts-to-one-of-my-social-channels-"
+            ]
+          },
+          {
+            "group": "Buffer Best Practices",
+            "pages": [
+              "en/498-buffer-best-practices/how-to-test-buffer-s-beta-features",
+              "en/498-buffer-best-practices/instagram-best-practices",
+              "en/498-buffer-best-practices/best-practices-for-maintaining-a-healthy-buffer-account",
+              "en/498-buffer-best-practices/information-about-free-trials",
+              "en/498-buffer-best-practices/best-practices-for-keeping-your-social-channels-connected",
+              "en/498-buffer-best-practices/best-practices-for-buffer-account-security",
+              "en/498-buffer-best-practices/buffer-s-status-page",
+              "en/498-buffer-best-practices/submitting-feature-suggestions-via-our-transparent-product-roadmap"
+            ]
           }
         ]
       },

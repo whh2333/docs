@@ -23,6 +23,23 @@ const OUT = getArg('out', 'import/content.json');
 const MAX_PAGES = Number(getArg('max', '1000')); // 安全上限
 const LANGUAGE = getArg('lang', 'en');
 const GROUP = getArg('group', 'Help Center');
+const CATEGORIES = {
+  '4-getting-started': 'Getting Started',
+  '500-buffer-social-network-guides': 'Buffer Social Network Guides',
+  '12-channel-management': 'Channel Management',
+  '495-creating-posts': 'Creating Posts',
+  '496-managing-media': 'Managing Media',
+  '13-scheduling-and-publishing': 'Scheduling Posts',
+  '499-team-collaboration': 'Team Collaboration',
+  '6-analytics': 'Analyzing Your Data',
+  '501-engaging-with-comments': 'Engaging with Comments',
+  '11-account-and-billing': 'Account Settings',
+  '15-billing': 'Billing',
+  '14-start-page': 'Start Page Landing Page',
+  '16-mobile-app': 'Mobile App',
+  '497-integrations': 'Integrations',
+  '498-buffer-best-practices': 'Buffer Best Practices'
+};
 const SLEEP_MS = Number(getArg('sleep', '500')); // 每请求后 sleep，减轻压力
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }

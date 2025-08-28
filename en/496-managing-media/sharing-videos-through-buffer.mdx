@@ -1,0 +1,289 @@
+---
+title: "Sharing videos through Buffer"
+---
+<article id="fullArticle">
+        <h1 class="title">Sharing videos through Buffer</h1>
+    
+        <a href="javascript:window.print()" class="printArticle" title="Print this article" aria-label="Print this Article"><i class="icon-print"></i></a>
+        <p>This guide provides an overview of the file size and length requirements for sharing videos, and how videos will appear and behave on each social network.</p>
+<div class="callout-blue">
+ <p>📝 It's only possible to include one video per post at this time.</p>
+</div>
+<p>In this article:</p>
+<ol>
+ <li><a href="#h_d7bace96-7f52-4396-8f82-dda95ee284eb" target="_self">Video upload requirements</a></li>
+</ol>
+<ul>
+ <ul>
+  <li><a href="#h_01HCZ16PY9S79H6K9F255CJDWB">Why is my video taking a while to upload?</a></li>
+ </ul>
+</ul>
+<ol start="2">
+ <li><a href="#h_038ca001-4c5c-4ae6-a773-92a9dedb22b1" target="_self">Choosing thumbnails and titles</a>
+  <ul>
+   <li><a href="#h_01HCZ16PY9W8C5B7T91T67P23N">Choosing a title for your video</a></li>
+   <li><a href="#Choosing-a-thumbnail-from-your-video-gT-D7">Choosing a thumbnail from your video</a></li>
+  </ul></li>
+ <li><a href="#h_01HCZ16PY9Q25YK8AWZM0TA8WH">How thumbnails and titles are used on each social network</a></li>
+</ol>
+<ul>
+ <ul>
+  <li><a href="#h_28e5cd88-63da-4cf5-a08e-531860f83152" target="_self">How videos appear on Facebook</a></li>
+  <li><a href="#h_f2334bb2-de89-47fd-a16a-7d08c95d507e" target="_self">How videos appear on Instagram and other Instagram specs</a></li>
+  <li><a href="#h_7c45d417-cb74-47eb-805e-b64040b46d6d" target="_self">How videos appear on X/Twitter</a></li>
+  <li><a href="#h_af5f3b38-9ad4-484a-b7a3-a29d431eba34" target="_self">How videos appear on LinkedIn</a></li>
+  <li><a href="#h_8d5a2ee2-7c08-43a9-bd2f-79a149cdd811" target="_self">How videos appear on Pinterest</a></li>
+  <li><a href="#h_01G63BR55390VGR67VSNGYEHNX" target="_self">How videos appear on TikTok</a></li>
+  <li><a href="#How-videos-appear-on-YouTube-Shorts--y_lz" target="_self">How videos appear on YouTube Shorts</a></li>
+  <li><a href="#How-videos-appear-on-Mastodon-7sest" target="_self">How videos appear on Mastodon</a></li>
+  <li><a href="#How-videos-appear-on-Threads-1Bcvd" target="_self">How videos appear on Threads</a></li>
+  <li><a href="#How-videos-appear-on-Bluesky-JyDIl">How videos appear on Bluesky</a></li>
+ </ul>
+</ul>
+<h2 id="h_d7bace96-7f52-4396-8f82-dda95ee284eb">General video upload requirements</h2>
+<p>There are some specific guidelines for videos sent through Buffer to the various social networks. We'll give an overview here and then get more specific in each of the sections below.</p>
+<ul>
+ <li><strong>File size:</strong>
+  <ul>
+   <li><i>100MB for Instagram</i></li>
+   <li><i>10GB for YouTube Shorts</i></li>
+   <li><i>40MB for Mastodon</i></li>
+   <li><i>up to 1GB for Facebook, X/Twitter, LinkedIn, Pinterest, TikTok, Threads</i></li>
+  </ul></li>
+ <li><strong>File format:</strong>
+  <ul>
+   <li><em>X/Twitter, Pinterest, Facebook, and LinkedIn:</em> MP4, MOV, AVI, and M4V</li>
+   <li><em>TikTok</em>: The video file formats accepted are MOV, MP4, or WEBM.</li>
+   <li><em>Instagram and Threads</em>: MP4 and MOV</li>
+   <li><em>YouTube Shorts:</em> .mov, .mp4, .mpg, .mpeg, .avi, .WebM</li>
+  </ul></li>
+</ul>
+<p>The video you upload will be converted to MP4 encoded with H264, and a maximum resolution of 1280 x 720 pixels (HD). Larger files are likely to be compressed to ensure they can be posted to the social network, but quality loss should be minimal.</p>
+<p>Unfortunately, we can't support Apple ProRes or raw camera formats like ARRI and RED.</p>
+<h3 id="h_01HCZ16PY9S79H6K9F255CJDWB">Why is my video taking a while to upload?</h3>
+<p>When a video file is uploaded, there are a few steps the file needs to go through, including checking the file to ensure it can be passed over through the API, having AWS (Amazon Web Services) transcode the file, and generating potential thumbnails. When generating thumbnails, we look for a different thumbnail every 15 seconds. This means that for a video that is 30 minutes long, we would try to generate at least 120 different images. This can be a key factor that affects the upload speed.</p>
+<p>Depending on the file size, the length of the video, and the connection speed, each of these things could take different lengths of time and determine how long the overall process takes.</p>
+<h2 id="h_038ca001-4c5c-4ae6-a773-92a9dedb22b1">Choosing thumbnails and titles</h2>
+<h3 id="h_01HCZ16PY9W8C5B7T91T67P23N">Choosing a title for your video</h3>
+<p>For Facebook, once your video has finished uploading, you can edit the video title in the field below the video.</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/65a6e1b069979704a279a2c4/file-N9MHe5aoDp.jpg" alt="Buffer Publishing Video Title for Facebook" style="width: 471.988px; "></p>
+<h3 id="Choosing-a-thumbnail-from-your-video-gT-D7">Choosing a thumbnail from your video</h3>
+<p>At this time, we do not support uploading an image for your video thumbnail. However, for Instagram, TikTok, and Pinterest, you can choose a thumbnail from the video you've uploaded. By default, the first frame of the video (0 seconds) will be used as the thumbnail. If you'd like to change your thumbnail, you'll follow these steps:</p>
+<ol>
+ <li>Once your video has finished uploading, click <em><strong>Edit Thumbnail</strong></em><em>,</em></li>
+ <li>Drag the slider to the position in the video you'd like to use as the cover/thumbnail image.</li>
+ <li>Click <em><strong>Save</strong></em>.</li>
+</ol>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/6514999cf8eafb48f4e81360/img-1662243-1695848855-330537964.gif" alt="GIF of changing a video thumbnail" style="width: 100%; "></p>
+<div class="callout-blue">
+ <h4 id="h_01HCZ16PY9NRKVQC71A9JC77N5">📝 Good-to-Knows</h4>
+ <ul>
+  <li>Thumbnails can only be edited for TikTok, Pinterest and Instagram posts, and Instagram Reels.</li>
+  <li>The "Edit Thumbnail" button will not show up if your post is scheduled as a notification or if you have <i><b>Enable Notifications by default</b></i> turned on within your Buffer Instagram Settings.</li>
+ </ul>
+</div>
+<h2 id="h_01HCZ16PY9Q25YK8AWZM0TA8WH">How thumbnails and titles are used on each social network</h2>
+<p>Since videos appear and behave a little differently on each social network, the thumbnail and title you choose will only be used in certain places.</p>
+<table class="hs-table">
+ <tbody>
+  <tr>
+   <td><strong>Facebook</strong></td>
+   <td>Many Facebook users choose to auto-play videos (this is a Facebook setting toggled here: https://www.facebook.com/settings/?tab=media). Users who have this setting toggled on will not see a video thumbnail. Unfortunately, in places where a thumbnail is shown, Facebook does not use the thumbnail you have chosen in Buffer. However, the title you enter will be displayed at the top of the video post.</td>
+  </tr>
+  <tr>
+   <td><strong>Instagram</strong></td>
+   <td>Videos on Instagram play automatically on the home screen feed, which means thumbnails are redundant in that location. Therefore, any custom thumbnail you choose will not be displayed there. However, the custom thumbnail will be used as the cover of your video on your Instagram profile grid.</td>
+  </tr>
+  <tr>
+   <td><strong>X/Twitter</strong></td>
+   <td>Videos (whether within <a href="https://help.twitter.com/en/using-twitter/twitter-videos" target="_blank" rel="noopener">X's/Twitter's permitted file limits</a> or not) do not play automatically. Unfortunately, X/Twitter does not use the thumbnail you have chosen in Buffer. However, the custom title will be used if the video is <em>outside</em> of X's/Twitter's permitted file limits, in which case the video will be displayed as a link to Buffer's video player.</td>
+  </tr>
+  <tr>
+   <td><strong>LinkedIn</strong></td>
+   <td>Videos published on LinkedIn will appear natively and automatically play in the feed. Our&nbsp;LinkedIn&nbsp;integration&nbsp;does not currently support custom thumbnails.</td>
+  </tr>
+  <tr>
+   <td><strong>Pinterest</strong></td>
+   <td>Videos on Pinterest will play automatically unless a user has set their preferences within Pinterest otherwise, so adding a thumbnail/cover image could be helpful. The title of the video will be shown at the bottom of the video in the feed.</td>
+  </tr>
+  <tr>
+   <td><strong>TikTok</strong></td>
+   <td>Videos on TikTok will play automatically in the feed.&nbsp;You can select a frame from your video to use as the thumbnail on TikTok.</td>
+  </tr>
+  <tr>
+   <td><b>YouTube Shorts</b></td>
+   <td>YouTube currently doesn't support custom thumbnails through Buffer.</td>
+  </tr>
+  <tr>
+   <td><b>Mastodon</b></td>
+   <td>Custom thumbnails are not supported for Mastodon in Buffer.</td>
+  </tr>
+  <tr>
+   <td><b>Threads</b></td>
+   <td>Videos on Threads will play automatically in the feed. Custom thumbnails are not supported at this time.</td>
+  </tr>
+  <tr>
+   <td><b>Bluesky</b></td>
+   <td>Custom thumbnails are not supported for Bluesky in Buffer.</td>
+  </tr>
+ </tbody>
+</table>
+<h2 id="h_28e5cd88-63da-4cf5-a08e-531860f83152">How videos appear on Facebook</h2>
+<h3 id="h_01HCZ16PY9S6MF1CJ9KCZXN1JR">Video upload</h3>
+<p>Videos appear natively once published on Facebook. They play automatically in both the home feed and on the Page itself.</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/6514999d6241295a81ba6dc1/img-1662243-1695848856-1170085306.png" alt="Video uploaded to Facebook - paused at 34 seconds" style="width: 394.991px; "></p>
+<div class="callout-blue">
+ <p>Due to API limitations, any video uploaded to Facebook with an aspect ratio of 9:16 will get published as a Reel.</p>
+</div>
+<h3 id="h_01HCZ16PY93QY3MYMBGFK7DEFB">Facebook Reels specifications</h3>
+<ul>
+ <li><strong>File type:</strong> MP4, MOV, AVI, and M4V</li>
+ <li><b>File size: </b>up to 1GB</li>
+ <li><strong>Aspect ratio:</strong> 9:16</li>
+ <li><strong>Resolution:</strong> 1080 x 1920 pixels (recommended), minimum is 540 x 960 pixels</li>
+ <li><strong>Frame rate:</strong> 24 to 60 frames per second</li>
+ <li><strong>Duration:</strong> 3 to 90 seconds</li>
+ <li>Video and audio settings can be found <a href="https://developers.facebook.com/docs/video-api/guides/reels-publishing/" target="_blank" rel="noopener">here</a>.</li>
+</ul>
+<h3 id="h_01HCZ16PY93QY3MYMBGFK7DEFB">Facebook Stories specifications</h3>
+<ul>
+ <li><b>File type:</b> MP4, MOV, AVI, and M4V</li>
+ <li><b>File size: </b>up to 1GB</li>
+ <li><b>Aspect ratio:</b> 9:16</li>
+ <li><b>Resolution:</b> 1080 x 1920 pixels (recommended). Minimum is 540 x 960 pixels</li>
+ <li><b>Frame rate: </b>24 to 60 frames per second</li>
+ <li><b>Duration:</b> 3 to 90 seconds.</li>
+ <li>Video and audio settings can be found <a href="https://developers.facebook.com/docs/page-stories-api/">here</a>.</li>
+</ul>
+<h3 id="h_01HCZ16PY9TXCHT299J4VGMY4C">Video link</h3>
+<p>Your Facebook post will include a link preview. Users are able to click on the video link and will be taken to the video in a new browser tab.</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/6514999d556a3e3cf18cc017/img-1662243-1695848856-120465554.png" alt="YouTube link shared on Facebook" style="width: 338.993px; "></p>
+<h2 id="h_f2334bb2-de89-47fd-a16a-7d08c95d507e">How videos appear on Instagram and other Instagram specs</h2>
+<h3 id="h_01HCZ16PY92PDAKT6P7ZTFYAA2">Video upload</h3>
+<p>Videos appear natively once published on Instagram. They play automatically on the home screen feed but on your profile grid, the custom thumbnail you've chosen will be shown, and users can tap on it to play the video.</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/6514999d556a3e3cf18cc018/img-1662243-1695848856-1852487811.png" alt="Instagram feed featuring a video of the Buffer Stories Creator and a post of mountains and clouds" style="width: 327.986px; "></p>
+<div class="callout-blue">
+ <p><b>Note: </b>Instagram no longer supports standard video posts. Videos will be published as Reels.</p>
+</div>
+<h3 id="h_01HCZ16PY9FJD8QGRZ7J2VG9RK">Instagram Reels specifications</h3>
+<ul>
+ <li><b>File size: </b>Below 100MB</li>
+ <li><strong>Video length: </strong>Between 3 seconds and 15 minutes</li>
+ <li><b>Format: </b>MP4 and MOV</li>
+ <li><strong>Video Bitrate: </strong>Below 25Mbps</li>
+ <li><b>Audio Bitrate: </b>Below 128kbps</li>
+ <li><strong>Frame rate:&nbsp;</strong>23-60 FPS</li>
+ <li><p><strong>Aspect ratio:</strong> 9:16 (recommended)*</p><p>*can accept between 0.01:1 and 10:1 but 9:16 is recommended to avoid cropping or blank spaces.</p></li>
+</ul>
+<h3 id="h_01HCZ16PY9AAZX5VRT7A0KW1HX">How to find the bitrate of your video</h3>
+<p><strong>Windows:</strong></p>
+<ol>
+ <li>Right click the video file.</li>
+ <li>Choose <em><strong>Properties</strong></em>.</li>
+ <li>Click the <em><strong>Details</strong></em> tab.</li>
+ <li>Under the "Video" section, you should see Total bitrate.</li>
+</ol>
+<p><strong>Mac:</strong></p>
+<ol>
+ <li>Open your video in Quicktime.</li>
+ <li>From the "Window" menu, select&nbsp;<strong><em>Show Movie Inspector</em></strong><strong>.</strong></li>
+ <li>From the Inspector, scroll down to the "Video Details" section.</li>
+ <li>Here, you should see the Data Rate.</li>
+</ol>
+<div class="callout-blue">
+ <p><b>Tip: </b>If you need to <a href="https://www.freeconvert.com/video-compressor">compress a video</a> or <a href="https://www.veed.io/">change the bitrate</a>, these tools have been helpful for customers. (Please note, these tools are not affiliated with Buffer).</p>
+</div>
+<h3 id="h_01HCZ16PY91ZA0YFNJ1YGNKFZR">Video link</h3>
+<p>Instagram does not currently support hyperlinks within captions. Therefore, if you include a link to a video within the composer, it will not be hyperlinked once published. Instead, it would be published as plain text. Users could copy and paste the link from the caption to a new browser window, which would take them to the video. Additionally, when scheduling a post for Instagram, you're required to upload either an image or a video. Therefore, after dropping the link into the composer, you'll still need to choose or upload an image to accompany it. For these reasons, this method is not commonly used. Instead, we would recommend using the upload option described above.</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/6514999ef8eafb48f4e81361/img-1662243-1695848857-2048088042.png" alt="Instagram post with an image of the Buffer Stories Creator logo" style="width: 304.991px; "></p>
+<h2 id="h_7c45d417-cb74-47eb-805e-b64040b46d6d">How videos appear on X/Twitter</h2>
+<h3 id="h_01HCZ16PY95ZNH3YVFHNTTCPTQ">Video upload</h3>
+<p>Videos appear natively once published to X/Twitter, if they are within <a href="https://help.twitter.com/en/using-twitter/twitter-videos#FAQ" target="_blank" rel="noopener">X's/Twitter’s permitted file limits</a> of 512MB and between .5 seconds to 140 seconds long. Videos are not played automatically on either the timeline or the profile itself, so users will need to click on the video to play it.</p>
+<h3>X/Twitter video requirements:</h3>
+<p><b>File size: </b>up to 1GB</p>
+<p><b>File format: </b>MP4, MOV, AVI, and M4V</p>
+<p><b>Length: </b>between .5 seconds to 140 seconds long</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/6514999ff8eafb48f4e81362/img-1662243-1695848857-1448257627.png" alt="Tweet with video attached" style="width: 342.986px; "></p>
+<div class="callout-blue">
+ <p>📝 Please note, an mp4 file that only contains audio cannot be shared to X/Twitter. The mp4 file <em>must</em> contain video. If you are looking to share an audio file to X/Twitter, the best alternative would be to host the audio file elsewhere online and link to it (instead of uploading it within the composer). X/Twitter would then generate an audio <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards" target="_blank">Twitter Card</a> from the link.</p>
+ <p>📝 Longer videos for X Premium/Twitter Blue subscribers would only apply to posts published natively on X/Twitter.</p>
+</div>
+<h3 id="h_01HCZ16PY9WQ21J6XHYGG8YQRM">Video link</h3>
+<p>Your post will be displayed as a video post. Users are able to click on the video link and it will be played within the post itself (i.e. as opposed to opening in a new tab or window).</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/6514999f8820396325b6fdd5/img-1662243-1695848857-997895591.png" alt="Tweet with a link preview leading to youtube.com" style="width: 377.986px; "></p>
+<h2 id="h_af5f3b38-9ad4-484a-b7a3-a29d431eba34">How videos appear on LinkedIn</h2>
+<h3 id="h_01HCZ16PY95ZPP39T95W813BND">Video upload</h3>
+<p>Videos published through Buffer to LinkedIn will play automatically in a user's feed if they are within the following limits:</p>
+<p><a href="https://www.linkedin.com/help/lms/answer/a424737/video-ads-advertising-specifications?lang=en" target="_self">LinkedIn's video requirements</a></p>
+<p><b>File size: between </b>75kb - 200MB</p>
+<p><b>File format: </b>MP4, MOV, AVI, and M4V</p>
+<p><b>Aspect ratio: </b>9:16 (minimum) 16:9 (maximum)</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/651499a08820396325b6fdd6/img-1662243-1695848858-1667763263.gif" alt="Video zooming in and out on a pair of grey sneakers posted to LinkedIn" style="width: 331.988px; "></p>
+<h3 id="h_01HCZ16PY9VTG5Y9QMFGGTJ3EE">Video link</h3>
+<p>Your post will include a link preview. TikTok videos will play automatically within the post itself, while YouTube videos will link out to YouTube.</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/651499a0556a3e3cf18cc019/img-1662243-1695848858-1816235074.png" alt="LinkedIn post with a YouTube video preview" style="width: 409.991px; "></p>
+<h2 id="h_8d5a2ee2-7c08-43a9-bd2f-79a149cdd811">How videos appear on Pinterest</h2>
+<h3 id="h_01HCZ16PY91M23CHX1SZV4R7RC">Video upload</h3>
+<p>Because Buffer supports video pins on Pinterest business and personal accounts, your video will play automatically as your followers scan through their feed. The exception to this would be if the follower changed their preferences within Pinterest to prevent automatic video play.</p>
+<p>If your video plays automatically for a user, your thumbnail/cover image will display as a static image when the video ends. If the user has chosen not to have videos play automatically, your thumbnail/cover image will display in their feed before clicking to play the video.</p>
+<h3><b>Pinterest video requirements</b></h3>
+<p><b>Length: </b>between 4 seconds and 15 minutes in length</p>
+<p><b>Aspect ratio: </b>1:1 (square - suggested) or vertical videos with the aspect rations of 2:3, 4:5, or 9:16</p>
+<p>There are a couple of other pieces to note around your Pinterest video uploads. First, videos can be between 4 seconds and 15 minutes in length. Also, <a href="https://help.pinterest.com/en/business/article/video-pins">Pinterest suggests</a> using square videos (1:1), or vertical videos with the aspect rations of 2:3, 4:5, or 9:16.</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/651499a06241295a81ba6dc2/img-1662243-1695848859-454047329.png" alt="Pinterest video pink leading to Buffer Stories Creator" style="width: 364.991px; "></p>
+<h3 id="h_01HCZ16PY9S4ZD2QN2N2TDHPTF">Video link</h3>
+<p>When scheduling a post for Pinterest, you can choose to use your destination link (formerly known as source link) to point to any URL, including a URL that leads to a video. Whichever destination link you use, Pinterest does require that you upload either an image or a video to the post. Therefore, after dropping the link into the <em><strong>Destination link</strong></em> field, you'll still need to choose or upload an image to accompany it. Once published, your image or video pin will be displayed, and when users click on it, they will be sent to the destination link you included in the <em><strong>Destination link</strong></em> field when composing your post.</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/651499a16241295a81ba6dc3/img-1662243-1695848859-563439710.png" alt="Pinterest pin with an image of the Stories Creator logo" style="width: 100%; "></p>
+<h2 id="h_01G63BR55390VGR67VSNGYEHNX">How videos appear on TikTok</h2>
+<h3 id="h_01HCZ16PY9Z7FBX6DBTS7MZVSF">Video Upload</h3>
+<p>Your TikTok videos will play automatically in the feed. However, if you've selected a frame in Buffer using the <i><b>Edit Thumbnail </b></i>option, it will appear as the video's thumbnail on your profile.</p>
+<h3 id="h_01HCZ16PY9HFFGCHG9ZMQANS0E">TikTok video Requirements</h3>
+<p><strong>Media type:</strong> Video only (TikTok posts cannot be created without a video attached)</p>
+<p><strong>Videos per post:</strong> 1&nbsp;</p>
+<p><strong>Length:</strong> Between 3 seconds and 10 minutes</p>
+<p><strong>Size:</strong> 1GB or less, and must have a minimum height and width each of 360px</p>
+<p><strong>Format:</strong> MOV, MP4, or WEBM</p>
+<p><strong>Frame rate:</strong> between 23 FPS and 60 FPS</p>
+<div class="callout-blue">
+ <h4 id="h_01HCZ16PY9XW4094FRQ71JJ1D8">📝 Good-to-Knows</h4>
+ <ul>
+  <li>To include any sound or caption in your video, you'd want to include those in the video file before uploading it to Buffer. If you'd like to create a video with the TikTok app, you can save the video to your device before uploading it to Buffer by first publishing it privately. This guide goes into more detail on the exact steps: <a href="https://www.kapwing.com/resources/how-to-save-tiktok-drafts-to-your-phone/" target="_blank">How to Save TikTok Drafts to Your Phone</a>.</li>
+  <li>Your description text has a maximum length of 150 characters.</li>
+  <li>The TikTok name that shows up in Buffer will be your display name and not the username that shows up in your URL.</li>
+  <li>The "Promote" feature in TikTok does not work when posting via Buffer. Therefore, to promote your posts, you would need to publish the post directly on TikTok.</li>
+ </ul>
+</div>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/653965ce6a23f959ef28c91e/file-NxUA38YMEz.gif" alt="LunaSneakers TikTok video" style="width: 263.993px; "></p>
+<h2 id="How-videos-appear-on-YouTube-Shorts--y_lz">How videos appear on YouTube Shorts</h2>
+<h3 id="h_01HCZ16PY9Z7FBX6DBTS7MZVSF">Video Upload</h3>
+<p>YouTube Shorts will appear natively on YouTube once published.</p>
+<h3 id="h_01HCZ16PY9HFFGCHG9ZMQANS0E">YouTube video Requirements</h3>
+<p><strong>Media type:</strong> Video only (YouTube Shorts posts cannot be created without a video attached)</p>
+<p><strong>Videos per post:</strong> 1&nbsp;</p>
+<p><strong>Length:</strong> Up to 3 minutes</p>
+<p><strong>Size:</strong> 10GB or less</p>
+<p><strong>Format:</strong> .mov, .mp4, .mpg, .mpeg, .avi, .WebM</p>
+<h2 id="How-videos-appear-on-Mastodon-7sest">How videos appear on Mastodon</h2>
+<p>At this time, custom thumbnails are not supported for Mastodon. Additionally, videos will not be automatically played in the feed.</p>
+<p><strong>Videos per post:</strong> 1</p>
+<p><strong>Size:</strong> up to 40MB</p>
+<p><strong>Format:</strong> MP4, M4V, MOV, WebM</p>
+<p><strong>Frame rate:</strong> Video will be transcoded to H.264 MP4 with a maximum bitrate of 1300kbps and frame rate of 60fps</p>
+<p><img src="//d33v4339jhl8k0.cloudfront.net/docs/assets/64cb6cf86d4a3e191f237e66/images/65391eca4d16353d6b29255d/file-KxYce8kRoK.gif" alt="video of shoes in a circle that moves once the cursor hovers over it" style="width: 254.991px; "></p>
+<h2 id="How-videos-appear-on-Threads-1Bcvd">How videos appear on Threads</h2>
+<p>Videos shared to Threads will play automatically in the feed. At this time, custom thumbnails are not supported for Threads.</p>
+<p><strong>Videos per post:</strong> 1</p>
+<p><strong>Size:</strong> up to 1GB, maximum width of 1920px</p>
+<p><b>Length: </b>Longer than 0 seconds minimum, 5 minutes maximum</p>
+<p><strong>Format:</strong> MP4 or MOV</p>
+<p><strong>Frame rate:</strong> 23-60 FPS</p>
+<p><b>Video bitrate: </b>25 Mbps maximum</p>
+<p><b>Audio bitrate: </b>128 kbps</p>
+<h2 id="How-videos-appear-on-Bluesky-JyDIl">How videos appear on Bluesky</h2>
+<p>Videos shared to Bluesky will play automatically in the feed. At this time, custom thumbnails are not supported for Bluesky.</p>
+<p><b>Videos per post: </b>1</p>
+<p><b>Size: </b>up to 100MB</p>
+<p><b>Length: </b>up to 3 minutes</p>
+<p><b>Format: </b>MP4 or MOV</p>
+<p><b>Daily Limit: </b>25 videos per day, or a total of 10GB of videos sent within a day, whichever comes first</p>
+    </article>
