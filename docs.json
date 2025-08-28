@@ -11,6 +11,28 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "English",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "en/index"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "中文",
+        "groups": [
+          {
+            "group": "快速开始",
+            "pages": [
+              "zh/index"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Guides",
         "groups": [
           {
