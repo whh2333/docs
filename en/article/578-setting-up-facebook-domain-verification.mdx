@@ -1,0 +1,82 @@
+---
+title: "Setting up Facebook Domain Verification"
+---
+<article id="fullArticle">
+        <h1 class="title">Setting up Facebook Domain Verification</h1>
+    
+        <a href="javascript:window.print()" class="printArticle" title="Print this article" aria-label="Print this Article"><i class="icon-print"></i></a>
+        <p>When sharing a link to a Facebook Page, only the owner of a verified website can make changes to the thumbnail image, article title, and link description. This domain verification needs to be set up with Facebook.</p>
+<p>In this article:</p>
+<ol>
+ <li><a href="#h_6b51bb43-1ca0-4bd7-99bb-cac5f24404c1" target="_self">What is Domain Verification?</a></li>
+ <li><a href="#h_58113580-54e6-421e-8db9-af57e0821c44" target="_self">Who is Domain Verification for?</a></li>
+ <li><a href="#h_35ceb681-a449-46fb-a7f8-d3b4826669b4" target="_self">Setting up Domain Verification</a>
+  <ul>
+   <li><a href="#DNS-Verification-EBonm">DNS verification</a></li>
+   <li><a href="#HTML-file-upload-WxzBE">HTML file upload</a></li>
+  </ul></li>
+ <li><a href="#h_556792b1-4fd3-44cb-bfda-d4895fe1103d" target="_self">Multiple Business Manager Accounts that need to share links from the same domain</a></li>
+</ol>
+<h2 id="h_6b51bb43-1ca0-4bd7-99bb-cac5f24404c1">What is Domain Verification?</h2>
+<p>Domain Verification is the process of telling Facebook that you own the website. Through the process, you’ll add a bit of code to your website, which Facebook will search for in order to verify it on their side. Once it’s verified, you can associate your Facebook page with your verified domain so that Facebook knows it’s okay for that page to edit link previews from that website.</p>
+<div class="callout-blue">
+ <p>📝 Please note, link preview customization is&nbsp;<em>not</em>&nbsp;currently available for Facebook groups, regardless of Domain Verification.</p>
+</div>
+<h2 id="h_58113580-54e6-421e-8db9-af57e0821c44">Who is Domain Verification for?</h2>
+<p>Domain Verification is for anyone who owns a website and wants to control the appearance of their link previews when they publish to Facebook. Without Domain Verification, you will not be able to customize the thumbnail image, or edit the title or link description when sharing links from your own website. Follow the steps below to set up Domain Verification for your site. This is not the easiest or quickest process, so we recommend grabbing a coffee!</p>
+<h2 id="h_35ceb681-a449-46fb-a7f8-d3b4826669b4">Setting up Domain Verification</h2>
+<h3>Step 1 - Adding your domain to Meta Business Suite</h3>
+<ol>
+ <li>Open&nbsp;<a href="https://business.facebook.com/" target="_blank" rel="noopener">Meta Business Suite</a>.</li>
+ <li>Click on&nbsp;<strong>Business Settings</strong>.</li>
+ <li>Click on&nbsp;<strong><em>Brand Safety</em></strong>&nbsp;in the left side panel and then choose&nbsp;<a href="https://business.facebook.com/settings/owned-domains" target="_blank" rel="noopener">Domains</a>.</li>
+ <li>Click on&nbsp;<em><strong>Add</strong></em>&nbsp;and enter your domain in the pop-up.</li>
+</ol>
+<h3>Step 2 - Verifying your domain</h3>
+<p>There are two methods to verify your Facebook page - DNS Verification and HTML file upload - both described below.</p>
+<h3 id="DNS-Verification-EBonm">DNS verification</h3>
+<p>If you choose this method, you’ll need to upload a .txt file to your webhost.</p>
+<ol>
+ <li>First, you’ll need to grab the TXT record from Facebook Business Manager. You can do this by clicking on the&nbsp;<strong><em>DNS Verification</em></strong>&nbsp;tab.</li>
+ <li>Next, log into your domain provider account and head over to the DNS records section.</li>
+ <li>Add the TXT entry that you copied from Facebook, to your DNS record. Please note, some domain hosts may require you to add @ to the host field. Below you'll find steps to do this in some of the common DNS providers.
+  <ul>
+   <li><a href="https://ca.godaddy.com/help/add-a-txt-record-19232" target="_blank" rel="noopener">GoDaddy</a></li>
+   <li><a href="https://help.hover.com/hc/en-us/articles/217282457-How-to-Edit-DNS-records-A-AAAA-CNAME-MX-TXT-SRV-" target="_blank" rel="noopener">Hover</a></li>
+   <li><a href="https://my.bluehost.com/hosting/help/559" target="_blank" rel="noopener">BlueHost</a></li>
+  </ul></li>
+ <li>Once the changes have propagated across your domain's web servers, click the&nbsp;<strong><em>Verify</em></strong>&nbsp;button at the bottom of the&nbsp;<strong><em>DNS Verification</em></strong>&nbsp;tab in Facebook, for the selected domain. Typically, this change only takes a few minutes to occur, but there are cases where it may take up to 72 hours. You'll notice that the status will display as&nbsp;<em><strong>Verified</strong></em>&nbsp;(with a green dot) once this has been completed.</li>
+</ol>
+<div class="callout-blue">
+ <p>📝 Leave the TXT entry in your DNS record, as it may be checked periodically for verification purposes.</p>
+</div>
+<h3 id="HTML-file-upload-WxzBE">HTML file upload</h3>
+<p>The other option is to verify your domain by uploading an HTML file to your site.</p>
+<ol>
+ <li>Click on the&nbsp;<strong><em>HTML File Upload</em></strong>&nbsp;tab.</li>
+ <li>Download the HTML verification file.</li>
+ <li>Upload this file to the root directory of your website. You'll be able to see that it's uploading, at the link provided in the&nbsp;<strong><em>HTML File Upload</em></strong>&nbsp;tab.</li>
+ <li>Once the file has finished uploading, click the&nbsp;<strong><em>Verify</em></strong>&nbsp;button at the bottom of the page. Typically, this change only takes a few minutes to occur, but there are cases where it may take up to 72 hours. You'll notice that the status will display as&nbsp;<em><strong>Verified</strong></em>&nbsp;(with a green dot) once this has been completed.</li>
+</ol>
+<div class="callout-blue">
+ <p>📝 Leave the HTML verification file in your website's root directory, as it may be checked periodically for verification purposes.</p>
+</div>
+<h3>Step 3 - Assigning your Facebook page to your verified domain</h3>
+<p>The next step is to assign your Facebook page to your verified domain. This tells Facebook that your page has permission to alter the link previews because it is associated with your domain.</p>
+<ol>
+ <li>From the Domains page, click on&nbsp;<strong><em>Add Assets</em></strong>.</li>
+ <li>A window will pop up where you can select the Asset Type. You should see your page listed there. In the right-hand pane, select your page as the asset.</li>
+ <li>Click&nbsp;<em><strong>Add</strong></em>&nbsp;to associate your page with your domain. You'll now see it listed under Connected Assets.</li>
+</ol>
+<h2 id="h_556792b1-4fd3-44cb-bfda-d4895fe1103d">Multiple Business Suite Accounts that need to share links from the same domain</h2>
+<p>If you have another Business Suite Account that needs to share customized links from your domain, you can assign the other Business Suite Accounts as "Partners" on your domain, following the steps below.</p>
+<ol>
+ <li>Open&nbsp;<a href="https://business.facebook.com/" target="_blank" rel="noopener">Meta Business Suite</a>.</li>
+ <li>Click on&nbsp;<strong>Business Settings</strong>&nbsp;followed by&nbsp;<a href="https://business.facebook.com/settings/owned-domains" target="_blank"><strong>Domains</strong></a>.</li>
+ <li>Choose the domain you wish to add the Partner to.</li>
+ <li>Click on&nbsp;<strong><em>Partners</em></strong>&nbsp;followed by&nbsp;<em><strong>Assign Partner</strong></em>.</li>
+ <li>From here, a pop-up will appear allowing you to&nbsp;enter your partner's business ID.</li>
+ <li>Once you’ve connected your partner via their Business ID, you should be able to see their Partner name listed under&nbsp;<strong><em>Domains</em></strong>&nbsp;&gt;&nbsp;<strong><em>Partners</em></strong>.</li>
+ <li>When the partner opens their Business Manager and goes to&nbsp;<strong><em>Business Settings</em></strong>&nbsp;&gt;&nbsp;<strong><em>Domains</em></strong>, they should see your verified domain listed there. Once the domain appears in their account, they can assign any pages they manage to the domain so that they can customize link previews from that website.</li>
+</ol>
+    </article>

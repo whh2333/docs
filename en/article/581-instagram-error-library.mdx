@@ -1,0 +1,179 @@
+---
+title: "Instagram error library"
+---
+<article id="fullArticle">
+        <h1 class="title">Instagram error library</h1>
+    
+        <a href="javascript:window.print()" class="printArticle" title="Print this article" aria-label="Print this Article"><i class="icon-print"></i></a>
+        <p>When using a scheduling tool like Buffer, there will be instances when a social network refuses the post and replies with an error message.</p>
+<p>Let’s take action on those! Search the “Error” column below for the error you see, and then troubleshoot with the advice in the “Solutions” column on the right.</p>
+<table>
+ <colgroup>
+  <col width="318">
+  <col>
+  <col>
+ </colgroup>
+ <tbody>
+  <tr>
+   <td><strong>Error</strong></td>
+   <td><strong>Reason for error message</strong></td>
+   <td><strong>Solution</strong></td>
+  </tr>
+  <tr>
+   <td><em>"It looks like Buffer has lost the authorization to post to this account. Please reauthorize and try again. If the issue persists, please get in touch! Here are the steps to refresh your connection."</em></td>
+   <td>This error message indicates not all permissions were accepted when this Instagram channel was added.</td>
+   <td><p>We recommend viewing our guide on&nbsp;<a href="https://buffer.helpscoutdocs.com/article/565-troubleshooting-facebook-and-instagram-connections#h_01HBEJQ2DJ2B7PCMYE3RR1JWC4" target="_self">Reauthorizing the connection between Buffer and Facebook or Instagram</a>&nbsp;to see instructions on how to reauthorize.</p><p>Please ensure that all profiles/pages and permissions are selected in Facebook &gt;&nbsp;<em><strong>Edit settings</strong></em>&nbsp;view. Once this is done, retry your post.</p></td>
+  </tr>
+  <tr>
+   <td><em>"Uh oh! The video you attached is in a format Instagram does not support. Please ensure the video is a .MP4 or .mov format and the bitrate is under 5 MBps. Re-upload the video and try again."</em></td>
+   <td>This error pops up when the video size or format is unsupported by Instagram or exceeds Instagram’s video limitations.</td>
+   <td>Ultimately we recommend following Instagram’s video guidelines&nbsp;<a href="https://developers.facebook.com/docs/instagram-api/reference/ig-user/media#video-specifications" target="_blank" rel="noopener">here</a>. Edit the video and re-upload to Buffer. If the video fits Instagram’s video requirements, try changing the thumbnail of the video to the default thumbnail.</td>
+  </tr>
+  <tr>
+   <td><em>"Uh oh! It doesn’t look like this is correctly set up as a business or creator account. Please ensure your account is configured correctly with automatic publishing by checking out our guide."</em></td>
+   <td>This publishing error can happen when you switch your Instagram business or creator account to a personal account which is not currently supported in Instagram's API.</td>
+   <td>We recommend&nbsp;<a href="https://buffer.helpscoutdocs.com/article/565-troubleshooting-facebook-and-instagram-connections#h_01HBEFDCSJ6GDNVG23SNCVRWP2" target="_self">Converting your Instagram account to a business or creator account.&nbsp;</a></td>
+  </tr>
+  <tr>
+   <td><em>"Whoops! It looks like your account may be temporarily restricted. Please login directly to the Instagram app, add your birthdate to Instagram. Head back to Buffer and Refresh your channel."</em></td>
+   <td>This account has been restricted by Instagram. This usually happens when the account violates Instagram's&nbsp;<a href="https://help.instagram.com/477434105621119" target="_blank" rel="noopener">Community Guidelines</a>&nbsp;or&nbsp;<a href="https://help.instagram.com/581066165581870" target="_blank" rel="noopener">Terms of Use</a>.</td>
+   <td>Log in to this account in the Instagram app and follow on-screen instructions to re-enable your account.</td>
+  </tr>
+  <tr>
+   <td><em>"Oops! We ran into issues publishing your post. Please edit the post, alter the text in the caption, re-name the video file, and create a brand new post."</em></td>
+   <td>This error is returned when Instagram’s anti-spam mechanism has been triggered. Instagram intentionally does not share the details to prevent someone trying to circumvent their system.</td>
+   <td><p>Our recommendation&nbsp;is to amend the post -&nbsp;alter the copy/text, change the picture (if attached), etc., and try to publish again.</p><p>Tips:</p>
+    <ul>
+     <li>If you’re frequently using specific hashtags, try altering the hashtags and trying new ones.</li>
+     <li>Is there a link included in the text caption? If so, we recommend removing the link and using the link in bio instead.</li>
+     <li>Most importantly, if the post contains a video, try renaming the video file &amp; re-uploading to Buffer. Removing any special characters in the video name and renaming it something simpler, like “Video1.”</li>
+    </ul></td>
+  </tr>
+  <tr>
+   <td><em>"It looks like Buffer has lost authorization to post on your behalf. No need to worry, though! Here are the steps to re-authorize Buffer."</em></td>
+   <td>This error message indicates we no longer have a valid access token for this channel.</td>
+   <td><p>We recommend viewing our guide on&nbsp;<a href="https://buffer.helpscoutdocs.com/article/565-troubleshooting-facebook-and-instagram-connections#h_01HBEJQ2DJ2B7PCMYE3RR1JWC4" target="_self">Reauthorizing the connection between Buffer and Facebook or Instagram</a>&nbsp;to see instructions on how to reauthorize.</p><p>Please ensure that all profiles/pages and permissions are selected in Facebook &gt;&nbsp;<em><strong>Edit settings</strong></em>&nbsp;view. Once this is done, retry your post.</p></td>
+  </tr>
+  <tr>
+   <td><em>"Oops! Instagram is restricting this post from being published. Please edit the post content and try again."</em></td>
+   <td>This error message indicates Instagram considers the content to be spam. Their servers are saying: "The publishing action is suspected to be spam. We restrict certain activity to protect our community. Let us know if you can determine that the publishing actions is not spam."</td>
+   <td>We recommend to&nbsp;<a href="https://help.instagram.com/contact/505535973176353" target="_blank" rel="noopener">reach out to Instagram directly</a>&nbsp;to resolve the issue.</td>
+  </tr>
+  <tr>
+   <td><em>"Oops, we couldn't share this image to Instagram because you tagged an account that is either private or does not exist. Would you be up for checking the tagged usernames to make sure they are all publicly accessible?"</em></td>
+   <td>This error message indicates you've tried to tag a username and it’s invalid.</td>
+   <td>We recommend checking your post and its tagged user(s), as there might be a typo or another mistake.</td>
+  </tr>
+  <tr>
+   <td><em>"So sorry this post hit an Instagram API bug that is being investigated. Retrying this post might sometimes do the trick."</em></td>
+   <td>The media is not ready for publishing.</td>
+   <td>Please wait for a moment and try again.</td>
+  </tr>
+  <tr>
+   <td><em>"The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later."</em></td>
+   <td>Instagram allows accounts to publish a maximum of 25 posts within a 24-hour period (<a href="https://developers.facebook.com/docs/instagram-api/guides/content-publishing#limitations" target="_blank" rel="noopener">see: Instagram Content Limitations</a>).</td>
+   <td>Please wait before publishing additional posts.</td>
+  </tr>
+  <tr>
+   <td><em>"Oops! The size of the attached media is a bit too large, or it is too long if it's a video. Please remove the attached media, upload a smaller-sized one, then retry."</em></td>
+   <td>The image exceeded Instagram’s maximum file size of 8MB.&nbsp;</td>
+   <td>We recommend resizing the image, re-uploading to Buffer, and trying to publish again.</td>
+  </tr>
+  <tr>
+   <td><em>"Oh no! We're hitting an issue with our permission to post on your behalf. Please walk through the steps to reauthorize the Buffer app in Facebook, Grant Full Permission for All Pages, then retry this post."</em></td>
+   <td>This error message indicates not all permissions were accepted when this Instagram channel was added.</td>
+   <td><p>We recommend viewing our guide on&nbsp;<a href="https://buffer.helpscoutdocs.com/article/565-troubleshooting-facebook-and-instagram-connections#h_01HBEJQ2DJ2B7PCMYE3RR1JWC4" target="_self">Reauthorizing the connection between Buffer and Facebook or Instagram</a>&nbsp;to see instructions on how to reauthorize.</p><p>Please ensure that all profiles/pages and permissions are selected in Facebook &gt; Edit settings view. Head back to&nbsp;<a href="https://buffer.com/" target="_blank" rel="noopener">Buffer.com</a>, then head to&nbsp;<em><strong>Manage Channels</strong></em>&nbsp;&gt;&nbsp;<em><strong>Refresh your channel.</strong></em>&nbsp;Once this is done, retry your post.</p></td>
+  </tr>
+  <tr>
+   <td><em>"Yoiks! Buffer doesn't have permission to post on your behalf. Please try reauthorizing this account by clicking "refresh" under settings."</em></td>
+   <td>This error message indicates not all permissions were accepted when this Instagram channel was added.</td>
+   <td><p>We recommend viewing our guide on&nbsp;<a href="https://buffer.helpscoutdocs.com/article/565-troubleshooting-facebook-and-instagram-connections#h_01HBEJQ2DJ2B7PCMYE3RR1JWC4" target="_self">Reauthorizing the connection between Buffer and Facebook or Instagram</a>&nbsp;to see instructions on how to reauthorize.</p><p>Please ensure that all profiles/pages and permissions are selected in Facebook &gt;&nbsp;<em><strong>Edit settings</strong></em>&nbsp;view. Once this is done, retry your post.</p></td>
+  </tr>
+  <tr>
+   <td><em>"Oops! Please edit the post - alter the copy/text, re-name the video file, and create a brand new post."</em></td>
+   <td>This is going to happen when Instagram's anti-spam mechanism is triggered. Unfortunately, Instagram doesn't offer more insight as to why posts are failing. Therefore, we don't have a foolproof way of guaranteeing that this error won't pop up from time to time.</td>
+   <td><p>Typically, when this error does occur, our recommendation is to amend the post wherever possible. This could be by editing and changing the copy/text of the post, editing hashtags, removing links, re-uploading the media, and trying to publish the post again.</p>
+    <ol>
+     <li>Copy the caption from the failed post.</li>
+     <li>Create a new post and paste caption in.</li>
+     <li>Rename the video file to something like&nbsp;<strong>video1</strong>.</li>
+     <li>Upload the newly renamed video to the newly created post.</li>
+     <li>Try sending out the new post and delete the failed one.</li>
+    </ol></td>
+  </tr>
+  <tr>
+   <td><em>"Error: Oops! A timeout occurred while downloading the media. Please create a new post and re-upload the attached media"</em></td>
+   <td>Facebook’s servers are sending us back a `-2` error, which means that it's taking too long to download the media attached to the post and the download timed out as a result.</td>
+   <td>
+    <ol>
+     <li>Copy the caption from the failed post.</li>
+     <li>Create a new post and paste caption in.</li>
+     <li>Rename the video file to something like&nbsp;<strong>video1</strong>.</li>
+     <li>Upload the newly renamed video to the newly created post.</li>
+     <li>Try sending out the new post, and delete the failed one.</li>
+    </ol></td>
+  </tr>
+  <tr>
+   <td><em>"Error: Oops! Instagram is limiting this post from being published. Please edit the post content and try again."</em></td>
+   <td><p>This error usually appears because Instagram has put a temporary hold on both the account you're posting to and a hold on using the API to send posts to Instagram. This might be due to one (or a combination) of the following things:</p>
+    <ul>
+     <li>Too many hashtags</li>
+     <li>Too many @ mentions</li>
+     <li>Repeated use of same hashtags and same @ mentions across multiple posts</li>
+     <li>Location data is incorrect</li>
+     <li>Included URL links in the caption</li>
+    </ul></td>
+   <td>
+    <ul>
+     <li>Create a New Post in Buffer.</li>
+     <li>If including hashtags, reduce the number of hashtags and include fresh hashtags.</li>
+     <li>Check to make sure your post does not include a URL in the caption or first comment, as Instagram considers this spam content.</li>
+     <li>Please wait 24 hours and then attempt to publish the update again.</li>
+    </ul></td>
+  </tr>
+  <tr>
+   <td><em>"Whoops! We couldn't find any Instagram accounts connected to that Facebook account."</em></td>
+   <td>This error occurs when we're missing certain permissions in the Facebook page that's connected to Instagram.&nbsp;</td>
+   <td>Please&nbsp;<a href="https://buffer.helpscoutdocs.com/article/565-troubleshooting-facebook-and-instagram-connections#h_01HBE587FX3S5P0NSY4ME069Q3" target="_self">double check that your Facebook account is set to Admin of the Facebook page that's linked to Instagram. &nbsp;</a></td>
+  </tr>
+  <tr>
+   <td><em>“It looks like you’re currently on a Instagram Creator account. Only Instagram Business Accounts are supported for automatic publishing of Instagram Stories.”</em></td>
+   <td>Unfortunately, we're unable to post to Instagram Stories if your account is set up as an Instagram creator account.</td>
+   <td>To publish Stories as a creator account, you can use the <i><b>Notify Me </b></i>option in the composer to schedule your post as a notification.</td>
+  </tr>
+  <tr>
+   <td><em>"Yikes! Facebook is requiring some extra permissions in order to publish. Please complete the Page Publishing Authorization steps here."</em></td>
+   <td><p>Facebook is requiring some extra permissions in order to publish to the Facebook/Instagram channel.</p><p>From Facebook:&nbsp;<em>"Pages allow businesses, causes and communities to connect with their audiences around the world. We want these connections to be genuine and authentic, especially on Pages with large audiences. If you manage a Page with a large audience you may be asked to confirm your identity and secure your account through a new Page Publishing Authorization process.</em></p><p><em>People who are required to complete this authorization process must do so by the deadline provided in their notification in order to continue publishing posts as their Page."</em></p></td>
+   <td>
+    <ol>
+     <li>First, log into the&nbsp;Facebook profile that has full admin permissions of the Facebook page that's linked to the Instagram account in question.</li>
+     <li>Next, head directly to this link:&nbsp;<a href="https://www.facebook.com/business/m/one-sheeters/page-publishing-authorization" target="_blank">https://www.facebook.com/business/m/one-sheeters/page-publishing-authorization</a>&nbsp;and follow the steps that Facebook should provide.</li>
+     <li>Once that's complete,&nbsp;<a href="https://buffer.helpscoutdocs.com/article/573-refreshing-a-channel-in-buffer" target="_self">refresh your Facebook and Instagram channels within Buffer</a>&nbsp;before retrying the failed Facebook and Instagram posts by clicking on&nbsp;<em><strong>Retry Now&nbsp;</strong></em>or&nbsp;<em><strong>Re-add to Queue.</strong></em></li>
+    </ol><p><strong>⚠️ If you've tried these steps and you're still seeing the error, please be sure that:</strong></p>
+    <ol>
+     <li>You're logged in as a Facebook profile that's an Admin for the Facebook Page.</li>
+     <li>Ensure two-factor is enabled for all Admins within Business Manager.</li>
+     <li><a href="https://buffer.helpscoutdocs.com/article/573-refreshing-a-channel-in-buffer" target="_self">Refresh the channel in Buffer</a>.</li>
+    </ol></td>
+  </tr>
+  <tr>
+   <td><em>"It looks like Buffer has lost the authorization to post to this social account. Please reauthorize and try again. If the issue persists, please get in touch!"</em></td>
+   <td>This error occurs when there is an issue with the authorization token for the Facebook page that's connected to Instagram or we're missing permissions that we need to post on your behalf.&nbsp;</td>
+   <td><a href="https://buffer.helpscoutdocs.com/article/565-troubleshooting-facebook-and-instagram-connections#h_01HBE4KC44E1PVGAS8D3VKJFB2" target="_self">Check the Buffer app settings in Facebook Business Integrations, and ensure all Facebook Pages are selected.</a></td>
+  </tr>
+  <tr>
+   <td><em>"Oh, no! We ran into a known Instagram bug while sending this through. Would you mind trying the troubleshooting steps here?"</em></td>
+   <td>This is related to a known bug with Instagram, but can usually be solved by reconverting your account from a personal account back to a professional account.&nbsp;</td>
+   <td><a href="https://buffer.helpscoutdocs.com/article/565-troubleshooting-facebook-and-instagram-connections#h_01HBEFDCSJ6GDNVG23SNCVRWP2" target="_self">Switch your Instagram account back to a personal profile and then reconvert it to a professional account.</a></td>
+  </tr>
+  <tr>
+   <td><i>Looks like we've hit a snag. Would you mind trying again?</i></td>
+   <td>You'll see this error if you're connecting a brand new business Instagram account that hasn't completed Meta's "setup" steps (following accounts, adding a profile image, adding a bio, etc).</td>
+   <td>Complete the entire "setup" process of your new channel on Instagram, and then try the Buffer/Instagram connection process once more.</td>
+  </tr>
+ </tbody>
+</table><br>
+<div class="callout">
+ <p>📝 Seeing a different error on your post? Feel free to&nbsp;get in touch via hello@buffer.com and let us know the error message you see--we'll be happy to help!</p>
+</div>
+    </article>
