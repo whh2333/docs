@@ -51,19 +51,101 @@
             ]
           },
           {
-            "group": "Articles",
+            "group": "Help Center",
             "pages": [
+              "en/article/595-features-available-on-each-buffer-plan",
+              "en/article/594-why-some-features-are-not-available-on-legacy-buffer",
+              "en/article/600-getting-started-with-buffers-publishing-features",
+              "en/article/598-what-is-buffer-and-where-can-i-watch-a-demo",
+              "en/article/597-what-happens-when-you-downgrade-to-the-free-plan",
+              "en/article/603-getting-started-with-buffers-mobile-app",
+              "en/article/602-getting-started-with-buffers-analytics-features",
+              "en/article/601-getting-started-with-buffers-engagement-features",
+              "en/article/604-moving-to-buffer-from-another-tool",
+              "en/article/599-work-smarter-with-quick-navigator",
+              "en/article/554-using-instagram-with-buffer",
+              "en/article/555-using-facebook-with-buffer",
+              "en/article/560-using-linkedin-with-buffer",
+              "en/article/559-using-tiktok-with-buffer",
+              "en/article/561-using-twitter-with-buffer",
+              "en/article/562-using-youtube-shorts-with-buffer",
+              "en/article/855-using-bluesky-with-buffer",
+              "en/article/557-using-google-business-profiles-with-buffer",
+              "en/article/857-using-threads-with-buffer",
+              "en/article/558-using-pinterest-with-buffer",
+              "en/article/563-using-mastodon-with-buffer",
+              "en/article/565-troubleshooting-instagram-connections",
+              "en/article/568-connecting-your-instagram-business-or-creator-account-to-buffer",
+              "en/article/564-connecting-your-channels-to-buffer",
+              "en/article/569-connecting-your-facebook-page-to-buffer",
+              "en/article/571-unavailable-channels-are-likely-connected-to-another-buffer-organization",
+              "en/article/573-refreshing-a-channel-in-buffer",
+              "en/article/567-supported-channels",
+              "en/article/570-connecting-facebook-groups-and-troubleshooting-connections",
+              "en/article/578-setting-up-facebook-domain-verification",
+              "en/article/581-instagram-error-library",
+              "en/article/580-facebook-error-library",
+              "en/article/582-working-with-multiple-instagram-accounts",
+              "en/article/872-facebook-troubleshooting-guide",
+              "en/article/869-differences-between-facebook-pages-and-profiles",
+              "en/article/575-removing-a-channel-from-buffer",
+              "en/article/579-twitter-error-library",
+              "en/article/572-connecting-or-refreshing-channels-as-a-user-of-an-organization",
+              "en/article/576-unlocking-a-locked-channel-in-buffer",
+              "en/article/927-using-channel-groups-in-buffer",
+              "en/article/577-why-isnt-my-social-channel-name-or-profile-image-updating",
+              "en/article/587-adding-mentions-tags-in-posts",
+              "en/article/583-using-buffers-ai-assistant",
+              "en/article/590-instagram-shop-grid",
+              "en/article/585-creating-and-managing-tags",
+              "en/article/588-character-limits-for-each-social-network",
+              "en/article/589-creating-ideas-in-buffer",
+              "en/article/586-how-hashtags-work-in-buffer",
+              "en/article/926-how-to-upload-posts-in-bulk-to-buffer",
+              "en/article/591-how-locations-work-when-scheduling-instagram-posts-through-buffer",
+              "en/article/908-using-content-feeds-in-buffer",
+              "en/article/584-creating-ideas-in-the-buffer-mobile-app",
+              "en/article/917-using-post-templates-in-buffer",
+              "en/article/622-instagrams-accepted-aspect-ratio-ranges",
+              "en/article/620-shortening-and-unshortening-links",
+              "en/article/615-attaching-images-videos-and-other-media-to-your-posts",
+              "en/article/616-uploading-and-sharing-links-to-videos",
+              "en/article/617-ideal-image-sizes-and-formats-for-your-posts",
+              "en/article/619-sharing-facebook-and-instagram-links-through-buffer",
+              "en/article/614-editing-your-images-in-buffer",
+              "en/article/621-how-images-are-chosen-for-suggested-media",
+              "en/article/618-adding-alt-text-to-your-images",
+              "en/article/653-buffer-browser-extension",
+              "en/article/642-scheduling-posts",
+              "en/article/646-daily-posting-limits",
+              "en/article/658-using-notification-publishing",
+              "en/article/657-scheduling-instagram-posts-and-reels",
+              "en/article/643-how-many-posts-can-i-schedule-in-advance",
+              "en/article/655-how-to-avoid-being-logged-out-when-using-the-browser-extension-in-safari",
+              "en/article/656-saving-and-scheduling-draft-posts",
+              "en/article/659-why-arent-my-instagram-posts-sending-automatically",
+              "en/article/654-scheduling-retweets",
+              "en/article/644-how-do-i-schedule-posts-for-multiple-social-channels-at-the-same-time",
+              "en/article/651-how-to-use-the-new-calendar-feature-on-buffer",
               "en/article/647-is-it-possible-to-schedule-one-post-to-repeat-multiple-times",
               "en/article/660-share-posts-with-the-duplicate-feature",
               "en/article/649-posts-failing-to-save-due-to-server-issues",
               "en/article/652-re-ordering-posts-in-your-queue",
               "en/article/650-how-to-delete-failed-posts-in-bulk",
+              "en/article/648-is-it-possible-to-remove-the-buffer-stamp-from-posts-published-to-social-networks",
+              "en/article/861-how-to-use-the-all-channels-view-in-buffer",
+              "en/article/912-setting-posting-goals-in-buffer",
               "en/article/665-managing-and-approving-draft-posts",
               "en/article/674-getting-started-as-a-user-in-an-organization",
               "en/article/670-adding-users-and-setting-up-permissions-in-your-organization",
               "en/article/675-collaborating-on-content-with-notes",
+              "en/article/667-using-buffer-as-an-agency",
               "en/article/671-changing-user-permissions-in-your-organization",
+              "en/article/666-consolidating-multiple-buffer-accounts",
+              "en/article/673-changing-your-buffer-account-name-and-avatar",
               "en/article/672-removing-a-user-from-your-organization",
+              "en/article/668-adding-buffer-tools-to-your-organization",
+              "en/article/669-renaming-your-buffer-organization",
               "en/article/873-switching-organizations-on-the-web",
               "en/article/534-creating-custom-analytics-reports",
               "en/article/523-linkedin-metric-descriptions",
@@ -71,141 +153,6 @@
               "en/article/527-analyzing-your-posts-within-your-analytics-dashboard",
               "en/article/528-analyzing-your-instagram-stories",
               "en/article/520-facebook-metric-descriptions"
-            ]
-          },
-          {
-            "group": "Getting Started",
-            "pages": [
-              "en/4-getting-started/what-happens-when-you-downgrade-to-the-free-plan",
-              "en/4-getting-started/work-smarter-with-quick-navigator"
-            ]
-          },
-          {
-            "group": "Channel Management",
-            "pages": [
-              "en/12-channel-management/getting-instagram-analytics-engagement-and-locations-facebook-authorization-required-",
-              "en/12-channel-management/supported-channels",
-              "en/12-channel-management/setting-up-facebook-domain-verification",
-              "en/12-channel-management/instagram-error-library",
-              "en/12-channel-management/facebook-error-library",
-              "en/12-channel-management/working-with-multiple-instagram-accounts",
-              "en/12-channel-management/troubleshooting-facebook-connections",
-              "en/12-channel-management/differences-between-facebook-pages-and-profiles",
-              "en/12-channel-management/x/twitter-error-library",
-              "en/12-channel-management/connecting-or-refreshing-channels-as-a-user-of-an-organization",
-              "en/12-channel-management/why-isn-t-my-social-channel-name-or-profile-image-updating-"
-            ]
-          },
-          {
-            "group": "Creating Posts",
-            "pages": [
-              "en/495-creating-posts/adding-mentions-tags-in-posts",
-              "en/495-creating-posts/instagram-shop-grid-and-grid-preview",
-              "en/495-creating-posts/creating-and-managing-tags",
-              "en/495-creating-posts/character-limits-for-each-social-network"
-            ]
-          },
-          {
-            "group": "Managing Media",
-            "pages": [
-              "en/496-managing-media/instagram-s-accepted-aspect-ratio-ranges",
-              "en/496-managing-media/shortening-and-unshortening-links",
-              "en/496-managing-media/attaching-images-videos-and-other-media-to-your-posts",
-              "en/496-managing-media/troubleshooting-issues-with-suggested-media-and-link-details",
-              "en/496-managing-media/adding-alt-text-to-your-images"
-            ]
-          },
-          {
-            "group": "Scheduling Posts",
-            "pages": [
-              "en/13-scheduling-and-publishing/scheduling-posts",
-              "en/13-scheduling-and-publishing/daily-posting-limits",
-              "en/13-scheduling-and-publishing/using-notification-publishing",
-              "en/13-scheduling-and-publishing/scheduling-instagram-posts-reels-stories-and-notifications",
-              "en/13-scheduling-and-publishing/how-many-posts-can-i-schedule-in-advance-",
-              "en/13-scheduling-and-publishing/saving-and-scheduling-draft-posts",
-              "en/13-scheduling-and-publishing/why-aren-t-my-instagram-posts-sending-automatically-",
-              "en/13-scheduling-and-publishing/scheduling-reposts/retweets",
-              "en/13-scheduling-and-publishing/how-do-i-schedule-posts-for-multiple-social-channels-at-the-same-time-",
-              "en/13-scheduling-and-publishing/is-it-possible-to-schedule-one-post-to-repeat-multiple-times-",
-              "en/13-scheduling-and-publishing/re-ordering-posts-in-your-queue",
-              "en/13-scheduling-and-publishing/how-to-delete-posts-in-bulk"
-            ]
-          },
-          {
-            "group": "Team Collaboration",
-            "pages": [
-              "en/499-team-collaboration/managing-and-approving-draft-posts",
-              "en/499-team-collaboration/getting-started-as-a-user-in-an-organization",
-              "en/499-team-collaboration/adding-users-and-setting-up-permissions",
-              "en/499-team-collaboration/collaborating-on-content-with-notes",
-              "en/499-team-collaboration/changing-user-permissions-in-your-organization",
-              "en/499-team-collaboration/removing-a-user-from-your-organization",
-              "en/499-team-collaboration/switching-organizations-on-the-web"
-            ]
-          },
-          {
-            "group": "Analyzing Your Data",
-            "pages": [
-              "en/6-analytics/linkedin-page-metric-descriptions",
-              "en/6-analytics/analyzing-your-instagram-stories",
-              "en/6-analytics/facebook-metric-descriptions",
-              "en/6-analytics/why-your-data-in-analyze-might-differ-from-your-native-analytics",
-              "en/6-analytics/understanding-utm-parameters-and-google-analytics",
-              "en/6-analytics/instagram-metric-descriptions",
-              "en/6-analytics/analyzing-ad-data-in-boosted-posts",
-              "en/6-analytics/x/twitter-metric-descriptions",
-              "en/6-analytics/why-are-my-stats-different-between-the-posts-tab-and-the-overview-tab-"
-            ]
-          },
-          {
-            "group": "Engaging with Comments",
-            "pages": [
-              "en/501-engaging-with-comments/engaging-with-facebook-and-instagram-comments"
-            ]
-          },
-          {
-            "group": "Account Settings",
-            "pages": [
-              "en/11-account-and-billing/how-to-adjust-your-browser-s-zoom-or-font-size",
-              "en/11-account-and-billing/tips-on-taking-screenshots-and-screen-recordings",
-              "en/11-account-and-billing/setting-up-your-timezones-and-posting-schedules",
-              "en/11-account-and-billing/pausing-your-queue"
-            ]
-          },
-          {
-            "group": "Billing",
-            "pages": [
-              "en/15-billing/how-to-cancel-your-subscription-or-delete-your-account",
-              "en/15-billing/managing-subscriptions-from-the-app-or-google-play-store",
-              "en/15-billing/why-was-i-charged-that-your-bill-taxes-and-vat-explained",
-              "en/15-billing/do-i-keep-3-channels-from-the-free-plan-when-i-upgrade-",
-              "en/15-billing/changing-your-subscription-or-billing-details",
-              "en/15-billing/refund-policy",
-              "en/15-billing/why-was-my-credit-card-declined-"
-            ]
-          },
-          {
-            "group": "Start Page Landing Page",
-            "pages": [
-              "en/14-start-page/how-to-set-up-an-email-signup-form-on-your-start-page"
-            ]
-          },
-          {
-            "group": "Mobile App",
-            "pages": [
-              "en/16-mobile-app/adjusting-allow-paste-permissions-in-ios",
-              "en/16-mobile-app/managing-subscriptions-from-the-app-or-google-play-store"
-            ]
-          },
-          {
-            "group": "Integrations",
-            "pages": [
-              "en/497-integrations/adding-posts-to-your-queue-from-wordpress",
-              "en/497-integrations/automating-rss-feeds-using-zapier",
-              "en/497-integrations/attaching-media-from-dropbox-google-drive-google-photos-and-onedrive",
-              "en/497-integrations/integrating-and-automating-with-third-party-apps",
-              "en/497-integrations/why-are-my-ifttt-applets-only-adding-posts-to-one-of-my-social-channels-"
             ]
           }
         ]
@@ -244,8 +191,6 @@
             "group": "API 参考",
             "pages": [
               "zh/api-reference/introduction",
-              "zh/api-reference/endpoint/get",
-              "zh/api-reference/endpoint/create",
               "zh/api-reference/endpoint/delete",
               "zh/api-reference/endpoint/webhook"
             ]
