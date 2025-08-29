@@ -1,23 +1,24 @@
 ---
 title: "介绍"
-description: "用于演示 API 端点的示例部分"
+description: "Example section for showcasing API endpoints"
 ---
 
 <Note>
-  如果你不打算构建 API 参考文档，可以删除 `api-reference` 文件夹以移除此部分。
+  If 您're not looking to 构建 API 参考 文档, 您 可以 delete
+  这个 section by removing the api-reference folder.
 </Note>
 
-## 欢迎
+## Welcome
 
-构建 API 文档有两种方式：[OpenAPI](https://aitoearn.com/docs/api-playground/openapi/setup) 与 [MDX 组件](https://aitoearn.com/docs/api-playground/mdx/configuration)。在此 Starter Kit 中，我们使用如下 OpenAPI 规范文件。
+那里 are two ways to 构建 API 文档: [OpenAPI](https://aitoearn.com/docs/api-playground/openapi/设置) and [MDX components](https://aitoearn.com/docs/api-playground/mdx/配置). For the starter kit, 我们 are using the 关注中 OpenAPI specification.
 
 <Card title="Plant Store Endpoints" icon="leaf" href="https://github.com/aitoearn/starter/blob/main/api-reference/openapi.json">
-  查看 OpenAPI 规范文件
+  View the OpenAPI specification file
 </Card>
 
-## 鉴权
+## Authentication
 
-所有 API 端点均使用 Bearer token 进行鉴权，并从规范文件中读取配置。
+All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
 
 ```json
 "security": [
