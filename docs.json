@@ -1,5 +1,5 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "$schema": "https://aitoearn.com/docs.json",
   "theme": "mint",
   "name": "Aitoearn Help",
   "colors": {
@@ -263,17 +263,17 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://aitoearn.com/docs",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "href": "https://aitoearn.com/community",
           "icon": "slack"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://aitoearn.com/blog",
           "icon": "newspaper"
         }
       ]
@@ -287,13 +287,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:hi@aitoearn.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://dashboard.aitoearn.com"
     }
   },
   "contextual": {
@@ -310,9 +310,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/aitoearn",
+      "github": "https://github.com/aitoearn",
+      "linkedin": "https://linkedin.com/company/aitoearn"
     }
   }
 }
