@@ -53,6 +53,7 @@
           {
             "group": "Help Center",
             "pages": [
+              "en/help-center/test",
               "en/help-center/595-features-available-on-each-buffer-plan",
               "en/help-center/594-why-some-features-are-not-available-on-legacy-buffer",
               "en/help-center/600-getting-started-with-buffers-publishing-features",
