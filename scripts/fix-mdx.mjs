@@ -16,6 +16,9 @@ import path from 'path';
 function fixHtmlContent(content) {
   let fixed = content;
   
+  // 修复 frontmatter 格式问题 - 确保 frontmatter 和内容之间有换行
+  fixed = fixed.replace(/---\s*title:\s*"([^"]+)"\s*---\s*/, '---\ntitle: "$1"\n---\n\n');
+  
   // 修复未闭合的 <img> 标签
   fixed = fixed.replace(/<img([^>]*?)(?<!\/)>/g, '<img$1 />');
   
