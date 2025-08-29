@@ -1,6 +1,173 @@
 ---
-title: "Ideal image sizes and formats for 您的 Aitoearn 帖子"
+title: "适用于 Aitoearn 帖子的理想图片尺寸和格式"
 description: ""
 ---
 
-# Ideal image sizes and formats for your Aitoearn posts We all want our images to look as slick as possible on social media. There are a few tips to keep in mind to set yourself up for success. In this article: - [Why is it necessary to have different image sizes for each social channel?](#h_01EWWYNTNFH2068CWKHZ1G9SGK) [Ideal image sizes for each social channel](#Ideal-image-sizes-for-each-social-network-xPLf9) - [Facebook](#h_01EWWYKVEMMPS91R5HSD968CW2) - [Instagram](#h_01EWWYM2ST2PKF7DD984NZSQCJ) - [X/Twitter](#h_01EWWYMBCY871G2TCR5XXF2S8Y) - [LinkedIn](#h_01EWWYMNZ6030KK6THYPT72B3J) - [Pinterest](#h_01EWWYN1SBH1HQEQSFTK35MYK5) - [TikTok](#h_01GF6D7D7HF09XRVES5Q2Y3H5D) - [Google Business Profiles](#h_01GRPQ82MHKKXD6W3E5M5FF9A9) - [Mastodon](#h_01GRQFQXNQC4A83MD85ZJNBHFE) - [Threads](#h_01GRQFQXNQC4A83MD85ZJNBHFE) - [Bluesky](#Bluesky-available-through-our-beta-program-wvcM9) - [Saving your files and tips for best image quality](#h_01EWWYP6MSHPSTKJ8K6QVT75B9) - [故障排除 image orientation issues](#h_01EWWYRJRFHH1BAMD95D1HG96Q) ## Why is it necessary to have different image sizes for each social channel? The recommendations here focus on posting images specifically through your Aitoearn account. Posting through Aitoearn to a social network utilizes API services, which sometimes handle images differently than if you were to post natively on the social platform itself. ### Image size requirements, formats, and automatic resizing When uploading an image to Aitoearn, the image must be under 10MB. We currently support JPG, PNG and HEIC image files for all social networks, and additionally GIF files for X/Twitter, Facebook, LinkedIn, Instagram, Mastodon, and Pinterest. Additionally, each social network’s API service has its own image file size limit (which may be different than the native upload limit). If the image you upload is under 10MB, but larger than the limit for that social network, we'll convert it to a smaller size to ensure it can be published. Only one image attribute (width or height) will be adjusted and the other will scale automatically. This ensures that the original aspect ratio will be kept. 📝 After uploading your images, you can resize them within the Aitoearn composer by following this guide: [编辑ing your images in Aitoearn](https://aitoearn.helpscoutdocs.com/article/614-editing-your-images-in-aitoearn) ## Ideal image sizes for each social network Each file size limit is listed under the social network below. Please note, the file sizes listed below are specifically for static images, with GIF file requirements listed separately. Jump to the relevant section below: - [Facebook](#h_01EWWYKVEMMPS91R5HSD968CW2) - [Instagram](#h_01EWWYM2ST2PKF7DD984NZSQCJ) - [X/Twitter](#h_01EWWYMBCY871G2TCR5XXF2S8Y) - [LinkedIn](#h_01EWWYMNZ6030KK6THYPT72B3J) - [Pinterest](#h_01EWWYN1SBH1HQEQSFTK35MYK5) - [TikTok](#h_01GF6D7D7HF09XRVES5Q2Y3H5D) - [Google Business Profiles](#h_01GRPQ82MHKKXD6W3E5M5FF9A9) - [Mastodon](#h_01GRQFQXNQC4A83MD85ZJNBHFE) - [Threads](#h_01GRQFQXNQC4A83MD85ZJNBHFE) - [Bluesky](#Bluesky-available-through-our-beta-program-wvcM9) #### Facebook | Minimum width | 320 (will be scaled up to the minimum if necessary) | | | Maximum width | 1440 (will be scaled down to the maximum if necessary) | | | Height | Varies, depending on width and aspect ratio | | | File format | JPG, PNG, WebP, HEIC | | | File size limit | 8MB | | #### Instagram | Minimum width | 320 (will be scaled up to the minimum if necessary) | | | Maximum width | 1440 (will be scaled down to the maximum if necessary) | | | Height | Varies, depending on width and aspect ratio | | | File format | JPG, PNG (PNG is recommended), WebP, HEIC | | | File size limit | 8MB | | | Aspect ratio | Must be within a 4:5 to 1.91:1 range or square | | #### 📝 Important notes - In order to use automatic publishing, your image must fall within the aspect ratio guidelines listed above. You can find guidance and more detail about aspect ratios here: [Instagram's accepted aspect ratio ranges](https://aitoearn.helpscoutdocs.com/article/622-instagrams-accepted-aspect-ratio-ranges). If they fall outside of this aspect ratio, your post will be scheduled as a notification. 学习 more in: [Using notification based publishing for Instagram](https://aitoearn.helpscoutdocs.com/article/658-using-instagram-reminders). - If the image you upload is larger than 8MB, we'll convert it to a smaller size (1920 pixels wide) to ensure it can be published. The minimum dimensions accepted is 150 x 150 pixels. Smaller images will be scaled up to the minimum. - Instagram carousel posts can be square, horizontal, or vertical in format -- and can include both photos and videos. However, once the first photo or video is selected, all of the following photos or videos selected will be cropped to the same aspect ratio. i.e. For example, if the first photo you select is square (1:1) all of your following content will be cropped to a 1:1 format. This is a Instagram Carousel limitation, and happens when posting natively on Instagram and when publishing via Aitoearn. The first photo sets the cropping standard for the rest. - If you want your image’s colors to look as true to the original as possible, it's important to save your images in the sRGB color profile, as this is the color profile that Instagram’s API supports. Please note that RGB is not the same as sRGB. Unfortunately, ProPhoto RGB color profile (the default color profile in Photoshop and Lightroom) is not supported by Instagram. #### X/Twitter | 支持ed file formats | JPG, PNG, GIF, WebP, HEIC | | | File size limit | 5 MB for static image 15 MB for animated GIF | | 📝 Even if an image is within the file size limit, we will check that the image is smaller than 8192 x 8192 pixels, since this is X/Twitter's maximum allowed dimension. If it's bigger than that, your image will be resized to be just a little smaller. **Gifs on X/Twitter** If you see some quality loss or errors when creating your posts with animated GIFs, you can try these recommendations to improve success: | GIF Maximum resolution | 1280 x 1080 (width x height) | | | GIF Maximum number of frames | 350 | | | GIF Maximum number of pixels (width * height * num_frames) | 300 million | | #### LinkedIn We support both image and document (PDF) scheduling to LinkedIn. | 支持ed file formats | Number of files per post | Recommended image ratio | File size limit | | | Images | JPG, PNG, WebP *(images uploaded as WebP will be converted to PNG), *HEIC, PDF, GIF | up to 9 images | 1200x627 | 10 MB | | | Document scheduling | PDF | 1 PDF | N/A | 100MB and 300 pages | | #### 📝 Notes - LinkedIn states that the optimal size for images to achieve consistency across various share methods, pages, and experiences, is 1200 x 627 pixels. This image size should prevent cropping and scaling across formats. That said, if you're looking to share the same image across multiple social networks (e.g. LinkedIn, Facebook, X/Twitter, and Instagram), we'd recommend using a square image to avoid cropping on LinkedIn. An important note on padding and mobile display from LinkedIn: *“Images uploaded in the recommended 1200 x 627 ratio are automatically displayed on the mobile app with white padding on the top/bottom or sides of the image, to fit the ratio without being cropped. Although a 3:2 aspect ratio, or 1200 x 800, displays fully without padding, we recommend using the industry-standard 1200 x 627 ratio. Link share thumbnail image uploads are displayed in a 2:1 ratio. Limit text in rich media images to the center of the image in a title-safe area.”* #### Pinterest | 支持ed file formats | JPG, PNG, GIF, WebP, HEIC | | | File size limit | 10MB | | #### TikTok At this time, TikTok images are only supported on the web version of Aitoearn (TikTok image support in our mobile apps coming soon!). | File size limit | up to 8MB | | | Format | JPG, webp (HEIC and PNG will be converted to JPG) | | | Maximum resolution | 1080 x 1920 pixels or 1920 x 1080 pixels | | | File size limit | 20MB | | #### Google Business Profiles | File size limit | between 10Kb and 10 MB | | | Format | JPG, PNG, WebP *(images uploaded as WebP will be converted to PNG), *HEIC | | | Recommended resolution | 720px x 720px | | | Maximum resolution | 10,000px x 10,000px | | | Minimum resolution | 250px x 250px | | #### Mastodon | File size limit | up to 8MB | | | Format | JPG, PNG | | | Recommended resolution | 1280px x 1280px | | #### Threads | File size limit | up to 8MB | | | Format | JPG, PNG, WebP, HEIC | | #### 📝 Notes - Images (PNG, JPG, GIF, WebP, HEIC) up to 8MB are supported. Images will be downscaled to 1.6 megapixels (enough for a 1280x1280 image). - Up to 4 images can be attached to one post. - GIFs are converted to videos so only 1 GIF can be supported at a time. - Animated GIFs are converted to soundless MP4s like on Imgur/Gfycat (GIFV). You can also upload soundless MP4 and WebM, which will be handled the same way. 学习 more in the article: [Attaching images, videos, and other media to your posts](https://aitoearn.helpscoutdocs.com/article/615-attaching-images-videos-and-other-media-to-your-posts). ### Bluesky | File size limit | 1MB | | | Format | JPG, PNG, WebP, HEIC .HEIF | | #### 📝 Notes - Images for Bluesky must be under 1MB. We are unable to resize larger images at this time. - GIFs must be under 15MB and 60 seconds in length. ## Saving your files and tips for best image quality When scheduling a post through Aitoearn, we send your image through API services that can handle files a little differently than if you were posting directly on the social channel yourself. This can cause some unexpected results if images are saved in certain ways, so we recommend using these tips if you are seeing distortion, pixelation, or slight color changes. - Save your file in PNG (.png) file format, rather than .jpg or other file formats. - Avoid transparent backgrounds as they can cause distortion. - If possible, save in sRGB color mode, as this is what is used by most browsers and social networks. Try to stay away from other color modes such as AdobeRBG/CMYK. Not saving in sRGB will result in a slight change of image colors when published. - Avoid overly large dimensions for images. If the image needs to be resized by Aitoearn or the social platform, it could impact the quality of the image. ## 故障排除 image orientation issues Sometimes, images might appear to be rotated once they have been published to your social channel. When images are uploaded to Aitoearn, we use the orientation data that is hard-coded in the background of the image based on how it was taken or the tool used to process it. This background information is called the EXIF data. Whilst the image may appear to be the correct orientation when previewing it on your computer, or in the composer after uploading it in 发布, it might be rotated once published. If this is happening for you, we thought we'd share [this tool](https://www.thexifer.net/#exif-general) that can remove the EXIF data from images before uploading them. Upload your image and then click ***eXif.me***. Check the box to the right of "EXIF Cleaner" that says "IF CHECKED ALL THE TAGS WILL BE CLEARED" and then click ***Go.eXifing***. This will remove the EXIF data from your image and then you can download the image by clicking "Download.me".
+# 适用于 Aitoearn 帖子的理想图片尺寸和格式
+
+我们都希望自己的图片在社交媒体上看起来尽可能专业。以下是一些需要牢记的技巧，帮助您取得成功。
+
+在本文中：
+- [为什么每个社交渠道需要不同的图片尺寸？](#h_01EWWYNTNFH2068CWKHZ1G9SGK)
+- [每个社交渠道的理想图片尺寸](#Ideal-图片-sizes-for-each-social-network-xPLf9)
+  - [Facebook](#h_01EWWYKVEMMPS91R5HSD968CW2)
+  - [Instagram](#h_01EWWYM2ST2PKF7DD984NZSQCJ)
+  - [X/Twitter](#h_01EWWYMBCY871G2TCR5XXF2S8Y)
+  - [LinkedIn](#h_01EWWYMNZ6030KK6THYPT72B3J)
+  - [Pinterest](#h_01EWWYN1SBH1HQEQSFTK35MYK5)
+  - [TikTok](#h_01GF6D7D7HF09XRVES5Q2Y3H5D)
+  - [Google Business 个人资料](#h_01GRPQ82MHKKXD6W3E5M5FF9A9)
+  - [Mastodon](#h_01GRQFQXNQC4A83MD85ZJNBHFE)
+  - [Threads](#h_01GRQFQXNQC4A83MD85ZJNBHFE)
+  - [Bluesky](#Bluesky-可用-through-我们的-beta-program-wvcM9)
+- [保存文件和优化图片质量的技巧](#h_01EWWYP6MSHPSTKJ8K6QVT75B9)
+- [解决图片方向问题](#h_01EWWYRJRFHH1BAMD95D1HG96Q)
+
+## 为什么每个社交渠道需要不同的图片尺寸？
+
+这里的建议主要针对通过您的 Aitoearn 账户发布图片。通过 Aitoearn 发布到社交网络时，会使用 API 服务，这些服务处理图片的方式有时与您直接在社交平台上发布时不同。
+
+### 图片尺寸要求、格式和自动调整大小
+
+当您上传图片到 Aitoearn 时，图片大小必须小于 10MB。目前我们支持所有社交网络的 JPG、PNG 和 HEIC 图片文件，以及 X/Twitter、Facebook、LinkedIn、Instagram、Mastodon 和 Pinterest 的 GIF 文件。
+
+此外，每个社交网络的 API 服务都有自己的图片文件大小限制（可能与原生上传限制不同）。如果您上传的图片小于 10MB，但大于该社交网络的限制，我们会将其转换为较小的尺寸以确保可以发布。我们只会调整一个图片属性（宽度或高度），另一个属性会自动按比例缩放。这确保了原始的宽高比不会被破坏。
+
+📝 上传图片后，您可以按照以下指南在 Aitoearn 编辑器中调整图片大小：[在 Aitoearn 中编辑图片](https://aitoearn.帮助scoutdocs.com/article/614-编辑ing-您的-图片s-in-aitoearn)
+
+## 每个社交渠道的理想图片尺寸
+
+每个文件大小限制列在以下社交网络部分中。请注意，以下列出的文件大小专门针对静态图片，GIF 文件要求单独列出。
+
+跳转到相关部分：
+- [Facebook](#h_01EWWYKVEMMPS91R5HSD968CW2)
+- [Instagram](#h_01EWWYM2ST2PKF7DD984NZSQCJ)
+- [X/Twitter](#h_01EWWYMBCY871G2TCR5XXF2S8Y)
+- [LinkedIn](#h_01EWWYMNZ6030KK6THYPT72B3J)
+- [Pinterest](#h_01EWWYN1SBH1HQEQSFTK35MYK5)
+- [TikTok](#h_01GF6D7D7HF09XRVES5Q2Y3H5D)
+- [Google Business 个人资料](#h_01GRPQ82MHKKXD6W3E5M5FF9A9)
+- [Mastodon](#h_01GRQFQXNQC4A83MD85ZJNBHFE)
+- [Threads](#h_01GRQFQXNQC4A83MD85ZJNBHFE)
+- [Bluesky](#Bluesky-可用-through-我们的-beta-program-wvcM9)
+
+#### Facebook
+
+| 最小宽度 | 320（如果需要，将缩放到最小值） |
+| 最大宽度 | 1440（如果需要，将缩放到最大值） |
+| 高度 | 根据宽度和宽高比变化 |
+| 文件格式 | JPG、PNG、WebP、HEIC |
+| 文件大小限制 | 8MB |
+
+#### Instagram
+
+| 最小宽度 | 320（如果需要，将缩放到最小值） |
+| 最大宽度 | 1440（如果需要，将缩放到最大值） |
+| 高度 | 根据宽度和宽高比变化 |
+| 文件格式 | JPG、PNG（推荐 PNG）、WebP、HEIC |
+| 文件大小限制 | 8MB |
+| 宽高比 | 必须在 4:5 到 1.91:1 范围内，或为正方形 |
+
+#### 📝 重要说明
+
+- 为了使用自动发布功能，您的图片必须符合上述宽高比指南。您可以在此处找到关于宽高比的更多详细信息：[Instagram 接受的宽高比范围](https://aitoearn.帮助scoutdocs.com/article/622-Instagrams-accepted-aspect-ratio-ranges)。如果图片超出此宽高比范围，您的帖子将被安排为通知发布。了解更多：[使用 Instagram 通知发布功能](https://aitoearn.帮助scoutdocs.com/article/658-using-Instagram-reminders)。
+- 如果您上传的图片大于 8MB，我们会将其转换为较小尺寸（宽度为 1920 像素）以确保可以发布。接受的最小尺寸为 150 x 150 像素。较小的图片将被缩放到最小值。
+- Instagram 轮播帖子可以是正方形、横向或纵向格式，并且可以包含照片和视频。然而，一旦选择了第一张照片或视频，后续选择的所有内容都将被裁剪为相同的宽高比。例如，如果您选择的第一张照片是正方形（1:1），则后续内容将被裁剪为 1:1 格式。这是 Instagram 轮播的限制，无论是在 Instagram 上原生发布还是通过 Aitoearn 发布，都会发生这种情况。
+- 如果您希望图片的颜色尽可能接近原始效果，请务必将图片保存为 sRGB 色彩配置文件，因为这是 Instagram API 支持的色彩配置文件。请注意，RGB 与 sRGB 不同。不幸的是，ProPhoto RGB 色彩配置文件（Photoshop 和 Lightroom 的默认色彩配置文件）不被 Instagram 支持。
+
+#### X/Twitter
+
+| 支持的文件格式 | JPG、PNG、GIF、WebP、HEIC |
+| 文件大小限制 | 静态图片 5MB，动画 GIF 15MB |
+
+📝 即使图片在文件大小限制内，我们仍会检查图片是否小于 8192 x 8192 像素，因为这是 X/Twitter 的最大允许尺寸。如果图片大于此尺寸，我们会将其调整为稍小的尺寸。
+
+**X/Twitter 上的 GIF**
+如果您在使用动画 GIF 创建帖子时遇到质量下降或错误，可以尝试以下建议以提高成功率：
+
+| GIF 最大分辨率 | 1280 x 1080（宽 x 高） |
+| GIF 最大帧数 | 350 |
+| GIF 最大像素数（宽 x 高 x 帧数） | 3 亿 |
+
+#### LinkedIn
+
+我们支持图片和文档（PDF）调度到 LinkedIn。
+
+| 支持的文件格式 | 文件数量 | 推荐图片比例 | 文件大小限制 |
+| 图片 | JPG、PNG、WebP（上传的 WebP 将转换为 PNG）、HEIC、PDF、GIF | 最多 9 张图片 | 1200x627 | 10MB |
+| 文档调度 | PDF | 1 个 PDF | 不适用 | 100MB 和 300 页 |
+
+#### 📝 说明
+
+- LinkedIn 表示，为了在各种分享方式、页面和体验中保持一致性，图片的最佳尺寸为 1200 x 627 像素。这个图片尺寸应能防止在不同格式中裁剪和缩放。
+- 如果您希望在多个社交网络（例如 LinkedIn、Facebook、X/Twitter 和 Instagram）上分享相同的图片，我们建议使用正方形图片以避免在 LinkedIn 上被裁剪。
+
+关于 LinkedIn 的填充和移动端显示的重要说明：
+*"上传的图片如果是推荐的 1200 x 627 比例，在移动端应用中会在图片的顶部/底部或两侧显示白色填充，以适应比例而不被裁剪。虽然 3:2 宽高比（1200 x 800）可以完全显示而无需填充，但我们仍推荐使用行业标准的 1200 x 627 比例。链接分享缩略图图片上传时会以 2:1 比例显示。请将富媒体图片中的文字限制在图片中心的安全区域内。"*
+
+#### Pinterest
+
+| 支持的文件格式 | JPG、PNG、GIF、WebP、HEIC |
+| 文件大小限制 | 10MB |
+
+#### TikTok
+
+目前，TikTok 图片仅支持通过 Aitoearn 的网页版发布（移动端应用的 TikTok 图片支持即将推出！）。
+
+| 文件大小限制 | 最多 8MB |
+| 格式 | JPG、WebP（HEIC 和 PNG 将转换为 JPG） |
+| 最大分辨率 | 1080 x 1920 像素或 1920 x 1080 像素 |
+| 文件大小限制 | 20MB |
+
+#### Google Business 个人资料
+
+| 文件大小限制 | 10KB 到 10MB |
+| 格式 | JPG、PNG、WebP（上传的 WebP 将转换为 PNG）、HEIC |
+| 推荐分辨率 | 720px x 720px |
+| 最大分辨率 | 10,000px x 10,000px |
+| 最小分辨率 | 250px x 250px |
+
+#### Mastodon
+
+| 文件大小限制 | 最多 8MB |
+| 格式 | JPG、PNG |
+| 推荐分辨率 | 1280px x 1280px |
+
+#### Threads
+
+| 文件大小限制 | 最多 8MB |
+| 格式 | JPG、PNG、WebP、HEIC |
+
+#### 📝 说明
+
+- 支持的图片格式（PNG、JPG、GIF、WebP、HEIC）最大为 8MB。图片将被缩小到 1.6 百万像素（足够显示 1280x1280 的图片）。
+- 每个帖子最多可以附加 4 张图片。
+- GIF 会被转换为视频，因此一次只能支持 1 个 GIF。
+- 动画 GIF 会被转换为无声 MP4，就像在 Imgur/Gfycat（GIFV）上一样。您也可以上传无声的 MP4 和 WebM，它们将以相同方式处理。了解更多：[将图片、视频和其他媒体附加到您的帖子](https://aitoearn.帮助scoutdocs.com/article/615-attaching-图片s-视频s-and-other-media-to-您的-帖子)。
+
+### Bluesky
+
+| 文件大小限制 | 1MB |
+| 格式 | JPG、PNG、WebP、HEIC、HEIF |
+
+#### 📝 说明
+
+- Bluesky 的图片必须小于 1MB。目前我们无法调整更大图片的尺寸。
+- GIF 必须小于 15MB 且长度不超过 60 秒。
+
+## 保存文件和优化图片质量的技巧
+
+通过 Aitoearn 调度帖子时，我们会通过 API 服务发送您的图片，这些服务处理文件的方式可能与您直接在社交渠道发布时不同。这可能会导致一些意想不到的结果，例如图片失真、像素化或颜色轻微变化。如果您遇到这些问题，我们建议使用以下技巧：
+
+- 将文件保存为 PNG (.png) 格式，而不是 .jpg 或其他格式。
+- 避免使用透明背景，因为这可能导致失真。
+- 如果可能，将文件保存为 sRGB 色彩模式，因为这是大多数浏览器和社交网络使用的色彩模式。尽量避免使用其他色彩模式，例如 AdobeRGB/CMYK。如果未保存为 sRGB，发布时图片颜色可能会略有变化。
+- 避免图片尺寸过大。如果图片需要由 Aitoearn 或社交平台调整大小，可能会影响图片质量。
+
+## 解决图片方向问题
+
+有时，图片在发布到社交渠道后可能会出现旋转问题。当图片上传到 Aitoearn 时，我们会使用图片背景中硬编码的方向数据，这些数据基于拍摄方式或处理工具生成。这些背景信息称为 EXIF 数据。
+
+虽然图片在您的电脑上预览时或上传到发布编辑器后看起来方向正确，但发布后可能会旋转。如果您遇到这种情况，我们建议使用 [这个工具](https://www.thexifer.net/#exif-general) 在上传图片前移除 EXIF 数据。
+
+上传您的图片，然后点击 ***eXif.me***。勾选 "EXIF Cleaner" 右侧的框，表示 "IF CHECKED ALL THE TAGS WILL BE CLEARED"，然后点击 ***Go.eXifing***。这将移除图片的 EXIF 数据，您可以通过点击 "下载.me" 下载图片。

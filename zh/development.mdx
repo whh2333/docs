@@ -1,95 +1,82 @@
 ---
-title: '开发指南'
-description: 'Preview changes locally to 更新 您的 docs'
+title: "开发"
+description: "学习如何使用 Aitoearn 开发环境预览您的文档更改"
 ---
 
-<Info>
-  **Prerequisites**:
-  - Node.js version 19 or higher
-  - A docs repository with a `docs.json` file
-</Info>
+# 开发
 
-Follow 这些 steps to 安装 and 运行 Aitoearn on 您的 operating system.
+按照以下步骤在您的操作系统上安装并运行 Aitoearn。
 
-<Steps>
-<Step title="安装 the Aitoearn CLI">
+<Step title="安装 Aitoearn CLI">
 
 ```bash
 npm i -g mint
 ```
+
 </Step>
 
-<Step title="Preview locally">
+<Step title="运行开发环境">
 
-Navigate to 您的 docs directory 哪里 您的 `docs.json` file is located, and 运行 the 关注中 command:
+转到您的`docs.json` 所在的文档根目录并运行：
 
 ```bash
 mint dev
 ```
 
-A local preview of 您的 文档 将会 be 可用 at `http://localhost:3000`.
-
 </Step>
-</Steps>
 
-## Custom ports
+在 `http://localhost:3000` 查看您的本地预览。
 
-By default, Aitoearn uses port 3000. 您 可以 自定义 the port Aitoearn runs on by using the `--port` flag. For example, to 运行 Aitoearn on port 3333, use 这个 command:
+默认情况下，Aitoearn 使用 3000 端口。您可以使用 `--port` 标志自定义端口。例如，在 3333 端口运行：
 
 ```bash
 mint dev --port 3333
 ```
 
-If 您 attempt to 运行 Aitoearn on a port 那个's already in use, it 将会 use the next 可用 port:
+如果您尝试在已使用的端口上运行 Aitoearn，它会使用下一个可用端口：
 
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
+![](https://mintlify-assets.b-cdn.net/port.png)
 
-## Aitoearn versions
+## Aitoearn 版本
 
-Please note 那个 each CLI release is associated with a specific version of Aitoearn. If 您的 local preview does not align with the production version, please 更新 the CLI:
+请注意，每个CLI 版本都对应特定的 Aitoearn 版本。如果您的本地预览与生产版本不一致，请更新 CLI：
 
 ```bash
 npm mint 更新
 ```
 
-## Validating links
-
-The CLI 可以 assist with validating links in 您的 文档. To identify any broken links, use the 关注中 command:
-
-```bash
-mint broken-links
-```
-
-## 部署ment
-
-If the deployment is successful, 您 应该 see the 关注中:
-
-<Frame>
-  <img src="/images/checks-passed.png" alt="Screenshot of a deployment confirmation message 那个 says All checks have passed." style={{ borderRadius: '0.5rem' }} />
-</Frame>
-
-## Code formatting
-
-我们 suggest using extensions on 您的 IDE to recognize and format MDX. If 您're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
-
 ## 故障排除
 
+以下是一些常见问题和解决方案。
+
 <AccordionGroup>
-  <Accordion title='错误: 可能 not load the "sharp" module using the darwin-arm64 runtime'>
 
-    这个 可能 be due to an outdated version of node. Try the 关注中:
-    1. Remove the currently-installed version of the CLI: `npm remove -g mint`
-    2. Upgrade to Node v19 or higher.
-    3. Reinstall the CLI: `npm i -g mint`
-  </Accordion>
+<Accordion title="Mintlify 开发环境无法运行">
 
-  <Accordion title="Issue: Encountering an unknown 错误">
-  
-    Solution: Go to the root of 您的 device and delete the `~/.aitoearn` folder. Then 运行 `mint dev` again.
-  </Accordion>
+如果您的开发环境无法运行：运行 `mint 更新` 确保您有最新版本的 CLI。
+
+</Accordion>
+
+<Accordion title="页面显示为 404">
+
+确保您在包含有效 `docs.json` 的文件夹中运行。
+
+</Accordion>
+
+<Accordion title="重置或硬刷新不起作用">
+
+您可能正在运行陈旧的构建。请尝试以下解决方案：
+
+1. 移除当前安装的 CLI 版本：`npm 移除 -g mint`
+2. 重新安装 CLI：`npm i -g mint`
+3. 重新安装 CLI：`npm i -g mint`
+
+</Accordion>
+
+<Accordion title="解决方案：前往设备根目录删除 `~/.aitoearn` 文件夹，然后再次运行 `mint dev`。">
+
+</Accordion>
+
 </AccordionGroup>
 
-Curious about what changed in the latest CLI version? Check out the [CLI changelog](https://www.npmjs.com/package/aitoearn?activeTab=versions).
-
+想了解最新 CLI 版本的变更？查看 [CLI 更新日志](https://www.npmjs.com/package/mintlify?activeTab=versions)。

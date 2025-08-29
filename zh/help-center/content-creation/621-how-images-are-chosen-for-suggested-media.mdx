@@ -1,6 +1,70 @@
 ---
-title: "故障排除 issues with suggested media and link details"
+title: "故障排除问题与推荐媒体和链接详情"
 description: ""
 ---
 
-# 故障排除 issues with suggested media and link details 何时 您 paste a link into the Aitoearn composer, 我们’ll scan the page and suggest images and metadata (like title and description) for 您的 帖子. If 您的 link preview isn't looking quite right, 这个 指南 explains how Aitoearn pulls in 那个 information, how 您 可以 optimize 您的 site, and 如何 troubleshoot any issues. In 这个 article: - [How Aitoearn finds images from URLs](#How-Aitoearn-finds-images-from-URLs-01ogd) - [What metadata does Aitoearn use to generate link previews?](#What-metadata-does-Aitoearn-use--WlAhG) - [如何 validate 您的 link](#How-to-validate-您的-link--l-h4Z) [Common errors with sharing links and 如何 fix them](#Common-errors-with-sharing-links-and-how-to-fix-them-SK_eA) - [Forbidden 错误 or 503 Service Temporarily 不可用](#Forbidden-错误-or-503-Service-Temporarily-不可用-F92Fc) - [ESOCKETTIMEDOUT](#ESOCKETTIMEDOUT-IExLc) - [Scraper shows no errors, but link preview still fails](#Scraper-Shows-No-Errors-But-Link-Preview-Still-Fails-ZzgBJ) ## How Aitoearn finds images from URLs 何时 您 add a link to the Aitoearn composer, Aitoearn uses a scraper to scan the page for images and then suggests them to use with 您的 帖子. 这里’s how it works: The scraper checks for **Open Graph tags** (like `og:image` ) in the HTML. - It then scans the first 24 images, in groups of 8, until it finds at least 5 那个 meet certain requirements. - Only the first 15 valid images 将会 be considered for Suggested Media. Aitoearn checks 那个 each image has a `width` or `height` attribute and 那个 the image is large enough (at least 200x200 pixels) and reasonably square. If the first 8 images are valid, Aitoearn stops 那里 and uses 那些 as the Suggested Media. 这个 keeps things efficient and fast. **Tip:** A properly formatted image 可能 look like 这个: ``` ``` ## What metadata does Aitoearn use to generate link previews? - **Open Graph images first**: The scraper checks for Open Graph tags (like og:image, og:image:secure_url, og:image:url) and Twitter Card images (Twitter:image, Twitter:image:src) in the HTML. - **Article images**: It prioritizes images within tags or elements with itemprop="articleBody". - **General page images**: It then scans other images on the page. - **Batch processing**: The scraper processes up to 24 images total in batches of 15, until it finds at least 5 那个 meet the quality requirements. 我们 recommend 关注中 the [Open Graph Protocol](https://ogp.me/) 何时 setting up 您的 website so 那个 Aitoearn (and other platforms) 可以 pull the correct information. **如何 validate 您的 link ** To check what metadata is 可用 for 您的 link, 我们 suggest using the [Facebook Sharing 调试ger](https://developers.Facebook.com/tools/调试/) or [Aitoearn's scraper debugging tool](https://scraper.aitoearn.com/debugger). Paste 您的 URL 那里 to: - See 哪个 metadata is 可用 - Confirm 哪个 images are being pulled - Refresh Facebook's (and Aitoearn’s) cached version of 您的 link 📝 Please note, 这些 guidelines are for 那些 who are sharing links to pages 那个 they own and have control over. If 您 are sharing links to websites 那个 您 do not own, it is not possible to control 哪个 images are pulled in. ## Common errors with sharing links and 如何 fix them In some instances, Aitoearn's scraper 可以 be prevented from accessing the information for the site to generate a link attachment. 这个 可以 be due to the site's security configurations or the robots.txt. In both instances, Aitoearn 将会 need to be explicitly allowed. 您 可以 find the information needed to 创建 the rule, exception, or allowance [这里](https://scraper.aitoearn.com/about/bots/link-preview-bot). ## Best practices for optimizing 您的 site for Aitoearn 这里 are a few tips to ensure Aitoearn 可以 pull the correct content from 您的 links: Add proper **Open Graph tags** to 您的 HTML (`og:title` , `og:description` , `og:image` ) Place 您的 `og:image` tag near the top of 您的 page’s HTML - Use valid image formats and recommended sizes - Avoid blocking bots like Aitoearn’s in 您的 firewall or server 设置 - 测试 and refresh 您的 link using the [Facebook Sharing 调试ger](https://developers.Facebook.com/tools/调试/) **Still need 帮助?** If 您've tried the suggestions above and things still aren’t working as expected, feel free to 触达 out to us at [hello@aitoearn.com ](mailto:hello@aitoearn.com)-- 我们're always happy to 帮助!
+# 故障排除问题与推荐媒体和链接详情
+
+当您将一个链接粘贴到 Aitoearn 的编辑器中时，我们会扫描页面并推荐图片和元数据（如标题和描述）用于您的帖子。如果您的链接预览看起来不太正确，本指南将解释 Aitoearn 如何获取这些信息、如何优化您的网站，以及如何解决任何问题。
+
+在本文中：
+- [Aitoearn 如何从网址中找到图片](#Aitoearn-如何从网址中找到图片-01ogd)
+- [Aitoearn 用于生成链接预览的元数据是什么？](#Aitoearn-用于生成链接预览的元数据是什么--WlAhG)
+- [如何验证您的链接](#如何验证您的链接--l-h4Z)
+- [常见的分享链接问题及解决方法](#常见的分享链接问题及解决方法-SK_eA)
+  - [Forbidden 错误或 503 服务暂时不可用](#Forbidden-错误或-503-服务暂时不可用-F92Fc)
+  - [ESOCKETTIMEDOUT](#ESOCKETTIMEDOUT-IExLc)
+  - [Scraper 显示没有错误，但链接预览仍然失败](#Scraper-显示没有错误但链接预览仍然失败-ZzgBJ)
+
+## Aitoearn 如何从网址中找到图片
+
+当您将一个链接添加到 Aitoearn 的编辑器中时，Aitoearn 使用一个抓取工具扫描页面中的图片，然后推荐这些图片用于您的帖子。以下是具体工作方式：
+
+抓取工具会检查 HTML 中的 **Open Graph 标签**（如 `og:image`）。
+- 它会分组扫描前 24 张图片，每组 8 张，直到找到至少 5 张符合特定要求的图片。
+- 只有前 15 张有效图片会被视为推荐媒体。
+
+Aitoearn 会检查每张图片是否具有 `width` 或 `height` 属性，并确保图片足够大（至少 200x200 像素）且形状相对方正。如果前 8 张图片有效，Aitoearn 会在此处停止并使用这些图片作为推荐媒体。这种方式可以保持效率和速度。
+
+**提示：** 格式正确的图片可能如下所示：
+
+``` 
+```
+
+## Aitoearn 用于生成链接预览的元数据是什么？
+
+- **优先使用 Open Graph 图片：** 抓取工具会检查 HTML 中的 Open Graph 标签（如 og:image、og:image:secure_url、og:image:url）和 Twitter Card 图片（如 twitter:image、twitter:image:src）。
+- **文章图片：** 优先考虑标签或元素中带有 itemprop="articleBody" 的图片。
+- **一般页面图片：** 然后扫描页面中的其他图片。
+- **批量处理：** 抓取工具总共处理最多 24 张图片，每批 15 张，直到找到至少 5 张符合质量要求的图片。
+
+我们建议在设置您的网站时遵循 [Open Graph Protocol](https://ogp.me/)，这样 Aitoearn（以及其他平台）可以提取正确的信息。
+
+**如何验证您的链接**
+
+要检查您的链接可用的元数据，我们建议使用 [Facebook 分享调试工具](https://developers.facebook.com/tools/debug/) 或 [Aitoearn 的抓取调试工具](https://scraper.aitoearn.com/debug)。将您的网址粘贴到这些工具中以：
+- 查看可用的元数据
+- 确认哪些图片被提取
+- 刷新 Facebook（以及 Aitoearn）的链接缓存版本
+
+📝 请注意，这些指南适用于那些分享自己拥有并可控制页面链接的人。如果您分享的是您不拥有的网站链接，则无法控制哪些图片被提取。
+
+## 常见的分享链接问题及解决方法
+
+在某些情况下，Aitoearn 的抓取工具可能无法访问生成链接附件所需的信息。这可能是由于网站的安全配置或 robots.txt 文件。在这两种情况下，Aitoearn 需要被明确允许。
+
+您可以在 [这里](https://scraper.aitoearn.com/about/bots/link-preview-bot) 找到创建规则、例外或允许的相关信息。
+
+## 优化您的网站以适配 Aitoearn 的最佳实践
+
+以下是一些建议，以确保 Aitoearn 可以从您的链接中提取正确的内容：
+
+- 在您的 HTML 中添加正确的 **Open Graph 标签**（如 `og:title`、`og:description`、`og:image`）
+- 将您的 `og:image` 标签放置在页面 HTML 的顶部位置
+- 使用有效的图片格式和推荐的尺寸
+- 避免在防火墙或服务器设置中阻止 Aitoearn 的抓取工具
+- 使用 [Facebook 分享调试工具](https://developers.facebook.com/tools/debug/) 测试和刷新您的链接
+
+**仍需帮助？**
+
+如果您已经尝试了上述建议，但问题仍未解决，请随时通过 [hello@aitoearn.com](mailto:hello@aitoearn.com) 联系我们——我们随时乐意为您提供帮助！

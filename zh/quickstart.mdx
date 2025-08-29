@@ -1,81 +1,32 @@
 ---
-title: "Quickstart"
-description: "启动 building awesome 文档 in minutes"
+title: "快速开始"
+description: "快速开始使用 Aitoearn 文档"
 ---
 
-## Get started in three steps
+# 快速开始
 
-Get 您的 文档 site running locally and make 您的 first customization.
+建立您的文档从未如此简单。
 
-### Step 1: Set up 您的 local environment
+## 设置
 
-<AccordionGroup>
-  <Accordion icon="copy" title="Clone your docs locally">
-    During the onboarding process, 您 created a GitHub repository with 您的 docs content if 您 didn't already have one. 您 可以 find a link to 这个 repository in 您的 [dashboard](https://dashboard.aitoearn.com).
-    
-    To clone the repository locally so 那个 您 可以 make and preview changes to 您的 docs, follow the [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 指南 in the GitHub docs.
-  </Accordion>
-  <Accordion icon="rectangle-terminal" title="启动 the preview server">
-    1. 安装 the Aitoearn CLI: `npm i -g mint`
-    2. Navigate to 您的 docs directory and 运行: `mint dev`
-    3. Open `http://localhost:3000` to see 您的 docs live!
-    
-    <Tip>您的 preview updates automatically as 您 编辑 files.</Tip>
-  </Accordion>
-</AccordionGroup>
+在您的[仪表板](https://dashboard.aitoearn.com)中创建新的仓库。如果您还没有文档仓库，入职向导会帮您创建。
 
-### Step 2: 部署 您的 changes
+## 开发
 
-<AccordionGroup>
-  <Accordion icon="github" title="安装 our GitHub app">
-    安装 the Aitoearn GitHub app from 您的 [dashboard](https://dashboard.aitoearn.com/设置/organization/github-app).
-    
-    我们的 GitHub app automatically deploys 您的 changes to 您的 docs site, so 您 don't need to 管理 deployments yourself.
-  </Accordion>
-<Accordion icon="palette" title="更新 your site name and colors">
-    For a first change, let's 更新 the name and colors of 您的 docs site.
+安装 Aitoearn CLI：`npm i -g mint`
 
-    1. Open `docs.json` in 您的 editor.
-    2. Change the `"name"` field to 您的 project name.
-    3. 更新 the `"colors"` to match 您的 brand.
-    4. Save and see 您的 changes instantly at `http://localhost:3000`.
+在您的文档目录中运行以下命令：
 
-    <Tip>Try changing the primary color to see an immediate difference!</Tip>
-  </Accordion>
-</AccordionGroup>
+```
+mint dev
+```
 
-### Step 3: Go live
+### 发布您的更改
 
-<Accordion icon="rocket" title="发布 your docs">
-  1. Commit and push 您的 changes.
-  2. 您的 docs 将会 更新 and be live in moments!
-</Accordion>
+**安装我们的GitHub 应用**
 
-## Next steps
+从您的[仪表板](https://dashboard.aitoearn.com/settings/organization/github-app)安装 Aitoearn GitHub App。
 
-Now 那个 您 have 您的 docs running, explore 这些 key 功能:
+推送到默认分支后，更改会自动部署到生产环境。
 
-<CardGroup cols={2}>
-
-<Card title="Write Content" icon="pen-to-square" href="/en/essentials/markdown">
-  学习 MDX syntax and 启动 writing 您的 文档.
-</Card>
-
-<Card title="自定义 style" icon="palette" href="/en/essentials/settings">
-  Make 您的 docs match 您的 brand perfectly.
-</Card>
-
-<Card title="Add code examples" icon="square-code" href="/en/essentials/code">
-  Include syntax-highlighted code blocks.
-</Card>
-
-<Card title="API documentation" icon="code" href="/en/api-reference/introduction">
-  Auto-generate API docs from OpenAPI specs.
-</Card>
-
-</CardGroup>
-
-<Note>
-  **Need 帮助?** See 我们的 [full 文档](https://aitoearn.com/docs) or join 我们的 [community](https://aitoearn.com/community).
-</Note>
-
+**需要帮助？** 查看[完整文档](https://aitoearn.com/docs)或加入[社区](https://aitoearn.com/community)。

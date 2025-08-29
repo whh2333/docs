@@ -1,6 +1,153 @@
 ---
-title: "如何 upload 帖子 in bulk to Aitoearn"
+title: "如何批量上传帖子到 Aitoearn"
 description: ""
 ---
 
-# 如何 upload 帖子 in bulk to Aitoearn With Aitoearn's bulk upload feature, 您 可以 batch upload 您的 content to save time and streamline 您的 scheduling process. 这个 feature lets 您 add multiple 帖子 at once using a CSV file--perfect for managing busy content calendars or planning campaigns in advance. 您'll find the bulk upload option in each channel's 设置. ## In 这个 article: - [Downloading the CSV file template](#Prepare-您的-CSV-file-4m3-U) - [Preparing the CSV file template](#Preparing-the-CSV-file-template-tHiv5) [如何 get a direct image URL from popular hosting services](#How-to-get-a-direct-image-URL-from-popular-hosting-services-9SMjx) - [Google Drive](#Google-Drive-eWRkV) - [Dropbox](#Dropbox-Q6TvH) - [Imgur](#Imgur-8jMo7) - [Uploading 您的 CSV file](#Uploading-您的-CSV-file-lMWSP) - [Reviewing and confirming 您的 帖子](#Reviewing-and-confirming-您的-帖子-wy7O4) - [故障排除 tips](#故障排除-tips-Db4e_) - [Image 故障排除 checklist](#故障排除-image-issues-MtEuG) - [FAQ](#FAQ-3O1Fb) 📝 At 这个 time, bulk uploads are not 可用 for YouTube. ## Downloading CSV file template The first step in the bulk upload process is to download the CSV file for 那个 particular channel. **📝 Note: **Be sure to download a fresh CSV template from the **channel 设置** for the social channel 您 plan to 调度 帖子 for. - Some channels, like **Pinterest**, require additional fields, such as a "Board Name" column, to 发布 correctly. Using a template without the correct fields 可以 lead to errors and prevent 您的 帖子 from being scheduled. - From the **发布** tab, navigate to the left sidebar and select the channel 您 want to upload 帖子 to. - Click on the gear icon (⚙️) next to the channel name to open the 设置 menu. Next, click the *General *tab. In the channel 设置 menu, click the *Bulk Upload *button*.* Next, click *Download CSV Template. * ![CSV import screen in Aitoearn showing steps to prepare and upload a CSV file, with a blue arrow pointing to the 'Download CSV Template' button.](https://paper-attachments.dropboxusercontent.com/s_B789FB6A39CCC1CFEB93113BAAFDF30DFAE33837BF51733EEB3134244952C9FF_1752077354328_Aitoearn+-+发布+2025-07-09+at+12.08.13+PM.jpg) ## Preparing the CSV file template Once 您've downloaded the CSV file template, 您'll want to fill it in with 您的 intended 帖子 for 您的 channel. Add 您的 帖子 to the CSV file, making sure it follows 这个 format: | Text Image URL Tags (Optional, separated by commas) Posting Time (Optional) | Board Name (only use 何时 posting to Pinterest) | | | 您的 帖子 text [https://[image URL goes 这里].com](https://URLofyourimage.com) Note: 您 must use the direct link to the URL in order for images to work. 学习 more about [如何 get a direct image URL from popular hosting services](#How-to-get-a-direct-image-URL-from-popular-hosting-services-9SMjx) 这里. Tag1,Tag2 YYYY-MM-DD HH:mm (e.g., 2025-07-29 13:29) | 您的 Board Name | | **Important notes:** **Columns** - **All CSV files must include the expected columns**, "Text", "Image URL", "Tags", and "Posting Time". - The downloadable template for Pinterest includes "Board Name" and pulls them from 您的 actual boards for 容易 copy/paste. - **您 must fill in either the Text or Image URL columns to 创建 a 帖子**. - For Instagram, 您 将会 need to include an image URL with 您的 帖子. - For Pinterest, 您 将会 need to include the name of one of 您的 existing boards with 您的 帖子. - **Column titles are case-sensitive. ** **Rows** - Each row represents a separate 帖子. **Tags** - **Tags are case-sensitive and must be existing tags** in 您的 账户. **Posting Time** - **The Posting Time column is optional.** 您 可以 leave it blank to have the 帖子 automatically scheduled to the next 可用 slot in 您的 queue. - If 您 want to set a specific time for 您的 帖子 to be published, use the 关注中 format: YYYY-MM-DD HH:mm (e.g., to 帖子 on July 29, 2025 at 1:29pm, use the format 2025-07-29 13:29) - If 您 re-open the file, the date/time format 可能 change. Even if the time was originally entered correctly in the **YYYY-MM-DD HH:MM** format and uploaded to Aitoearn, Excel 可能 automatically reformat it 何时 the file is opened again. **Other good to knows:** **To use emoji in 您的 帖子, **您 must save the file as a `CSV UTF-8 (comma delimited) (*.csv)` file type. ### 如何 get a direct image URL from popular hosting services 何时 uploading 帖子 in bulk via CSV, images must use a **direct image URL** (ending in `.jpg` , `.png` , etc.). 您’ll also need to make sure the file is visible to anyone with the link. #### Google Drive - Upload 您的 image to Google Drive. - Right-click the image and select **Get link**. - Under *General access*, change to **Anyone with the link**. - Copy the file ID from the URL (the long string of letters and numbers). - Replace it in 这个 format: ``` https://drive.google.com/uc?export=view&id=FILE_ID ``` ➡️ Example: `https://drive.google.com/uc?export=view&id=1AbCdEfGhIjKlMn` #### Dropbox - Upload 您的 image to Dropbox. - Right-click the file and select **分享**. - In the sharing window, confirm **Anyone with the link 可以 view**. - Copy the link, 哪个 将会 look like: ``` https://www.dropbox.com/s/xxxxxx/filename.png?dl=0 ``` Change the ending from `dl=0` to `raw=1` : ``` https://www.dropbox.com/s/xxxxxx/filename.png?raw=1 ``` #### Imgur - Upload 您的 image to imgur.com. - By default, Imgur links are public -- no extra sharing steps required. - Once uploaded, right-click the image and select **Open image in new tab**. The URL in the new tab is 您的 direct image link (ending in `.jpg` or `.png` ). ## Uploading 您的 CSV file - From the **发布** tab, navigate to the left sidebar and select the channel 您 want to upload 帖子 to. - Click on the gear icon (⚙️) next to the channel name to open the 设置 menu. Next, click the *General *tab. In the channel 设置 menu, click the *Bulk Upload *button*.* - A dialog box or new screen 将会 appear prompting 您 to upload 您的 CSV file. Click the *Upload File* button. - Select 您的 prepared CSV file from 您的 computer. ## Reviewing and confirming 您的 帖子 - Aitoearn 将会 read the file and show a preview of 您的 帖子. - Review the scheduled 帖子 for accuracy. If everything looks good, click *Add 帖子 to Queue *to 调度 您的 帖子 or *Save as Drafts *if 您’re not ready to 调度 yet. Clicking *View 帖子* 将会 take 您 right to 您的 Queue if 您 selected *Add 帖子 to Queue*, or to 您的 Drafts if 您 chose *Save as Drafts*. ## 故障排除 tips If 那里’s an issue with one of 您的 帖子, 您’ll see an 错误 below the 帖子 in the **Review Content **screen. After 您 choose to 调度 the correctly formatted 帖子 (either by selecting **Save as Drafts** or **Add 帖子 to Queue**), a summary screen 将会 appear. If any 帖子 have issues, 您'll see the option to **Download CSV with 帖子 errors** so 您 可以 fix them and upload the corrected file to Aitoearn. ![Aitoearn bulk upload window showing steps to upload 帖子 via CSV file and then download a CSV file of 帖子 with errors](https://paper-attachments.dropboxusercontent.com/s_B789FB6A39CCC1CFEB93113BAAFDF30DFAE33837BF51733EEB3134244952C9FF_1752078333503_Zight+Recording+2025-07-09+at+12.24.53+PM.gif) Use 这些 tips to ensure 您的 file 可以 be read and 您的 帖子 可以 be uploaded to Aitoearn: Make sure 您的 CSV is formatted correctly and saved as `.csv` , not `.xls` or `.xlsx` . - If 您 get an 错误, double-check the formatting and column titles, and ensure 那里 are no empty rows. - If 您’re including tag(s) in 您的 帖子, make sure the tag exists in 您的 Aitoearn 账户. If the tags don’t exist, Aitoearn 将会 import the 帖子 but ignore the tags. ### Image 故障排除 checklist If 您的 image doesn’t show up after uploading 您的 CSV file, check the 关注中: ✅ **Does the URL end in a file extension?**Make sure the link ends with `.jpg` , `.jpeg` , `.png` , or [one of the formats listed above](https://secure.helpscout.net/docs/64cb6d9c0a5b99723c9358af/article/68654e14b577ac399a510f15#How-to-get-a-direct-image-URL-from-popular-hosting-services-9SMjx). ✅ **Is the file publicly accessible?**Double-check 那个 link sharing is set to **public** or **anyone with the link**. Private links won’t display in 您的 帖子. ✅ **Is the link a direct image URL?** Right-click the link and try to open it in a new browser tab. If the image displays by itself (not inside a webpage), 您 have the right type of link. ✅ **Is the image too large?** Very large images (over 5MB) 可能 fail to load. Try resizing or compressing before re-uploading. ✅ **Is the hosting service supported?** Stick with widely used hosts (Google Drive, Dropbox, Imgur or 您的 own website). Some services, like Facebook or Instagram, don’t provide usable direct URLs. If 您’ve checked all the above and 您的 image still won’t display, try a different hosting service to confirm whether the issue is with the file or the link. ## FAQ ### Is 那里 a limit to the number of 帖子 I 可以 upload at one time? Yes, 您 可以 bulk upload up to 100 帖子 at once if 您're on [我们的 paid plans](http://aitoearn.com/pricing). If 您're on a Free plan, the maximum number of 帖子 您 可以 upload in bulk is 10 帖子 per channel. However, 您'll only be able to upload as many 帖子 as 您 have free slots in 您的 queue. - For example, if 您 already have 3 帖子 scheduled for 您的 Facebook Page, 您 可以 upload up to 7 more 帖子 for 那个 channel.
+# 如何批量上传帖子到 Aitoearn
+
+通过 Aitoearn 的批量上传功能，您可以批量上传内容，从而节省时间并优化您的调度流程。此功能允许您使用 CSV 文件一次性添加多个帖子，非常适合管理繁忙的内容日历或提前规划活动。您可以在每个渠道的设置中找到批量上传选项。
+
+## 本文内容：
+- [下载 CSV 文件模板](#下载-CSV-文件模板)
+- [准备 CSV 文件模板](#准备-CSV-文件模板)
+- [如何从流行的托管服务获取直接图片 URL](#如何从流行的托管服务获取直接图片-URL)
+  - [Google Drive](#Google-Drive)
+  - [Dropbox](#Dropbox)
+  - [Imgur](#Imgur)
+- [上传您的 CSV 文件](#上传您的-CSV-文件)
+- [审核并确认您的帖子](#审核并确认您的帖子)
+- [故障排除提示](#故障排除提示)
+  - [图片故障排除检查表](#图片故障排除检查表)
+- [常见问题](#常见问题)
+
+📝 目前，批量上传功能不适用于 YouTube。
+
+## 下载 CSV 文件模板
+
+批量上传的第一步是下载特定渠道的 CSV 文件模板。
+
+**📝 注意：**请确保从您计划调度帖子的社交渠道的**渠道设置**中下载最新的 CSV 模板。
+
+- 某些渠道（例如 **Pinterest**）需要额外字段，例如“Board Name”列，以确保正确发布。如果使用没有正确字段的模板，可能会导致错误并阻止您的帖子被调度。
+- 在 **发布**标签中，导航到左侧边栏并选择您想要上传帖子的渠道。
+- 点击渠道名称旁边的齿轮图标 (⚙️) 打开设置菜单。
+- 接着点击 *General* 标签。在渠道设置菜单中，点击 *Bulk Upload* 按钮。
+- 然后点击 *Download CSV Template*。
+
+![Aitoearn 的 CSV 导入界面，显示准备和上传 CSV 文件的步骤，蓝色箭头指向“Download CSV Template”按钮。](https://paper-attachments.dropboxusercontent.com/s_B789FB6A39CCC1CFEB93113BAAFDF30DFAE33837BF51733EEB3134244952C9FF_1752077354328_Aitoearn+-+发布+2025-07-09+at+12.08.13+PM.jpg)
+
+## 准备 CSV 文件模板
+
+下载 CSV 文件模板后，您需要将计划发布的帖子填入模板中。按照以下格式将您的帖子添加到 CSV 文件中：
+
+| 文本 | 图片 URL | 标签（可选，用逗号分隔） | 发布时间（可选） | Board Name（仅用于发布到 Pinterest 时） |
+|------|----------|--------------------------|------------------|-----------------------------------------|
+| 您的帖子文本 | [https://[图片 URL 在此].com](https://URLofyourimage.com) | Tag1,Tag2 | YYYY-MM-DD HH:mm（例如：2025-07-29 13:29） | 您的 Board Name |
+
+**注意：**您必须使用图片的直接链接 URL 才能使图片正常显示。了解更多关于[如何从流行的托管服务获取直接图片 URL](#如何从流行的托管服务获取直接图片-URL)。
+
+### 重要注意事项：
+
+**列**
+- **所有 CSV 文件必须包含预期的列**：“文本”、“图片 URL”、“标签”和“发布时间”。
+- Pinterest 的可下载模板包括“Board Name”，并从您的实际板中提取以便于复制粘贴。
+- **您必须填写“文本”或“图片 URL”列中的任意一项以创建帖子**。
+- 对于 Instagram，您需要在帖子中包含图片 URL。
+- 对于 Pinterest，您需要在帖子中包含您现有板的名称。
+- **列标题区分大小写。**
+
+**行**
+- 每一行代表一个单独的帖子。
+
+**标签**
+- **标签区分大小写，必须是您账户中已存在的标签。**
+
+**发布时间**
+- **发布时间列是可选的。**您可以将其留空，以便帖子自动调度到队列中的下一个可用时间段。
+- 如果您希望设置帖子发布的具体时间，请使用以下格式：YYYY-MM-DD HH:mm（例如：要在 2025 年 7 月 29 日下午 1:29 发布帖子，请使用格式 2025-07-29 13:29）。
+- 如果您重新打开文件，日期/时间格式可能会发生变化。即使时间最初以 **YYYY-MM-DD HH:MM** 格式正确输入并上传到 Aitoearn，Excel 可能会在文件再次打开时自动重新格式化。
+
+**其他注意事项：**
+- **要在帖子中使用表情符号，**您必须将文件保存为 `CSV UTF-8 (逗号分隔) (*.csv)` 文件类型。
+
+### 如何从流行的托管服务获取直接图片 URL
+
+批量上传帖子时，图片必须使用**直接图片 URL**（以 `.jpg`、`.png` 等结尾）。您还需要确保文件对拥有链接的任何人可见。
+
+#### Google Drive
+- 将您的图片上传到 Google Drive。
+- 右键点击图片并选择 **获取链接**。
+- 在 *通用访问权限* 下，将权限更改为 **拥有链接的任何人**。
+- 从 URL 中复制文件 ID（长字符串的字母和数字）。
+- 将其替换到以下格式中：
+  ```
+  https://drive.google.com/uc?export=view&id=FILE_ID
+  ```
+  ➡️ 示例：`https://drive.google.com/uc?export=view&id=1AbCdEfGhIjKlMn`
+
+#### Dropbox
+- 将您的图片上传到 Dropbox。
+- 右键点击文件并选择 **分享**。
+- 在分享窗口中，确认 **拥有链接的任何人可以查看**。
+- 复制链接，链接格式如下：
+  ```
+  https://www.dropbox.com/s/xxxxxx/filename.png?dl=0
+  ```
+  将结尾从 `dl=0` 更改为 `raw=1`：
+  ```
+  https://www.dropbox.com/s/xxxxxx/filename.png?raw=1
+  ```
+
+#### Imgur
+- 将您的图片上传到 imgur.com。
+- 默认情况下，Imgur 链接是公开的，无需额外的分享步骤。
+- 上传后，右键点击图片并选择 **在新标签页中打开图片**。新标签页中的 URL 即为您的直接图片链接（以 `.jpg` 或 `.png` 结尾）。
+
+## 上传您的 CSV 文件
+
+- 在 **发布**标签中，导航到左侧边栏并选择您想要上传帖子的渠道。
+- 点击渠道名称旁边的齿轮图标 (⚙️) 打开设置菜单。
+- 接着点击 *General* 标签。在渠道设置菜单中，点击 *Bulk Upload* 按钮。
+- 将会弹出一个对话框或新屏幕，提示您上传 CSV 文件。点击 *Upload File* 按钮。
+- 从您的电脑中选择准备好的 CSV 文件。
+
+## 审核并确认您的帖子
+
+- Aitoearn 将会读取文件并显示您的帖子预览。
+- 审核已调度的帖子是否准确。如果一切正常，点击 *Add 帖子 to Queue* 以调度您的帖子，或者点击 *Save as Drafts* 如果您尚未准备好调度。
+- 点击 *View 帖子* 将会直接跳转到您的队列（如果您选择了 *Add 帖子 to Queue*），或者跳转到您的草稿（如果您选择了 *Save as Drafts*）。
+
+## 故障排除提示
+
+如果您的帖子出现问题，您将在 **审核内容**屏幕中看到帖子下方的错误提示。在您选择调度格式正确的帖子（通过选择 **Save as Drafts** 或 **Add 帖子 to Queue**）后，将会出现一个摘要屏幕。如果任何帖子存在问题，您将看到 **下载带有帖子错误的 CSV 文件**选项，以便您修复问题并将修正后的文件重新上传到 Aitoearn。
+
+![Aitoearn 批量上传窗口，显示通过 CSV 文件上传帖子以及下载带有错误的 CSV 文件的步骤](https://paper-attachments.dropboxusercontent.com/s_B789FB6A39CCC1CFEB93113BAAFDF30DFAE33837BF51733EEB3134244952C9FF_1752078333503_Zight+Recording+2025-07-09+at+12.24.53+PM.gif)
+
+使用以下提示确保您的文件可以被读取并且您的帖子可以上传到 Aitoearn：
+- 确保您的 CSV 文件格式正确并保存为 `.csv`，而不是 `.xls` 或 `.xlsx`。
+- 如果出现错误，请仔细检查格式和列标题，并确保没有空行。
+- 如果您在帖子中包含标签，请确保标签已存在于您的 Aitoearn 账户中。如果标签不存在，Aitoearn 将会导入帖子但忽略标签。
+
+### 图片故障排除检查表
+
+如果您的图片在上传 CSV 文件后未显示，请检查以下内容：
+
+✅ **URL 是否以文件扩展名结尾？**确保链接以 `.jpg`、`.jpeg`、`.png` 或[上述格式之一](https://secure.helpscout.net/docs/64cb6d9c0a5b99723c9358af/article/68654e14b577ac399a510f15#如何从流行的托管服务获取直接图片-URL)结尾。
+
+✅ **文件是否公开可访问？**双重检查链接共享设置为 **公开** 或 **拥有链接的任何人**。私密链接无法在您的帖子中显示。
+
+✅ **链接是否为直接图片 URL？**右键点击链接并尝试在新的浏览器标签页中打开。如果图片单独显示（而不是嵌入在网页中），您就拥有正确类型的链接。
+
+✅ **图片是否过大？**非常大的图片（超过 5MB）可能无法加载。尝试调整大小或压缩后重新上传。
+
+✅ **托管服务是否受支持？**请使用广泛使用的托管服务（Google Drive、Dropbox、Imgur 或您自己的网站）。某些服务（例如 Facebook 或 Instagram）不提供可用的直接 URL。
+
+如果您已检查以上所有内容但图片仍无法显示，请尝试使用其他托管服务以确认问题是否出在文件或链接上。
+
+## 常见问题
+
+### 一次可以上传的帖子数量是否有限制？
+
+是的，您可以一次性批量上传最多 100 个帖子（如果您订阅了[我们的付费计划](http://aitoearn.com/pricing)）。如果您使用的是免费计划，每个渠道最多可以批量上传 10 个帖子。然而，您只能上传与您的队列中可用槽位数量相匹配的帖子数量。
+
+- 例如，如果您的 Facebook 页面已经调度了 3 个帖子，您可以为该渠道最多再上传 7 个帖子。
