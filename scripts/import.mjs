@@ -114,13 +114,14 @@ function main() {
   for (const article of content.articles) {
     const language = article.language || 'en'; // en 或 zh
     const groupName = article.groupName || 'Imported';
-    const category = normalizeSlug(article.category || 'general');
+    // 修改：使用固定的 help-center 路径，避免与 Mintlify 默认路由冲突
+    const category = 'help-center';
     const slug = normalizeSlug(article.slug || article.title || 'untitled');
     const title = article.title || slug;
     const description = article.description || '';
     const bodyMDX = article.bodyMDX || '';
 
-    // 输出路径: docs/{language}/{category}/{slug}.mdx
+    // 输出路径: docs/{language}/help-center/{slug}.mdx
     const relativePagePath = `${language}/${category}/${slug}`;
     const mdxFilePath = path.resolve(docsRoot, `${relativePagePath}.mdx`);
 
