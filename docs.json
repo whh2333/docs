@@ -233,35 +233,6 @@
             ]
           },
           {
-            "group": "基础",
-            "pages": [
-              "zh/essentials/markdown",
-              "zh/essentials/code",
-              "zh/essentials/images",
-              "zh/essentials/reusable-snippets",
-              "zh/essentials/settings",
-              "zh/essentials/navigation"
-            ]
-          },
-          {
-            "group": "AI 工具",
-            "pages": [
-              "zh/ai-tools/cursor",
-              "zh/ai-tools/claude-code",
-              "zh/ai-tools/windsurf"
-            ]
-          },
-          {
-            "group": "API 参考",
-            "pages": [
-              "zh/api-reference/introduction",
-              "zh/api-reference/endpoint/get",
-              "zh/api-reference/endpoint/create",
-              "zh/api-reference/endpoint/delete",
-              "zh/api-reference/endpoint/webhook"
-            ]
-          },
-          {
             "group": "入门指南",
             "pages": [
               "zh/help-center/getting-started",
@@ -271,6 +242,23 @@
               "zh/help-center/getting-started/602-getting-started-with-buffers-analytics-features",
               "zh/help-center/getting-started/603-getting-started-with-buffers-mobile-app",
               "zh/help-center/getting-started/604-moving-to-buffer-from-another-tool"
+            ]
+          },
+          {
+            "group": "社交平台",
+            "pages": [
+              "zh/help-center/social-platforms",
+              "zh/help-center/social-platforms/554-using-instagram-with-buffer",
+              "zh/help-center/social-platforms/555-using-facebook-with-buffer",
+              "zh/help-center/social-platforms/557-using-google-business-profiles-with-buffer",
+              "zh/help-center/social-platforms/558-using-pinterest-with-buffer",
+              "zh/help-center/social-platforms/559-using-tiktok-with-buffer",
+              "zh/help-center/social-platforms/560-using-linkedin-with-buffer",
+              "zh/help-center/social-platforms/561-using-twitter-with-buffer",
+              "zh/help-center/social-platforms/562-using-youtube-shorts-with-buffer",
+              "zh/help-center/social-platforms/563-using-mastodon-with-buffer",
+              "zh/help-center/social-platforms/855-using-bluesky-with-buffer",
+              "zh/help-center/social-platforms/857-using-threads-with-buffer"
             ]
           },
           {
@@ -319,23 +307,6 @@
               "zh/help-center/content-creation/622-instagrams-accepted-aspect-ratio-ranges",
               "zh/help-center/content-creation/917-using-post-templates-in-buffer",
               "zh/help-center/content-creation/926-how-to-upload-posts-in-bulk-to-buffer"
-            ]
-          },
-          {
-            "group": "社交平台",
-            "pages": [
-              "zh/help-center/social-platforms",
-              "zh/help-center/social-platforms/554-using-instagram-with-buffer",
-              "zh/help-center/social-platforms/555-using-facebook-with-buffer",
-              "zh/help-center/social-platforms/557-using-google-business-profiles-with-buffer",
-              "zh/help-center/social-platforms/558-using-pinterest-with-buffer",
-              "zh/help-center/social-platforms/559-using-tiktok-with-buffer",
-              "zh/help-center/social-platforms/560-using-linkedin-with-buffer",
-              "zh/help-center/social-platforms/561-using-twitter-with-buffer",
-              "zh/help-center/social-platforms/562-using-youtube-shorts-with-buffer",
-              "zh/help-center/social-platforms/563-using-mastodon-with-buffer",
-              "zh/help-center/social-platforms/855-using-bluesky-with-buffer",
-              "zh/help-center/social-platforms/857-using-threads-with-buffer"
             ]
           },
           {
