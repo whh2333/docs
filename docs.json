@@ -11,21 +11,14 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "API reference",
+        "tab": "API Reference",
         "icon": "square-terminal",
         "pages": [
-          "api-reference/get",
-          "api-reference/post",
-          "api-reference/delete"
-        ]
-      },
-      {
-        "tab": "SDKs",
-        "icon": "code",
-        "pages": [
-          "sdk/fetch",
-          "sdk/create",
-          "sdk/delete"
+          "api-reference/introduction",
+          "api-reference/endpoint/get",
+          "api-reference/endpoint/create",
+          "api-reference/endpoint/delete",
+          "api-reference/endpoint/webhook"
         ]
       },
       {
