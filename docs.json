@@ -12,9 +12,9 @@
     "languages": [
       {
         "language": "en",
-        "groups": [
+        "dropdowns": [
           {
-            "group": "Quick Start",
+            "dropdown": "Quick Start",
             "pages": [
               "en/index",
               "en/quickstart",
@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "dropdown": "Essentials",
             "pages": [
               "en/essentials/markdown",
               "en/essentials/code",
@@ -33,7 +33,7 @@
             ]
           },
           {
-            "group": "AI tools",
+            "dropdown": "AI tools",
             "pages": [
               "en/ai-tools/cursor",
               "en/ai-tools/claude-code",
@@ -41,7 +41,7 @@
             ]
           },
           {
-            "group": "API reference",
+            "dropdown": "API reference",
             "pages": [
               "en/api-reference/introduction",
               "en/api-reference/endpoint/get",
@@ -51,7 +51,7 @@
             ]
           },
           {
-            "group": "Getting Started",
+            "dropdown": "Getting Started",
             "pages": [
               "en/help-center/getting-started",
               "en/help-center/getting-started/1-Features-available-on-each-Aitoearn-Plan",
@@ -66,7 +66,7 @@
             ]
           },
           {
-            "group": "Publishing",
+            "dropdown": "Publishing",
             "pages": [
               "en/help-center/publishing",
               "en/help-center/publishing/642-scheduling-posts",
@@ -89,7 +89,7 @@
             ]
           },
           {
-            "group": "Content Creation",
+            "dropdown": "Content Creation",
             "pages": [
               "en/help-center/content-creation",
               "en/help-center/content-creation/584-creating-ideas-in-the-buffer-mobile-app",
@@ -114,7 +114,7 @@
             ]
           },
           {
-            "group": "Social Platforms",
+            "dropdown": "Social Platforms",
             "pages": [
               "en/help-center/social-platforms",
               "en/help-center/social-platforms/554-using-instagram-with-buffer",
@@ -131,7 +131,7 @@
             ]
           },
           {
-            "group": "Channel Management",
+            "dropdown": "Channel Management",
             "pages": [
               "en/help-center/channel-management",
               "en/help-center/channel-management/564-connecting-your-channels-to-buffer",
@@ -153,7 +153,7 @@
             ]
           },
           {
-            "group": "Error Library",
+            "dropdown": "Error Library",
             "pages": [
               "en/help-center/error-library",
               "en/help-center/error-library/579-twitter-error-library",
@@ -162,7 +162,7 @@
             ]
           },
           {
-            "group": "Troubleshooting",
+            "dropdown": "Troubleshooting",
             "pages": [
               "en/help-center/troubleshooting",
               "en/help-center/troubleshooting/655-how-to-avoid-being-logged-out-when-using-the-browser-extension-in-safari",
@@ -173,7 +173,7 @@
             ]
           },
           {
-            "group": "Analytics",
+            "dropdown": "Analytics",
             "pages": [
               "en/help-center/analytics",
               "en/help-center/analytics/519-overview-of-metrics-across-all-social-channels",
@@ -185,7 +185,7 @@
             ]
           },
           {
-            "group": "Team Collaboration",
+            "dropdown": "Team Collaboration",
             "pages": [
               "en/help-center/team-collaboration",
               "en/help-center/team-collaboration/667-using-buffer-as-an-agency",
@@ -200,7 +200,7 @@
             ]
           },
           {
-            "group": "Tools & Integrations",
+            "dropdown": "Tools & Integrations",
             "pages": [
               "en/help-center/tools-integrations",
               "en/help-center/tools-integrations/583-using-buffers-ai-assistant",
@@ -211,7 +211,7 @@
             ]
           },
           {
-            "group": "Plans & Pricing",
+            "dropdown": "Plans & Pricing",
             "pages": [
               "en/help-center/plans-pricing",
               "en/help-center/plans-pricing/594-why-some-features-are-not-available-on-legacy-buffer",
@@ -223,9 +223,9 @@
       },
       {
         "language": "zh",
-        "groups": [
+        "dropdowns": [
           {
-            "group": "快速开始",
+            "dropdown": "快速开始",
             "pages": [
               "zh/index",
               "zh/quickstart",
@@ -233,19 +233,7 @@
             ]
           },
           {
-            "group": "入门指南",
-            "pages": [
-              "zh/help-center/getting-started",
-              "zh/help-center/getting-started/598-what-is-buffer-and-where-can-i-watch-a-demo",
-              "zh/help-center/getting-started/600-getting-started-with-buffers-publishing-features",
-              "zh/help-center/getting-started/601-getting-started-with-buffers-engagement-features",
-              "zh/help-center/getting-started/602-getting-started-with-buffers-analytics-features",
-              "zh/help-center/getting-started/603-getting-started-with-buffers-mobile-app",
-              "zh/help-center/getting-started/604-moving-to-buffer-from-another-tool"
-            ]
-          },
-          {
-            "group": "社交平台",
+            "dropdown": "社交平台",
             "pages": [
               "zh/help-center/social-platforms",
               "zh/help-center/social-platforms/554-using-instagram-with-buffer",
@@ -262,7 +250,19 @@
             ]
           },
           {
-            "group": "发布功能",
+            "dropdown": "入门指南",
+            "pages": [
+              "zh/help-center/getting-started",
+              "zh/help-center/getting-started/598-what-is-buffer-and-where-can-i-watch-a-demo",
+              "zh/help-center/getting-started/600-getting-started-with-buffers-publishing-features",
+              "zh/help-center/getting-started/601-getting-started-with-buffers-engagement-features",
+              "zh/help-center/getting-started/602-getting-started-with-buffers-analytics-features",
+              "zh/help-center/getting-started/603-getting-started-with-buffers-mobile-app",
+              "zh/help-center/getting-started/604-moving-to-buffer-from-another-tool"
+            ]
+          },
+          {
+            "dropdown": "发布功能",
             "pages": [
               "zh/help-center/publishing",
               "zh/help-center/publishing/642-scheduling-posts",
@@ -285,7 +285,7 @@
             ]
           },
           {
-            "group": "内容创建",
+            "dropdown": "内容创建",
             "pages": [
               "zh/help-center/content-creation",
               "zh/help-center/content-creation/584-creating-ideas-in-the-buffer-mobile-app",
@@ -310,7 +310,7 @@
             ]
           },
           {
-            "group": "渠道管理",
+            "dropdown": "渠道管理",
             "pages": [
               "zh/help-center/channel-management",
               "zh/help-center/channel-management/564-connecting-your-channels-to-buffer",
@@ -332,7 +332,7 @@
             ]
           },
           {
-            "group": "错误库",
+            "dropdown": "错误库",
             "pages": [
               "zh/help-center/error-library",
               "zh/help-center/error-library/579-twitter-error-library",
@@ -341,7 +341,7 @@
             ]
           },
           {
-            "group": "故障排除",
+            "dropdown": "故障排除",
             "pages": [
               "zh/help-center/troubleshooting",
               "zh/help-center/troubleshooting/655-how-to-avoid-being-logged-out-when-using-the-browser-extension-in-safari",
@@ -352,7 +352,7 @@
             ]
           },
           {
-            "group": "分析功能",
+            "dropdown": "分析功能",
             "pages": [
               "zh/help-center/analytics",
               "zh/help-center/analytics/519-overview-of-metrics-across-all-social-channels",
@@ -364,7 +364,7 @@
             ]
           },
           {
-            "group": "团队协作",
+            "dropdown": "团队协作",
             "pages": [
               "zh/help-center/team-collaboration",
               "zh/help-center/team-collaboration/667-using-buffer-as-an-agency",
@@ -379,7 +379,7 @@
             ]
           },
           {
-            "group": "工具和集成",
+            "dropdown": "工具和集成",
             "pages": [
               "zh/help-center/tools-integrations",
               "zh/help-center/tools-integrations/583-using-buffers-ai-assistant",
@@ -390,7 +390,7 @@
             ]
           },
           {
-            "group": "计划和定价",
+            "dropdown": "计划和定价",
             "pages": [
               "zh/help-center/plans-pricing",
               "zh/help-center/plans-pricing/594-why-some-features-are-not-available-on-legacy-buffer",
