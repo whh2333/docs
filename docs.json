@@ -9,406 +9,135 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "test",
-        "pages": [
-          "en/help-center/getting-started/1-Features-available-on-each-Aitoearn-Plan",
-          "en/help-center/getting-started/2-What-are-the benefits-of-Aitoearn's-new-plans",
-          "en/help-center/getting-started/3-getting-started-with-buffers-publishing-features",
-          "en/help-center/getting-started/4-what-is-buffer-and-where-can-i-watch-a-demo"
-        ]
-      },
-      {
-        "tab": "test-2",
-        "href": "https://external-link.com/blog"
-      }
-    ],
     "languages": [
       {
         "language": "en",
-        "dropdowns": [
+        "tabs": [
           {
-            "dropdown": "Quick Start",
-            "pages": [
-              "en/index",
-              "en/quickstart",
-              "en/development"
+            "tab": "Documentation",
+            "dropdowns": [
+              {
+                "dropdown": "Quick Start",
+                "pages": [
+                  "en/index",
+                  "en/quickstart",
+                  "en/development"
+                ]
+              },
+              {
+                "dropdown": "Essentials",
+                "pages": [
+                  "en/essentials/markdown",
+                  "en/essentials/code",
+                  "en/essentials/images",
+                  "en/essentials/reusable-snippets",
+                  "en/essentials/settings",
+                  "en/essentials/navigation"
+                ]
+              },
+              {
+                "dropdown": "AI tools",
+                "pages": [
+                  "en/ai-tools/cursor",
+                  "en/ai-tools/claude-code",
+                  "en/ai-tools/windsurf"
+                ]
+              },
+              {
+                "dropdown": "Getting Started",
+                "pages": [
+                  "en/help-center/getting-started",
+                  "en/help-center/getting-started/1-Features-available-on-each-Aitoearn-Plan",
+                  "en/help-center/getting-started/2-What-are-the benefits-of-Aitoearn's-new-plans",
+                  "en/help-center/getting-started/3-getting-started-with-buffers-publishing-features",
+                  "en/help-center/getting-started/4-what-is-buffer-and-where-can-i-watch-a-demo",
+                  "en/help-center/getting-started/5-what-happens-when-you-downgrade-to-the-free-plan",
+                  "en/help-center/getting-started/6-getting-started-with-buffers-mobile-app",
+                  "en/help-center/getting-started/7-getting-started-with-buffers-analytics-features",
+                  "en/help-center/getting-started/8-getting-started-with-buffers-engagement-features",
+                  "en/help-center/getting-started/9-moving-to-buffer-from-another-tool"
+                ]
+              },
+              {
+                "dropdown": "Social Platforms",
+                "pages": [
+                  "en/help-center/social-platforms",
+                  "en/help-center/social-platforms/554-using-instagram-with-buffer",
+                  "en/help-center/social-platforms/555-using-facebook-with-buffer",
+                  "en/help-center/social-platforms/557-using-google-business-profiles-with-buffer",
+                  "en/help-center/social-platforms/558-using-pinterest-with-buffer",
+                  "en/help-center/social-platforms/559-using-tiktok-with-buffer",
+                  "en/help-center/social-platforms/560-using-linkedin-with-buffer",
+                  "en/help-center/social-platforms/561-using-twitter-with-buffer",
+                  "en/help-center/social-platforms/562-using-youtube-shorts-with-buffer",
+                  "en/help-center/social-platforms/563-using-mastodon-with-buffer",
+                  "en/help-center/social-platforms/855-using-bluesky-with-buffer",
+                  "en/help-center/social-platforms/857-using-threads-with-buffer"
+                ]
+              }
             ]
           },
           {
-            "dropdown": "Essentials",
-            "pages": [
-              "en/essentials/markdown",
-              "en/essentials/code",
-              "en/essentials/images",
-              "en/essentials/reusable-snippets",
-              "en/essentials/settings",
-              "en/essentials/navigation"
+            "tab": "API Reference",
+            "dropdowns": [
+              {
+                "dropdown": "API Documentation",
+                "pages": [
+                  "api-reference/introduction",
+                  "api-reference/endpoint/get",
+                  "api-reference/endpoint/create",
+                  "api-reference/endpoint/delete",
+                  "api-reference/endpoint/webhook"
+                ]
+              }
             ]
           },
           {
-            "dropdown": "AI tools",
-            "pages": [
-              "en/ai-tools/cursor",
-              "en/ai-tools/claude-code",
-              "en/ai-tools/windsurf"
-            ]
-          },
-          {
-            "dropdown": "API reference",
-            "pages": [
-              "en/api-reference/introduction",
-              "en/api-reference/endpoint/get",
-              "en/api-reference/endpoint/create",
-              "en/api-reference/endpoint/delete",
-              "en/api-reference/endpoint/webhook"
-            ]
-          },
-          {
-            "dropdown": "Getting Started",
-            "pages": [
-              "en/help-center/getting-started",
-              "en/help-center/getting-started/1-Features-available-on-each-Aitoearn-Plan",
-              "en/help-center/getting-started/2-What-are-the benefits-of-Aitoearn's-new-plans",
-              "en/help-center/getting-started/3-getting-started-with-buffers-publishing-features",
-              "en/help-center/getting-started/4-what-is-buffer-and-where-can-i-watch-a-demo",
-              "en/help-center/getting-started/5-what-happens-when-you-downgrade-to-the-free-plan",
-              "en/help-center/getting-started/6-getting-started-with-buffers-mobile-app",
-              "en/help-center/getting-started/7-getting-started-with-buffers-analytics-features",
-              "en/help-center/getting-started/8-getting-started-with-buffers-engagement-features",
-              "en/help-center/getting-started/9-moving-to-buffer-from-another-tool"
-            ]
-          },
-          {
-            "dropdown": "Publishing",
-            "pages": [
-              "en/help-center/publishing",
-              "en/help-center/publishing/642-scheduling-posts",
-              "en/help-center/publishing/643-how-many-posts-can-i-schedule-in-advance",
-              "en/help-center/publishing/644-how-do-i-schedule-posts-for-multiple-social-channels-at-the-same-time",
-              "en/help-center/publishing/646-daily-posting-limits",
-              "en/help-center/publishing/647-is-it-possible-to-schedule-one-post-to-repeat-multiple-times",
-              "en/help-center/publishing/648-is-it-possible-to-remove-the-buffer-stamp-from-posts-published-to-social-networks",
-              "en/help-center/publishing/649-posts-failing-to-save-due-to-server-issues",
-              "en/help-center/publishing/650-how-to-delete-failed-posts-in-bulk",
-              "en/help-center/publishing/651-how-to-use-the-new-calendar-feature-on-buffer",
-              "en/help-center/publishing/652-re-ordering-posts-in-your-queue",
-              "en/help-center/publishing/654-scheduling-retweets",
-              "en/help-center/publishing/656-saving-and-scheduling-draft-posts",
-              "en/help-center/publishing/657-scheduling-instagram-posts-and-reels",
-              "en/help-center/publishing/658-using-notification-publishing",
-              "en/help-center/publishing/659-why-arent-my-instagram-posts-sending-automatically",
-              "en/help-center/publishing/660-share-posts-with-the-duplicate-feature",
-              "en/help-center/publishing/665-managing-and-approving-draft-posts"
-            ]
-          },
-          {
-            "dropdown": "Content Creation",
-            "pages": [
-              "en/help-center/content-creation",
-              "en/help-center/content-creation/584-creating-ideas-in-the-buffer-mobile-app",
-              "en/help-center/content-creation/585-creating-and-managing-tags",
-              "en/help-center/content-creation/586-how-hashtags-work-in-buffer",
-              "en/help-center/content-creation/587-adding-mentions-tags-in-posts",
-              "en/help-center/content-creation/588-character-limits-for-each-social-network",
-              "en/help-center/content-creation/589-creating-ideas-in-buffer",
-              "en/help-center/content-creation/590-instagram-shop-grid",
-              "en/help-center/content-creation/591-how-locations-work-when-scheduling-instagram-posts-through-buffer",
-              "en/help-center/content-creation/614-editing-your-images-in-buffer",
-              "en/help-center/content-creation/615-attaching-images-videos-and-other-media-to-your-posts",
-              "en/help-center/content-creation/616-uploading-and-sharing-links-to-videos",
-              "en/help-center/content-creation/617-ideal-image-sizes-and-formats-for-your-posts",
-              "en/help-center/content-creation/618-adding-alt-text-to-your-images",
-              "en/help-center/content-creation/619-sharing-facebook-and-instagram-links-through-buffer",
-              "en/help-center/content-creation/620-shortening-and-unshortening-links",
-              "en/help-center/content-creation/621-how-images-are-chosen-for-suggested-media",
-              "en/help-center/content-creation/622-instagrams-accepted-aspect-ratio-ranges",
-              "en/help-center/content-creation/917-using-post-templates-in-buffer",
-              "en/help-center/content-creation/926-how-to-upload-posts-in-bulk-to-buffer"
-            ]
-          },
-          {
-            "dropdown": "Social Platforms",
-            "pages": [
-              "en/help-center/social-platforms",
-              "en/help-center/social-platforms/554-using-instagram-with-buffer",
-              "en/help-center/social-platforms/555-using-facebook-with-buffer",
-              "en/help-center/social-platforms/557-using-google-business-profiles-with-buffer",
-              "en/help-center/social-platforms/558-using-pinterest-with-buffer",
-              "en/help-center/social-platforms/559-using-tiktok-with-buffer",
-              "en/help-center/social-platforms/560-using-linkedin-with-buffer",
-              "en/help-center/social-platforms/561-using-twitter-with-buffer",
-              "en/help-center/social-platforms/562-using-youtube-shorts-with-buffer",
-              "en/help-center/social-platforms/563-using-mastodon-with-buffer",
-              "en/help-center/social-platforms/855-using-bluesky-with-buffer",
-              "en/help-center/social-platforms/857-using-threads-with-buffer"
-            ]
-          },
-          {
-            "dropdown": "Channel Management",
-            "pages": [
-              "en/help-center/channel-management",
-              "en/help-center/channel-management/564-connecting-your-channels-to-buffer",
-              "en/help-center/channel-management/565-troubleshooting-instagram-connections",
-              "en/help-center/channel-management/567-supported-channels",
-              "en/help-center/channel-management/568-connecting-your-instagram-business-or-creator-account-to-buffer",
-              "en/help-center/channel-management/569-connecting-your-facebook-page-to-buffer",
-              "en/help-center/channel-management/570-connecting-facebook-groups-and-troubleshooting-connections",
-              "en/help-center/channel-management/571-unavailable-channels-are-likely-connected-to-another-buffer-organization",
-              "en/help-center/channel-management/572-connecting-or-refreshing-channels-as-a-user-of-an-organization",
-              "en/help-center/channel-management/573-refreshing-a-channel-in-buffer",
-              "en/help-center/channel-management/575-removing-a-channel-from-buffer",
-              "en/help-center/channel-management/576-unlocking-a-locked-channel-in-buffer",
-              "en/help-center/channel-management/577-why-isnt-my-social-channel-name-or-profile-image-updating",
-              "en/help-center/channel-management/578-setting-up-facebook-domain-verification",
-              "en/help-center/channel-management/582-working-with-multiple-instagram-accounts",
-              "en/help-center/channel-management/861-how-to-use-the-all-channels-view-in-buffer",
-              "en/help-center/channel-management/927-using-channel-groups-in-buffer"
-            ]
-          },
-          {
-            "dropdown": "Error Library",
-            "pages": [
-              "en/help-center/error-library",
-              "en/help-center/error-library/579-twitter-error-library",
-              "en/help-center/error-library/580-facebook-error-library",
-              "en/help-center/error-library/581-instagram-error-library"
-            ]
-          },
-          {
-            "dropdown": "Troubleshooting",
-            "pages": [
-              "en/help-center/troubleshooting",
-              "en/help-center/troubleshooting/655-how-to-avoid-being-logged-out-when-using-the-browser-extension-in-safari",
-              "en/help-center/troubleshooting/666-consolidating-multiple-buffer-accounts",
-              "en/help-center/troubleshooting/869-differences-between-facebook-pages-and-profiles",
-              "en/help-center/troubleshooting/872-facebook-troubleshooting-guide",
-              "en/help-center/troubleshooting/873-switching-organizations-on-the-web"
-            ]
-          },
-          {
-            "dropdown": "Analytics",
-            "pages": [
-              "en/help-center/analytics",
-              "en/help-center/analytics/519-overview-of-metrics-across-all-social-channels",
-              "en/help-center/analytics/520-facebook-metric-descriptions",
-              "en/help-center/analytics/523-linkedin-metric-descriptions",
-              "en/help-center/analytics/527-analyzing-your-posts-within-your-analytics-dashboard",
-              "en/help-center/analytics/528-analyzing-your-instagram-stories",
-              "en/help-center/analytics/534-creating-custom-analytics-reports"
-            ]
-          },
-          {
-            "dropdown": "Team Collaboration",
-            "pages": [
-              "en/help-center/team-collaboration",
-              "en/help-center/team-collaboration/667-using-buffer-as-an-agency",
-              "en/help-center/team-collaboration/668-adding-buffer-tools-to-your-organization",
-              "en/help-center/team-collaboration/669-renaming-your-buffer-organization",
-              "en/help-center/team-collaboration/670-adding-users-and-setting-up-permissions-in-your-organization",
-              "en/help-center/team-collaboration/671-changing-user-permissions-in-your-organization",
-              "en/help-center/team-collaboration/672-removing-a-user-from-your-organization",
-              "en/help-center/team-collaboration/673-changing-your-buffer-account-name-and-avatar",
-              "en/help-center/team-collaboration/674-getting-started-as-a-user-in-an-organization",
-              "en/help-center/team-collaboration/675-collaborating-on-content-with-notes"
-            ]
-          },
-          {
-            "dropdown": "Tools & Integrations",
-            "pages": [
-              "en/help-center/tools-integrations",
-              "en/help-center/tools-integrations/583-using-buffers-ai-assistant",
-              "en/help-center/tools-integrations/599-work-smarter-with-quick-navigator",
-              "en/help-center/tools-integrations/653-buffer-browser-extension",
-              "en/help-center/tools-integrations/908-using-content-feeds-in-buffer",
-              "en/help-center/tools-integrations/912-setting-posting-goals-in-buffer"
-            ]
-          },
-          {
-            "dropdown": "Plans & Pricing",
-            "pages": [
-              "en/help-center/plans-pricing",
-              "en/help-center/plans-pricing/594-why-some-features-are-not-available-on-legacy-buffer",
-              "en/help-center/plans-pricing/595-features-available-on-each-buffer-plan",
-              "en/help-center/plans-pricing/597-what-happens-when-you-downgrade-to-the-free-plan"
-            ]
+            "tab": "Blog",
+            "href": "https://external-link.com/blog"
           }
         ]
       },
       {
         "language": "zh",
-        "dropdowns": [
+        "tabs": [
           {
-            "dropdown": "快速开始",
-            "pages": [
-              "zh/index",
-              "zh/quickstart",
-              "zh/development"
-            ]
-          },
-          {
-            "dropdown": "社交平台",
-            "pages": [
-              "zh/help-center/social-platforms",
-              "zh/help-center/social-platforms/554-using-instagram-with-buffer",
-              "zh/help-center/social-platforms/555-using-facebook-with-buffer",
-              "zh/help-center/social-platforms/557-using-google-business-profiles-with-buffer",
-              "zh/help-center/social-platforms/558-using-pinterest-with-buffer",
-              "zh/help-center/social-platforms/559-using-tiktok-with-buffer",
-              "zh/help-center/social-platforms/560-using-linkedin-with-buffer",
-              "zh/help-center/social-platforms/561-using-twitter-with-buffer",
-              "zh/help-center/social-platforms/562-using-youtube-shorts-with-buffer",
-              "zh/help-center/social-platforms/563-using-mastodon-with-buffer",
-              "zh/help-center/social-platforms/855-using-bluesky-with-buffer",
-              "zh/help-center/social-platforms/857-using-threads-with-buffer"
-            ]
-          },
-          {
-            "dropdown": "入门指南",
-            "pages": [
-              "zh/help-center/getting-started/4-what-is-aitoearn",
-              "zh/help-center/getting-started/3-getting-started-with-aitoearn-publishing-features",
-              "zh/help-center/getting-started/8-getting-started-with-buffers-engagement-features",
-              "zh/help-center/getting-started/7-getting-started-with-buffers-analytics-features",
-              "zh/help-center/getting-started/603-getting-started-with-buffers-mobile-app"
-            ]
-          },
-          {
-            "dropdown": "发布功能",
-            "pages": [
-              "zh/help-center/publishing",
-              "zh/help-center/publishing/642-scheduling-posts",
-              "zh/help-center/publishing/643-how-many-posts-can-i-schedule-in-advance",
-              "zh/help-center/publishing/644-how-do-i-schedule-posts-for-multiple-social-channels-at-the-same-time",
-              "zh/help-center/publishing/646-daily-posting-limits",
-              "zh/help-center/publishing/647-is-it-possible-to-schedule-one-post-to-repeat-multiple-times",
-              "zh/help-center/publishing/648-is-it-possible-to-remove-the-buffer-stamp-from-posts-published-to-social-networks",
-              "zh/help-center/publishing/649-posts-failing-to-save-due-to-server-issues",
-              "zh/help-center/publishing/650-how-to-delete-failed-posts-in-bulk",
-              "zh/help-center/publishing/651-how-to-use-the-new-calendar-feature-on-buffer",
-              "zh/help-center/publishing/652-re-ordering-posts-in-your-queue",
-              "zh/help-center/publishing/654-scheduling-retweets",
-              "zh/help-center/publishing/656-saving-and-scheduling-draft-posts",
-              "zh/help-center/publishing/657-scheduling-instagram-posts-and-reels",
-              "zh/help-center/publishing/658-using-notification-publishing",
-              "zh/help-center/publishing/659-why-arent-my-instagram-posts-sending-automatically",
-              "zh/help-center/publishing/660-share-posts-with-the-duplicate-feature",
-              "zh/help-center/publishing/665-managing-and-approving-draft-posts"
-            ]
-          },
-          {
-            "dropdown": "内容创建",
-            "pages": [
-              "zh/help-center/content-creation",
-              "zh/help-center/content-creation/584-creating-ideas-in-the-buffer-mobile-app",
-              "zh/help-center/content-creation/585-creating-and-managing-tags",
-              "zh/help-center/content-creation/586-how-hashtags-work-in-buffer",
-              "zh/help-center/content-creation/587-adding-mentions-tags-in-posts",
-              "zh/help-center/content-creation/588-character-limits-for-each-social-network",
-              "zh/help-center/content-creation/589-creating-ideas-in-buffer",
-              "zh/help-center/content-creation/590-instagram-shop-grid",
-              "zh/help-center/content-creation/591-how-locations-work-when-scheduling-instagram-posts-through-buffer",
-              "zh/help-center/content-creation/614-editing-your-images-in-buffer",
-              "zh/help-center/content-creation/615-attaching-images-videos-and-other-media-to-your-posts",
-              "zh/help-center/content-creation/616-uploading-and-sharing-links-to-videos",
-              "zh/help-center/content-creation/617-ideal-image-sizes-and-formats-for-your-posts",
-              "zh/help-center/content-creation/618-adding-alt-text-to-your-images",
-              "zh/help-center/content-creation/619-sharing-facebook-and-instagram-links-through-buffer",
-              "zh/help-center/content-creation/620-shortening-and-unshortening-links",
-              "zh/help-center/content-creation/621-how-images-are-chosen-for-suggested-media",
-              "zh/help-center/content-creation/622-instagrams-accepted-aspect-ratio-ranges",
-              "zh/help-center/content-creation/917-using-post-templates-in-buffer",
-              "zh/help-center/content-creation/926-how-to-upload-posts-in-bulk-to-buffer"
-            ]
-          },
-          {
-            "dropdown": "渠道管理",
-            "pages": [
-              "zh/help-center/channel-management",
-              "zh/help-center/channel-management/564-connecting-your-channels-to-buffer",
-              "zh/help-center/channel-management/565-troubleshooting-instagram-connections",
-              "zh/help-center/channel-management/567-supported-channels",
-              "zh/help-center/channel-management/568-connecting-your-instagram-business-or-creator-account",
-              "zh/help-center/channel-management/569-connecting-your-facebook-page-to-buffer",
-              "zh/help-center/channel-management/570-connecting-facebook-groups-and-troubleshooting-connections",
-              "zh/help-center/channel-management/571-unavailable-channels-are-likely-connected-to-another-buffer-organization",
-              "zh/help-center/channel-management/572-connecting-or-refreshing-channels-as-a-user-of-an-organization",
-              "zh/help-center/channel-management/573-refreshing-a-channel-in-buffer",
-              "zh/help-center/channel-management/575-removing-a-channel-from-buffer",
-              "zh/help-center/channel-management/576-unlocking-a-locked-channel-in-buffer",
-              "zh/help-center/channel-management/577-why-isnt-my-social-channel-name-or-profile-image-updating",
-              "zh/help-center/channel-management/578-setting-up-facebook-domain-verification",
-              "zh/help-center/channel-management/582-working-with-multiple-instagram-accounts",
-              "zh/help-center/channel-management/861-how-to-use-the-all-channels-view-in-buffer",
-              "zh/help-center/channel-management/927-using-channel-groups-in-buffer"
-            ]
-          },
-          {
-            "dropdown": "错误库",
-            "pages": [
-              "zh/help-center/error-library",
-              "zh/help-center/error-library/579-twitter-error-library",
-              "zh/help-center/error-library/580-facebook-error-library",
-              "zh/help-center/error-library/581-instagram-error-library"
-            ]
-          },
-          {
-            "dropdown": "故障排除",
-            "pages": [
-              "zh/help-center/troubleshooting",
-              "zh/help-center/troubleshooting/655-how-to-avoid-being-logged-out-when-using-the-browser-extension-in-safari",
-              "zh/help-center/troubleshooting/666-consolidating-multiple-buffer-accounts",
-              "zh/help-center/troubleshooting/869-differences-between-facebook-pages-and-profiles",
-              "zh/help-center/troubleshooting/872-facebook-troubleshooting-guide",
-              "zh/help-center/troubleshooting/873-switching-organizations-on-the-web"
-            ]
-          },
-          {
-            "dropdown": "分析功能",
-            "pages": [
-              "zh/help-center/analytics",
-              "zh/help-center/analytics/519-overview-of-metrics-across-all-social-channels",
-              "zh/help-center/analytics/520-facebook-metric-descriptions",
-              "zh/help-center/analytics/523-linkedin-metric-descriptions",
-              "zh/help-center/analytics/527-analyzing-your-posts-within-your-analytics-dashboard",
-              "zh/help-center/analytics/528-analyzing-your-instagram-stories",
-              "zh/help-center/analytics/534-creating-custom-analytics-reports"
-            ]
-          },
-          {
-            "dropdown": "团队协作",
-            "pages": [
-              "zh/help-center/team-collaboration",
-              "zh/help-center/team-collaboration/667-using-buffer-as-an-agency",
-              "zh/help-center/team-collaboration/668-adding-buffer-tools-to-your-organization",
-              "zh/help-center/team-collaboration/669-renaming-your-buffer-organization",
-              "zh/help-center/team-collaboration/670-adding-users-and-setting-up-permissions-in-your-organization",
-              "zh/help-center/team-collaboration/671-changing-user-permissions-in-your-organization",
-              "zh/help-center/team-collaboration/672-removing-a-user-from-your-organization",
-              "zh/help-center/team-collaboration/673-changing-your-buffer-account-name-and-avatar",
-              "zh/help-center/team-collaboration/674-getting-started-as-a-user-in-an-organization",
-              "zh/help-center/team-collaboration/675-collaborating-on-content-with-notes"
-            ]
-          },
-          {
-            "dropdown": "工具和集成",
-            "pages": [
-              "zh/help-center/tools-integrations",
-              "zh/help-center/tools-integrations/583-using-buffers-ai-assistant",
-              "zh/help-center/tools-integrations/599-work-smarter-with-quick-navigator",
-              "zh/help-center/tools-integrations/653-buffer-browser-extension",
-              "zh/help-center/tools-integrations/908-using-content-feeds-in-buffer",
-              "zh/help-center/tools-integrations/912-setting-posting-goals-in-buffer"
-            ]
-          },
-          {
-            "dropdown": "计划和定价",
-            "pages": [
-              "zh/help-center/plans-pricing",
-              "zh/help-center/plans-pricing/594-why-some-features-are-not-available-on-legacy-buffer",
-              "zh/help-center/plans-pricing/595-features-available-on-each-buffer-plan",
-              "zh/help-center/plans-pricing/597-what-happens-when-you-downgrade-to-the-free-plan"
+            "tab": "文档",
+            "dropdowns": [
+              {
+                "dropdown": "快速开始",
+                "pages": [
+                  "zh/index",
+                  "zh/quickstart",
+                  "zh/development"
+                ]
+              },
+              {
+                "dropdown": "社交平台",
+                "pages": [
+                  "zh/help-center/social-platforms",
+                  "zh/help-center/social-platforms/554-using-instagram-with-buffer",
+                  "zh/help-center/social-platforms/555-using-facebook-with-buffer",
+                  "zh/help-center/social-platforms/558-using-pinterest-with-buffer",
+                  "zh/help-center/social-platforms/556-using-threads-with-buffer"
+                ]
+              },
+              {
+                "dropdown": "入门指南",
+                "pages": [
+                  "zh/help-center/getting-started/4-what-is-aitoearn",
+                  "zh/help-center/getting-started/3-getting-started-with-aitoearn-publishing-features",
+                  "zh/help-center/getting-started/8-getting-started-with-aitoearn-engagement-features",
+                  "zh/help-center/getting-started/7-getting-started-with-aitoearn-analytics-features"
+                ]
+              },
+              {
+                "dropdown": "渠道管理",
+                "pages": [
+                  "zh/help-center/channel-management",
+                  "zh/help-center/channel-management/568-connecting-your-instagram-business-or-creator-account"
+                ]
+              }
             ]
           }
         ]
