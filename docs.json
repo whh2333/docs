@@ -106,7 +106,8 @@
                 "dropdown": "计费",
                 "icon": "credit-card",
                 "pages": [
-                  "zh/help-center/pricing/pricing"
+                  "zh/help-center/pricing/pricing",
+                  "zh/help-center/pricing/credits-price"
                 ]
               }
             ]
