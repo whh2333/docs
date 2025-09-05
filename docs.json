@@ -33,7 +33,7 @@
                   "en/help-center/social-platforms/554-using-instagram-with-aitoearn",
                   "en/help-center/social-platforms/555-using-facebook-with-aitoearn",
                   "en/help-center/social-platforms/556-using-threads-with-aitoearn",
-                  "en/help-center/social-platforms/557-using-youtube-with-aitoearn",
+                  "en/help-center/social-platforms/562-using-youtube-with-aitoearn",
                   "en/help-center/social-platforms/558-using-pinterest-with-aitoearn",
                   "en/help-center/social-platforms/559-using-tiktok-with-aitoearn",
                   "en/help-center/social-platforms/561-using-twitter-with-aitoearn",
@@ -49,7 +49,8 @@
                 "dropdown": "Pricing",
                 "icon": "credit-card",
                 "pages": [
-                  "en/help-center/pricing/pricing"
+                  "en/help-center/pricing/pricing",
+                  "en/help-center/pricing/credits-price"
                 ]
               }
             ]
