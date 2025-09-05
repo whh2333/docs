@@ -134,7 +134,7 @@
         },
         {
           "anchor": "Downloads",
-          "href": "zh/help-center/getting-started/4-what-is-aitoearn",
+          "href": "https://aitoearn.ai/zh/help-center/getting-started/4-what-is-aitoearn",
           "icon": "circle-down"
         }
       ]
@@ -148,7 +148,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@aitoearn.com"
+        "href": "mailto:hello@aitoearn.com"
       }
     ],
     "primary": {
