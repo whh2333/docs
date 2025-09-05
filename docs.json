@@ -155,19 +155,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://aitoearn.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Github",
+          "href": "https://github.com/yikart/AiToEarn",
+          "icon": "github"
         },
         {
-          "anchor": "Community",
-          "href": "https://aitoearn.com/community",
-          "icon": "slack"
+          "anchor": "Status",
+          "href": "https://status.aitoearn.ai/",
+          "icon": "signal"
         },
         {
-          "anchor": "Blog",
-          "href": "https://aitoearn.com/blog",
-          "icon": "newspaper"
+          "anchor": "Downloads",
+          "href": "zh/help-center/getting-started/4-what-is-aitoearn",
+          "icon": "circle-down"
         }
       ]
     }
