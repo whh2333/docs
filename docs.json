@@ -134,11 +134,10 @@
               },
 
               {
-                "dropdown": "会员",
+                "dropdown": "计费",
                 "pages": [
-                  "zh/help-center/channel-management",
-                  "zh/help-center/channel-management/568-connecting-your-instagram-business-or-creator-account"
-                ]
+                  "zh/help-center/pricing/pricing"
+             ]
               }
             ]
           },
