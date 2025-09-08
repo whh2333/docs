@@ -49,9 +49,9 @@ function ensureFrontmatterUpdatedAt(src, iso) {
   }
   const newHead = `---\n${yaml}\n---\n`
   let content = body
-  // Inject or replace visible line: only YYYY-MM-DD
-  const markerRe = /^<!-- UPDATED_AT -->[\s\S]*?\n\n/m
-  const line = `<!-- UPDATED_AT -->\n_Updated: ${toYMD(iso)}_\n\n`
+  // Accept both legacy HTML marker and MDX comment marker
+  const markerRe = /^(?:<!-- UPDATED_AT -->|{\/\* UPDATED_AT \*\/})[\s\S]*?\n\n/m
+  const line = `{/* UPDATED_AT */}\n_Updated: ${toYMD(iso)}_\n\n`
   if (markerRe.test(content)) {
     content = content.replace(markerRe, line)
   } else {
