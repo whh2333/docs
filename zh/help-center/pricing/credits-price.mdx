@@ -6,40 +6,6 @@ mode: "wide"
 
 每15美金可购买 积分*1000。
 
-import React from 'react'
-
-export function HoverTables({ children }) {
-  const ref = React.useRef(null)
-  React.useEffect(() => {
-    const container = ref.current
-    if (!container) return
-    const rows = container.querySelectorAll('table tbody tr')
-    const getHoverColor = () =>
-      document.documentElement.getAttribute('data-theme') === 'dark'
-        ? 'rgba(255, 255, 255, 0.06)'
-        : 'rgba(0, 0, 0, 0.04)'
-    rows.forEach((row) => {
-      row.style.transition = 'background-color 150ms ease-in-out'
-      row.onmouseenter = () => {
-        row.style.backgroundColor = getHoverColor()
-      }
-      row.onmouseleave = () => {
-        row.style.backgroundColor = ''
-      }
-    })
-    return () => {
-      rows.forEach((row) => {
-        row.onmouseenter = null
-        row.onmouseleave = null
-        row.style.backgroundColor = ''
-      })
-    }
-  }, [])
-  return <div ref={ref}>{children}</div>
-}
-
-<HoverTables>
-
 ## 大语言模型
 计费单位为每100万tokens。
 | 模型/工具                          | Aitoearn价格 | 官方价格              | 输入模态 | 输出模态 |
