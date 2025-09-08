@@ -6,15 +6,39 @@ mode: "wide"
 
 每15美金可购买 积分*1000。
 
-<style>{`
-  table tbody tr:hover {
-    background-color: rgba(0, 0, 0, 0.04);
-    transition: background-color 0.15s ease-in-out;
-  }
-  [data-theme="dark"] table tbody tr:hover {
-    background-color: rgba(255, 255, 255, 0.06);
-  }
-`}</style>
+import React from 'react'
+
+export function HoverTables({ children }) {
+  const ref = React.useRef(null)
+  React.useEffect(() => {
+    const container = ref.current
+    if (!container) return
+    const rows = container.querySelectorAll('table tbody tr')
+    const getHoverColor = () =>
+      document.documentElement.getAttribute('data-theme') === 'dark'
+        ? 'rgba(255, 255, 255, 0.06)'
+        : 'rgba(0, 0, 0, 0.04)'
+    rows.forEach((row) => {
+      row.style.transition = 'background-color 150ms ease-in-out'
+      row.onmouseenter = () => {
+        row.style.backgroundColor = getHoverColor()
+      }
+      row.onmouseleave = () => {
+        row.style.backgroundColor = ''
+      }
+    })
+    return () => {
+      rows.forEach((row) => {
+        row.onmouseenter = null
+        row.onmouseleave = null
+        row.style.backgroundColor = ''
+      })
+    }
+  }, [])
+  return <div ref={ref}>{children}</div>
+}
+
+<HoverTables>
 
 ## 大语言模型
 计费单位为每100万tokens。
