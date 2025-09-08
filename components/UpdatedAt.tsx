@@ -16,16 +16,18 @@ export function UpdatedAt({
   label = 'Updated'
 }: UpdatedAtProps) {
   const [updatedAt, setUpdatedAt] = React.useState<string | null>(null)
-  const [error, setError] = React.useState<string | null>(null)
+  const [loaded, setLoaded] = React.useState(false)
 
   React.useEffect(() => {
     let resolvedPath = path
     if (!resolvedPath && typeof window !== 'undefined') {
-      // Convert route to repo file path (assumes routes mirror repo structure)
       const pathname = window.location.pathname.replace(/^\//, '').replace(/\/$/, '')
       resolvedPath = pathname.length ? `${pathname}.mdx` : 'index.mdx'
     }
-    if (!resolvedPath) return
+    if (!resolvedPath) {
+      setLoaded(true)
+      return
+    }
 
     const url = `https://api.github.com/repos/${owner}/${repo}/commits?path=${encodeURIComponent(
       resolvedPath
@@ -39,15 +41,14 @@ export function UpdatedAt({
         if (date) setUpdatedAt(new Date(date).toLocaleString())
       })
       .catch((e) => {
-        setError(e?.message || 'fetch failed')
+        if (typeof console !== 'undefined') console.debug('UpdatedAt fetch error:', e)
       })
+      .finally(() => setLoaded(true))
   }, [path, owner, repo, branch])
-
-  if (!updatedAt) return null
 
   return (
     <div style={{ margin: '8px 0 16px', color: 'var(--mint-text-secondary, #6b7280)', fontSize: 14 }}>
-      {label}: {updatedAt}
+      {label}: {updatedAt ? updatedAt : loaded ? '—' : 'loading…'}
     </div>
   )
 }
