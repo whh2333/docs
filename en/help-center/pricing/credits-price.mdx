@@ -4,44 +4,60 @@ description: "Credit rates for models and creative tools."
 mode: "wide"
 ---
 
-| Model / Tool | Type | Aitoearn price | External ref. | Billing | Input | Output | Duration | Quality |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| gpt‑5 | LLM | per 1M tokens: in ¥9, out ¥72 |  |  | Text | Text |  |  |
-| gpt‑5‑mini | LLM | in ¥1.8, out ¥14.4 |  |  | Text | Text |  |  |
-| gpt‑5‑nano | LLM | in ¥0.36, out ¥2.88 |  |  | Text | Text |  |  |
-| gemini‑2.5‑pro | LLM | in ¥9, out ¥72 |  |  | Text/Image/Video | Text |  |  |
-| chatgpt‑4o‑latest | LLM | in ¥3.6, out ¥10.08 |  |  | Text/Image | Text |  |  |
-| gemini‑2.5‑flash | LLM | in ¥2.16, out ¥18 |  |  | Text/Image/Video | Text |  |  |
-| qwen‑vl‑max | LLM | in ¥1.6, out ¥4 |  |  | Text/Image/Video | Text |  |  |
-| firefly card | Image | Free |  |  |  |  |  |  |
-| md2card | Image | 2 credits | ¥0.27 |  |  |  |  |  |
-| <Icon icon="fire" size={24} /> gemini‑2.5‑flash‑image (Nano Banana) | Image | 2.6 credits | ¥0.26 |  |  | Image |  |  |
-| seedream‑3.0 | Image | 3 credits | ¥0.30 |  | Text | Image |  |  |
-| seededit‑3.0 | Image | 3 credits | ¥0.37 |  | Text/Image | Image |  |  |
-| <Icon icon="fire" size={24} /> gpt‑image‑1 | Image | 1 credit | ¥0.30 |  | Text/Image | Image |  |  |
-| <Icon icon="fire" size={24} /> FLUX.1 Kontext [max] | Image | 1.5 credits | ¥0.60 |  |  |  |  |  |
-| <Icon icon="fire" size={24} /> FLUX.1 Kontext [pro] | Image | 1 credit | ¥0.30 |  |  |  |  |  |
-| FLUX.1 [dev] | Image | Unlimited | ¥0.20 |  |  |  |  |  |
-| Flux 1.1 pro ultra | Image | 4.5 credits | ¥0.45 |  |  |  |  |  |
-| Flux 1.1 pro | Image | 3 credits | ¥0.30 |  |  |  |  |  |
-| <Icon icon="fire" size={24} /> midjourney relax | Video |  |  |  |  |  | 5s |  |
-| <Icon icon="fire" size={24} /> midjourney fast/turbo | Video | 4 credits | ¥0.20 |  |  |  | 5s |  |
-| kling 1.5/1.6/2.1 | Video | 20 credits | ¥2.00 |  |  |  | 5s | 720p |
-| kling 1.5/1.6/2.1 | Video | 40 credits | ¥4.00 |  |  |  | 10s | 720p |
-| kling 1.5/1.6/2.1 | Video | 50 credits | ¥5.00 |  |  |  | 10s | 1080p |
-| kling 1.5/1.6/2.1 | Video | 70 credits | ¥7.00 |  |  |  | 15s | 1080p |
-| kling 1.6 multi‑ref | Video | 20 credits | ¥2.00 |  |  |  | 5s | 720p |
-| kling 1.6 multi‑ref | Video | 35 credits | ¥3.50 |  |  |  | 5s | 1080p |
-| kling 1.6 multi‑ref | Video | 40 credits | ¥4.00 |  |  |  | 10s | 720p |
-| kling 1.6 multi‑ref | Video | 70 credits | ¥7.00 |  |  |  | 10s | 1080p |
-| kling 2.1 Master | Video | 70 credits | ¥7.00 |  |  |  | 5s | 480p |
-| wan 2.2 plus | Video | 100 credits | ¥10.00 |  |  |  | 5s | 720p |
-| wan 2.1 turbo (14B) | Video | 120 credits | ¥12.00 |  |  |  | 12s | 1080p |
-| wan 2.1 plus | Video | 35 credits | ¥3.50 |  |  |  | 5s | 720p |
-| wan 2.1 vace plus | Video | 35 credits | ¥3.50 |  |  |  | 5s | 720p |
-| seedance‑1.0‑pro | Video | 7.2 credits | ¥0.72 |  |  |  | 5s | 480p |
-| seedance‑1.0‑pro | Video | 16.4 credits | ¥1.64 |  |  |  | 5s | 720p |
-| seedance‑1.0‑pro | Video | 36.7 credits | ¥3.67 |  |  |  | 5s | 1080p |
-| seedance‑1.0‑lite | Video | 5 credits | ¥0.50 |  |  |  | 5s | 480p |
-| seedance‑1.0‑lite | Video | 11 credits | ¥1.10 |  |  |  | 5s | 720p |
-| seedance‑1.0‑lite | Video | 25 credits | ¥2.50 |  |  |  | 5s | 1080p |
+- Every $15 buys 1,000 credits.
+- Most model prices match official providers.
+- If official providers offer bulk discounts, we pass the same discount to you.
+
+## Large language models
+Billing unit: per 1M tokens.
+| Model / Tool | Aitoearn price | Official price | Input | Output |
+| --- | --- | --- | --- | --- |
+| gpt‑5 | in ≈ 83 credits, out ≈ 666 credits | in $1.25, out $10 | Text, Image | Text |
+| gpt‑5‑mini | in ≈ 16 credits, out ≈ 133 credits | in $0.25, out $2 | Text, Image | Text |
+| gpt‑5‑nano | in ≈ 3 credits, out ≈ 26 credits | in $0.05, out $0.4 | Text, Image | Text |
+| gemini‑2.5‑pro | in ≈ 83 credits, out ≈ 666 credits | in $1.25, out $10 | Text, Image, Video | Text |
+| chatgpt‑4o‑latest | in ≈ 333 credits, out ≈ 1000 credits | in $5, out $15 | Text, Image | Text |
+| gemini‑2.5‑flash | in 20 (text/image/video), in ≈ 66 (audio), out ≈ 166 | in $0.3 (text/image/video), in $1 (audio), out $2.5 | Text, Image, Video | Text |
+| qwen‑vl‑max | in ≈ 35 credits, out ≈ 40 credits | in $0.5, out $1.3 | Text, Image, Video | Text |
+
+## Image generation
+| Model / Tool | Aitoearn price | Official price | Input |
+| --- | --- | --- | --- |
+| firefly card | Free | – | Text card generation |
+| md2card | 2 credits | $0.02 | Text card generation |
+| <Icon icon="fire" size={16} /> gemini‑2.5‑flash‑image (Nano Banana) | 0.8 credit | $0.039 | Text, single image, multiple images |
+| seedream‑3.0 | 3 credits | $0.04 | Text |
+| seededit‑3.0 | 3 credits | $0.05 | Text, single image |
+| <Icon icon="fire" size={16} /> gpt‑image‑1 | 2 credits | $0.17 | Text, single image |
+| <Icon icon="fire" size={16} /> FLUX.1 Kontext [max] | 1.5 credits | $0.08 | Text, single image |
+| <Icon icon="fire" size={16} /> FLUX.1 Kontext [pro] | 1 credit | $0.04 | Text, single image |
+
+## Video models
+| Model / Tool | Aitoearn price | Official price | Duration | Quality | Input |
+| --- | --- | --- | --- | --- | --- |
+| <Icon icon="fire" size={16} /> midjourney relax | 1 credit | – | 5s |  | Text, Image |
+| <Icon icon="fire" size={16} /> midjourney fast/turbo | 4 credits | – | 5s |  | Text, Image |
+| kling 1.5 | 20 credits | $0.28 | 5s | 720p (std) | First frame |
+| kling 1.5 | 40 credits | $0.56 | 10s | 720p (std) | First frame |
+| kling 1.5 | 35 credits | $0.49 | 5s | 1080p (pro) | First, last, first+last |
+| kling 1.5 | 70 credits | $0.98 | 10s | 1080p (pro) | First, last, first+last |
+| kling 1.6 | 20 credits | $0.28 | 5s | 720p (std) | Text, first frame, reference image |
+| kling 1.6 | 40 credits | $0.56 | 10s | 720p (std) | Text, first frame, reference image |
+| kling 1.6 | 35 credits | $0.49 | 5s | 1080p (pro) | Text, first, last, first+last, reference |
+| kling 1.6 | 70 credits | $0.98 | 10s | 1080p (pro) | Text, first, last, first+last, reference |
+| kling 2.1 | 20 credits | $0.28 | 5s | 720p | First frame |
+| kling 2.1 | 40 credits | $0.56 | 10s | 720p | First frame |
+| kling 2.1 | 35 credits | $0.49 | 5s | 1080p | First + last |
+| kling 2.1 | 70 credits | $0.98 | 10s | 1080p | First + last |
+| kling 2.1 Master | 100 credits | $1.4 | 5s | 1080p | Text, first |
+| kling 2.1 Master | 200 credits | $2.8 | 10s | 1080p | Text, first |
+| wan 2.2 plus | 7 credits | $0.1 | 5s | 480p | First, text |
+| wan 2.2 plus | 35 credits | $0.5 | 5s | 1080p | First, text |
+| wan 2.1 turbo | 12 credits | $0.18 | 5s | 1080p | First, text |
+| wan 2.1 plus | 35 credits | $0.5 | 5s | 720p | First, text, first+last |
+| seedance‑1.0‑pro | 7.2 credits | $0.1 | 5s | 480p | First, text |
+| seedance‑1.0‑pro | 16.4 credits | $0.24 | 5s | 720p | First, text |
+| seedance‑1.0‑pro | 36.7 credits | $0.53 | 5s | 1080p | First, text |
+| seedance‑1.0‑lite | 5 credits | $0.08 | 5s | 480p | First, text, first+last, reference |
+| seedance‑1.0‑lite | 11 credits | $0.16 | 5s | 720p | First, text, first+last, reference |
+| seedance‑1.0‑lite | 25 credits | $0.35 | 5s | 1080p | First, text, first+last |
