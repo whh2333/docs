@@ -10,7 +10,7 @@ type UpdatedAtProps = {
 
 export function UpdatedAt({
   path,
-  owner = 'aitoearn',
+  owner = 'whh2333',
   repo = 'docs',
   branch = 'main',
   label = 'Updated'
@@ -39,7 +39,6 @@ export function UpdatedAt({
         if (date) setUpdatedAt(new Date(date).toLocaleString())
       })
       .catch((e) => {
-        // Fail silently; show nothing if GitHub limits or mapping mismatch
         setError(e?.message || 'fetch failed')
       })
   }, [path, owner, repo, branch])
