@@ -68,6 +68,12 @@
           {
             "tab": "Blog",
             "href": "https://external-link.com/blog"
+          },
+          {
+            "tab": "ChangeLog",
+            "pages": [
+              "en/help-center/developer"
+            ]
           }
         ]
       },
@@ -122,6 +128,12 @@
             "pages": [
               "zh/help-center/developer"
             ]
+          },
+          {
+            "tab": "更新日志",
+            "pages": [
+              "zh/help-center/developer"
+            ]
           }
         ]
       }
@@ -148,7 +160,8 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://aitoearn.ai"
   },
   "navbar": {
     "links": [
