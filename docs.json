@@ -132,7 +132,7 @@
           {
             "tab": "更新日志",
             "pages": [
-              "zh/help-center/developer"
+              "zh/changelog/changelog.mdx"
             ]
           }
         ]
