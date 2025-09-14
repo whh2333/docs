@@ -75,6 +75,18 @@
               "en/help-center/developer"
             ]
           }
+        ],
+        "anchors": [
+          {
+            "anchor": "Github",
+            "href": "https://github.com/yikart/AiToEarn",
+            "icon": "github"
+          },
+          {
+            "anchor": "Status",
+            "href": "https://status.aitoearn.ai/",
+            "icon": "signal"
+          }
         ]
       },
       {
@@ -135,28 +147,26 @@
               "zh/changelog/changelog"
             ]
           }
+        ],
+        "anchors": [
+          {
+            "anchor": "Github",
+            "href": "https://github.com/yikart/AiToEarn",
+            "icon": "github"
+          },
+          {
+            "anchor": "Status",
+            "href": "https://status.aitoearn.ai/",
+            "icon": "signal"
+          },
+          {
+            "anchor": "Downloads",
+            "pages": ["/zh/downloads"],
+            "icon": "circle-down"
+          }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Github",
-          "href": "https://github.com/yikart/AiToEarn",
-          "icon": "github"
-        },
-        {
-          "anchor": "Status",
-          "href": "https://status.aitoearn.ai/",
-          "icon": "signal"
-        },
-        {
-          "anchor": "Downloads",
-          "pages": ["/zh/downloads"],
-          "icon": "circle-down"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
