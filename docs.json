@@ -134,6 +134,12 @@
             "pages": [
               "zh/changelog/changelog"
             ]
+          },
+          {
+            "tab": "下载",
+            "pages": [
+              "zh/downloads"
+            ]
           }
         ]
       }
