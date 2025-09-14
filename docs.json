@@ -152,7 +152,7 @@
         },
         {
           "anchor": "Downloads",
-          "pages": "/zh/downloads",
+          "pages": ["/zh/downloads"],
           "icon": "circle-down"
         }
       ]
