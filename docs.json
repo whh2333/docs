@@ -155,11 +155,6 @@
           "anchor": "Status",
           "href": "https://status.aitoearn.ai/",
           "icon": "signal"
-        },
-        {
-          "anchor": "Downloads",
-          "href": "/zh/downloads",
-          "icon": "circle-down"
         }
       ]
     }
