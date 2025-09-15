@@ -74,6 +74,12 @@
             "pages": [
               "en/help-center/developer"
             ]
+          },
+          {
+            "tab": "Downloads",
+            "pages": [
+              "en/downloads"
+            ]
           }
         ]
       },
