@@ -1,5 +1,5 @@
 {
-  "$schema": "https://aitoearn.com/docs.json",
+  "$schema": "https://aitoearn.ai/docs.json",
   "theme": "mint",
   "name": "Aitoearn Help",
   "colors": {
@@ -67,12 +67,12 @@
           },
           {
             "tab": "Blog",
-            "href": "https://blog.aitoearn.com/"
+            "href": "https://blog.aitoearn.ai/"
           },
           {
             "tab": "ChangeLog",
             "pages": [
-              "en/help-center/developer"
+              "en/changelog/changelog"
             ]
           },
           {
@@ -174,7 +174,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hello@aitoearn.com"
+        "href": "mailto:hello@aitoearn.ai"
       }
     ],
     "primary": {
