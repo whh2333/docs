@@ -132,11 +132,12 @@
                 ]
               }
             ]
-          },          {
+          },
+          {
             "tab": "内容出海",
-                "pages": [
-                  "zh/overseas/about"
-                ]
+            "pages": [
+              "zh/overseas/about"
+            ]
           },
           {
             "tab": "开发者",
