@@ -54,6 +54,7 @@
                 "dropdown": "Pricing",
                 "icon": "credit-card",
                 "pages": [
+                  "en/help-center/pricing/agent-price",
                   "en/help-center/pricing/pricing",
                   "en/help-center/pricing/credits-price"
                 ]
@@ -125,9 +126,9 @@
                 "dropdown": "计费",
                 "icon": "credit-card",
                 "pages": [
+                  "zh/help-center/pricing/agent-price",
                   "zh/help-center/pricing/pricing",
-                  "zh/help-center/pricing/credits-price",
-                  "zh/help-center/pricing/agent-price"
+                  "zh/help-center/pricing/credits-price"
                 ]
               }
             ]
