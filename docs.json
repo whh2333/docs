@@ -126,7 +126,8 @@
                 "icon": "credit-card",
                 "pages": [
                   "zh/help-center/pricing/pricing",
-                  "zh/help-center/pricing/credits-price"
+                  "zh/help-center/pricing/credits-price",
+                  "zh/help-center/pricing/agent-price"
                 ]
               }
             ]
