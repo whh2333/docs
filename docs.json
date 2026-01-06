@@ -66,10 +66,6 @@
             ]
           },
           {
-            "tab": "Blog",
-            "href": "https://blog.aitoearn.ai/"
-          },
-          {
             "tab": "ChangeLog",
             "pages": [
               "en/changelog/changelog"
@@ -133,12 +129,6 @@
             "tab": "内容出海",
             "pages": [
               "zh/overseas/about"
-            ]
-          },
-          {
-            "tab": "开发者",
-            "pages": [
-              "zh/help-center/developer"
             ]
           },
           {
