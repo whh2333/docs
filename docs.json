@@ -60,12 +60,6 @@
             ]
           },
           {
-            "tab": "Developers",
-            "pages": [
-              "en/help-center/developer"
-            ]
-          },
-          {
             "tab": "ChangeLog",
             "pages": [
               "en/changelog/changelog"
